@@ -3,6 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3575Q63XFZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3575Q63XFZ', { send_page_view: true });
+</script>
+
 <meta name="theme-color" content="#071116">
 <meta name="description" content="Research portfolio of Md Shishir Bhuyian, focused on aquatic health, antimicrobial resistance, conservation genetics, One Health and emerging fish microbial ecology.">
 <title>Md Shishir Bhuyian | Aquatic Health & Conservation Research</title>
@@ -151,6 +160,17 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-copy-block>*{animation:none}.scroll-cue span{animation:none}.progress i{transition:none}.nav-links,.site-nav,.btn{transition:none}}
 
+
+/* Post-defence thesis and professional support */
+.hero-milestone{margin-top:20px;font:400 .72rem var(--mono);color:var(--text-3);letter-spacing:.015em}
+.status-kicker{font:500 .7rem var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--text-3);margin-bottom:8px}.defended-mark{display:block;font-family:var(--display);font-size:2.05rem;line-height:1;color:var(--teal-soft);margin-bottom:22px}.defended-status{padding-bottom:2px}
+.thesis-metrics{margin-top:54px;display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--line-strong);border-bottom:1px solid var(--line)}.thesis-metrics>div{padding:22px 18px 24px 0}.thesis-metrics>div+div{border-left:1px solid var(--line);padding-left:18px}.thesis-metrics strong{display:block;font-family:var(--display);font-size:1.75rem;line-height:1;color:var(--teal-soft);margin-bottom:9px}.thesis-metrics span{display:block;color:var(--text-2);font-size:.77rem;line-height:1.45}
+.thesis-results-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;margin-top:54px}.thesis-results-grid article{border-top:1px solid var(--line-strong);padding-top:25px}.thesis-results-grid h3{font-family:var(--display);font-size:1.35rem;line-height:1.25;letter-spacing:-.02em;margin-bottom:19px}.matrix-bars>div{display:grid;grid-template-columns:minmax(150px,1.35fr) minmax(120px,1fr) 58px;gap:15px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}.matrix-bars span{color:var(--text-2);font-size:.82rem}.matrix-bars i{display:block;height:5px;background:linear-gradient(90deg,var(--teal),var(--blue));width:var(--value);min-width:7px;border-radius:8px}.matrix-bars strong{font:500 .76rem var(--mono);color:#dbe6e5;text-align:right}.result-note,.evidence-boundary p{color:var(--text-2);font-size:.87rem;line-height:1.72}.result-note{margin-top:15px}.evidence-boundary p+p{margin-top:13px}
+.support-bridge{background:rgba(10,23,29,.58)}.support-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:86px;align-items:start}.support-layout .section-heading.side p:last-of-type{color:var(--text-2);margin-top:15px;line-height:1.72}.support-btn{margin-top:24px}.support-tracks{border-top:1px solid var(--line-strong)}.support-tracks article{padding:28px 0;border-bottom:1px solid var(--line)}.support-tracks h3{font-family:var(--display);font-size:1.28rem;margin-bottom:10px}.support-tracks article>p:last-child{color:var(--text-2);font-size:.9rem;line-height:1.75}.support-tracks .creative-track{opacity:.9}.support-integrity{padding:18px 0;color:var(--text-3);font-size:.78rem;line-height:1.65}.support-integrity strong{color:#d9e5e3;font-weight:600}
+.public-view-badge{display:block}.public-view-badge img{margin:9px 0 6px;max-width:220px;height:auto}.public-view-badge small,.public-view-badge span{display:block}.public-view-badge span{font-size:.68rem;color:var(--text-3)}
+@media(max-width:980px){.thesis-metrics{grid-template-columns:repeat(3,1fr)}.thesis-metrics>div:nth-child(4){border-left:0;padding-left:0}.thesis-results-grid{gap:44px}.support-layout{grid-template-columns:1fr;gap:44px}.support-layout .section-heading.side{position:relative;top:auto;max-width:700px}}
+@media(max-width:720px){.hero-milestone{line-height:1.65}.thesis-metrics{grid-template-columns:1fr 1fr}.thesis-metrics>div:nth-child(odd){border-left:0;padding-left:0}.thesis-metrics>div:nth-child(4){border-left:1px solid var(--line);padding-left:18px}.thesis-results-grid{grid-template-columns:1fr;gap:38px}.matrix-bars>div{grid-template-columns:1fr 70px 50px}.support-tracks article{padding:24px 0}}
+
 </style>
 <script type="application/ld+json">
 {
@@ -197,6 +217,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
       <a href="#experience">Experience</a>
       <a href="#methods">Methods</a>
       <a href="#publications">Publications</a>
+      <a href="services.html">Services</a>
       <a href="#contact">Contact</a>
     </nav>
     <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -219,17 +240,18 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
         <a href="https://scholar.google.com/citations?user=TPRfbZ8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
         <a href="https://www.linkedin.com/in/shishir-bhuyian-105a851b3" target="_blank" rel="noopener">LinkedIn</a>
       </div>
+      <p class="hero-milestone">Undergraduate thesis defended 31 August 2026 | Sylhet Agricultural University</p>
     </div>
 
     <aside class="hero-profile" aria-label="Research profile at a glance">
       <p class="mini-label">Research profile</p>
       <div class="profile-metrics">
-        <div class="metric"><svg class="icon"><use href="#i-book"></use></svg><strong>6</strong><span>Scholarly works</span></div>
-        <div class="metric"><svg class="icon"><use href="#i-cite"></use></svg><strong>60+</strong><span>Google Scholar citations</span></div>
-        <div class="metric"><svg class="icon"><use href="#i-chart"></use></svg><strong>4</strong><span>h-index</span></div>
+        <div class="metric"><svg class="icon"><use href="#i-book"></use></svg><strong id="scholarWorks">6</strong><span>Scholarly works</span></div>
+        <div class="metric"><svg class="icon"><use href="#i-cite"></use></svg><strong id="scholarCitations">60+</strong><span>Google Scholar citations</span></div>
+        <div class="metric"><svg class="icon"><use href="#i-chart"></use></svg><strong id="scholarHIndex">4</strong><span>h-index</span></div>
         <div class="metric"><svg class="icon"><use href="#i-users"></use></svg><strong>60+</strong><span>Students instructed</span></div>
       </div>
-      <p class="metric-note">Scholar metrics updated August 2026.</p>
+      <p class="metric-note" id="scholarMetricNote">Scholar metrics last verified August 2026. i10-index 3.</p>
     </aside>
   </div>
   <a class="scroll-cue" href="#focus" aria-label="Scroll to research focus"><span></span></a>
@@ -250,7 +272,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
       <article>
         <p class="focus-kicker">Current</p>
         <h3>Aquatic Microbiology, AMR & One Health</h3>
-        <p>Current thesis work on ESBL-producing <em>E. coli</em> and <em>Salmonella</em> in fish and fish market environments.</p>
+        <p>Fish-market microbiology, presumptive <em>Salmonella</em>, antimicrobial resistance and One Health across linked processing interfaces.</p>
       </article>
       <article>
         <p class="focus-kicker">Emerging</p>
@@ -267,7 +289,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
     <div class="about-copy">
       <p class="section-label">01 / About</p>
       <h2>Research that keeps widening the question.</h2>
-      <p>I am completing a B.Sc. in Biotechnology &amp; Genetic Engineering at Sylhet Agricultural University. My research began with computational biology, then expanded into fisheries genetics, wetland conservation, field research and current microbiology.</p>
+      <p>I am completing a B.Sc. in Biotechnology &amp; Genetic Engineering at Sylhet Agricultural University. My research began with computational biology, then expanded into fisheries genetics, wetland conservation, field research and fish-market microbiology.</p>
       <p>I tend to follow a question across scales. A molecular pattern can lead to a population question, and a field observation can lead to a microbial one. That cumulative path is now shaping how I think about aquatic health.</p>
     </div>
     <aside class="academic-column">
@@ -275,12 +297,12 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
       <div class="academic-item">
         <strong>B.Sc. in Biotechnology &amp; Genetic Engineering</strong>
         <span>Sylhet Agricultural University</span>
-        <span>Expected August 2026</span>
+        <span>2026</span>
       </div>
       <div class="academic-item">
         <strong>Undergraduate thesis</strong>
-        <span>Final stage</span>
-        <span>Defence 31 August 2026</span>
+        <span>Defended 31 August 2026</span>
+        <span>Fish-market microbiology, AMR and One Health</span>
       </div>
       <div class="academic-item">
         <strong>Research activity</strong>
@@ -317,7 +339,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Cancer biology, drug design and bioinformatics first drew me toward molecular-scale research. A published effector-protein dynamics study put me through a full in-silico workflow involving docking, dynamics and visualization, much of it learned on my own as the project demanded it.</p>
           <p class="journey-shift"><strong>What changed:</strong> One result is rarely enough. Different layers of evidence have to support the same biological story.</p>
           <div class="journey-detail" id="journey-detail-1">
-            <p class="journey-carry"><strong>Carried forward:</strong> Workflow discipline · troubleshooting unfamiliar software alone · multi-step evidence integration · visual reasoning</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Workflow discipline | troubleshooting unfamiliar software alone | multi-step evidence integration | visual reasoning</p>
             <p class="journey-next"><strong>Next:</strong> That comfort with picking up a new tool under pressure is what let me say yes to a much bigger question next, not because I already knew the answer, but because I trusted I could learn what it would take.</p>
           </div>
         </div>
@@ -331,7 +353,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary"><em>A Life on Our Planet</em> made conservation feel urgent in a way it hadn't before; a long-standing fascination with Hilsa gave that urgency one specific species to build around.</p>
           <p class="journey-shift"><strong>What changed:</strong> Biology did not stop at the level of a single organism. It also lived in populations, habitats and ecosystems.</p>
           <div class="journey-detail" id="journey-detail-2">
-            <p class="journey-carry"><strong>Carried forward:</strong> Conservation urgency · a focal species to anchor future work · the same trust-the-process confidence from before</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Conservation urgency | a focal species to anchor future work | the same trust-the-process confidence from before</p>
             <p class="journey-next"><strong>Next:</strong> Choosing Hilsa here is the reason the very next project became a genetics study on that exact species.</p>
           </div>
         </div>
@@ -345,7 +367,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Genetic-diversity work moved the question from molecular interactions to variation across populations, and those patterns immediately raised a further one: migration, habitat connectivity and fishing pressure.</p>
           <p class="journey-shift"><strong>What changed:</strong> Genetics showed me the pattern. Ecology made me ask what was shaping it.</p>
           <div class="journey-detail" id="journey-detail-3">
-            <p class="journey-carry"><strong>Carried forward:</strong> Population-level thinking · sequence interpretation · phylogenetics · <em>Tenualosa ilisha</em> as a recurring focal thread</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Population-level thinking | sequence interpretation | phylogenetics | <em>Tenualosa ilisha</em> as a recurring focal thread</p>
             <p class="journey-next"><strong>Next:</strong> A clean population pattern is convincing on paper, but it does not by itself explain a fishing ban, a livelihood or a policy decision. That gap is what pulled the next stage toward people.</p>
           </div>
         </div>
@@ -359,7 +381,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Research instruction and further Hilsa-related work introduced fishing bans, ecosystem services, livelihoods and fisheries policy as parts of the same conservation problem, not separate ones.</p>
           <p class="journey-shift"><strong>What changed:</strong> A conservation intervention can be biologically correct and still fail, if livelihood, behaviour, institutions and policy are ignored.</p>
           <div class="journey-detail" id="journey-detail-4">
-            <p class="journey-carry"><strong>Carried forward:</strong> Teaching · synthesis across disciplines · fisheries-policy framing · systems thinking</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Teaching | synthesis across disciplines | fisheries-policy framing | systems thinking</p>
             <p class="journey-next"><strong>Next:</strong> Having only argued this on paper made one thing obvious: it needed to be checked against how people on the ground actually experienced it.</p>
           </div>
         </div>
@@ -373,7 +395,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Community-facing field research showed how interventions, perceptions, livelihoods and implementation gaps look once they leave the clean structure of a paper or a model.</p>
           <p class="journey-shift"><strong>What changed:</strong> Research does not end at a biological measurement. Its consequences reach people, decisions and implementation.</p>
           <div class="journey-detail" id="journey-detail-5">
-            <p class="journey-carry"><strong>Carried forward:</strong> Stakeholder perspective · field evidence · realistic, applied interpretation</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Stakeholder perspective | field evidence | realistic, applied interpretation</p>
             <p class="journey-next"><strong>Next:</strong> One community's evidence raised an obvious next question: did any of this hold true across Bangladesh's other wetlands and species, or was it specific to this one place?</p>
           </div>
         </div>
@@ -387,7 +409,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Work on fish genetic resources broadened the same lens to species richness, diversity, threat status, wetland differences and sustainability priorities across the country.</p>
           <p class="journey-shift"><strong>What changed:</strong> A single focal species can open a much larger question about biodiversity, connected habitats and management priorities.</p>
           <div class="journey-detail" id="journey-detail-6">
-            <p class="journey-carry"><strong>Carried forward:</strong> Biodiversity assessment · IUCN framing · wetland comparison · QGIS and SPSS, learned for this project and reused since</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Biodiversity assessment | IUCN framing | wetland comparison | QGIS and SPSS, learned for this project and reused since</p>
             <p class="journey-next"><strong>Next:</strong> Having spent this much time mapping what surrounds a fish, the real next question was what might be happening inside it.</p>
           </div>
         </div>
@@ -401,7 +423,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
           <p class="journey-summary">Ecology and fish-health thinking brought the question back inside the organism: could microbial communities be one interface between environmental conditions and fish health? Facilities, sequencing access, preservation and budget made a full microbiome study unworkable, and a smaller culture-based alternative could not be fully carried out either.</p>
           <p class="journey-shift"><strong>What changed:</strong> An exciting question still has to be executable. Infrastructure, preservation, logistics and budget are part of research design, not an afterthought to it.</p>
           <div class="journey-detail" id="journey-detail-7">
-            <p class="journey-carry"><strong>Carried forward:</strong> Thinking about host and microbe interactions · a sharper, working sense of what "feasible" actually means · sampling and preservation planning</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Thinking about host and microbe interactions | a sharper, working sense of what "feasible" actually means | sampling and preservation planning</p>
             <p class="journey-next"><strong>Next:</strong> The question itself did not go away. It is the reason the thesis that followed was deliberately scoped to be finishable with the resources actually available, instead of a bigger version I would have had to abandon halfway.</p>
           </div>
         </div>
@@ -412,10 +434,10 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
         <div class="journey-copy">
           <p class="journey-phase">Current Convergence</p>
           <h3>AMR, Fish-Market Microbiology &amp; One Health</h3>
-          <p class="journey-summary">This is where that feasibility lesson actually shows up: real fish-market microbiology, AMR and ESBL work, and molecular confirmation, sized to what's genuinely completable in an undergraduate timeline and budget.</p>
-          <p class="journey-shift"><strong>What's changing now:</strong> Aquatic health problems tend to sit at interfaces among fish, microbes, water, handling environments, people and environmental pressure, rather than inside any one of them alone.</p>
+          <p class="journey-summary">My undergraduate thesis brought several strands of this journey together through linked sampling of fish, water, handlers, tools and processing surfaces in Sylhet wet markets. It combined culture-based microbiology, biochemical characterization, antimicrobial susceptibility testing and attempted molecular confirmation within a One Health framework.</p>
+          <p class="journey-shift"><strong>What changed:</strong> The strongest conclusion is not always the broadest one. When molecular confirmation was not achieved, the evidence had to remain explicitly presumptive. That boundary became part of the research lesson, not something to hide.</p>
           <div class="journey-detail" id="journey-detail-8">
-            <p class="journey-carry"><strong>Carried forward:</strong> Selective culture · antimicrobial susceptibility testing and ESBL confirmation · PCR · One Health framing · pulling all of it into one interpretation</p>
+            <p class="journey-carry"><strong>Carried forward:</strong> Selective culture | biochemical characterization | antimicrobial susceptibility testing | attempted PCR confirmation | evidence-bound interpretation | One Health framing</p>
           </div>
         </div>
       </article>
@@ -424,35 +446,65 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
     <div class="journey-convergence">
       <p class="mini-label">Where this is leading</p>
       <h3>One connected question, built across eight stages.</h3>
-      <p>Put together, these eight stages are not eight interests. They are eight things one question needed before it could be asked clearly: how do environmental stressors reshape the microbial communities living in and around a fish, and what does that mean for the fish's health and how it should be managed? Genetics gave the population-level lens. Ecology gave the habitat and pressure context. Ecosystem services and field research gave the "practical management" half of the question, not just the biology half. Fish genetic resources gave the multi-species, multi-wetland comparison. The gut-microbiome stage gave the host and microbe interaction mechanism and the feasibility judgment to scope it correctly. The current thesis is the first place I get to run this kind of interface-level research myself, end to end, on a system I already know well.</p>
-      <p>Four of these stages have already turned into peer-reviewed, co-authored publications: the computational work that started it, the Hilsa genetics, the ecosystem-services study and the wetland fish-genetic-resources work. That's not a coincidence: staying with one connected question long enough is what turns a research interest into a research record.</p>
+      <p>Put together, these eight stages are not eight unrelated interests. They are pieces of one developing question: how do environmental pressures and microbial communities interact with fish health, and how can that knowledge support aquatic health, conservation and management? Genetics gave the population-level lens. Ecology gave the habitat and pressure context. Ecosystem services and field research added the human and management dimensions. Fish genetic resources widened the biodiversity scale. The microbiome question introduced the host and microbe interface. My defended thesis then provided a practical setting in which microbiology, AMR, linked environmental sampling and evidence boundaries had to be handled together.</p>
+      <p>The thesis did not close the question. It made the next one clearer. Four stages of this journey have already contributed to peer-reviewed, co-authored publications, while the newest stage has strengthened the direction I want to pursue next: host, microbe and environment questions within aquatic systems.</p>
     </div>
   </div>
 </section>
 
 <section class="section current" id="current">
-  <div class="shell current-grid">
+  <div class="shell current-grid thesis-complete">
     <div class="current-copy">
-      <p class="section-label">03 / Current Research</p>
-      <h2>Antibiotic Resistance Profiling of ESBL-Producing <em>E. coli</em> and <em>Salmonella</em> spp. Isolated from Fish and Fish Market Environments in Sylhet, Bangladesh</h2>
-      <p>My undergraduate thesis examines antimicrobial resistant bacteria across fish associated and fish market environmental sources in Sylhet. The project is in its final stage, with no results presented here until the work is completed, verified and defended.</p>
+      <p class="section-label">03 / Undergraduate Thesis</p>
+      <h2>Occurrence and Antimicrobial Susceptibility Profiles of Presumptive <em>Salmonella</em> Isolates from Fish and Fish-Processing Environments in Wet Markets of Sylhet City, Bangladesh</h2>
+      <p>The study examined 22 fish-processing events across 11 wet markets using seven linked matrices and 154 source samples. The design treated fish, water, handlers, tools and processing surfaces as connected parts of the same retail interface rather than isolated sources.</p>
     </div>
-    <aside class="current-status">
-      <div class="status-line"><span>Research progress</span><strong>~90%</strong></div>
-      <div class="progress" aria-label="Approximate thesis research progress 90 percent"><i id="thesisProgress"></i></div>
+    <aside class="current-status defended-status">
+      <p class="status-kicker">Undergraduate thesis</p>
+      <strong class="defended-mark">Defended</strong>
       <div class="research-facts">
-        <div><span>Status</span><strong>Final stage</strong></div>
-        <div><span>Defence</span><strong>31 August 2026</strong></div>
+        <div><span>Date</span><strong>31 August 2026</strong></div>
+        <div><span>Institution</span><strong>Sylhet Agricultural University</strong></div>
         <div><span>Location</span><strong>Sylhet, Bangladesh</strong></div>
       </div>
     </aside>
   </div>
-  <div class="shell workflow" aria-label="Current thesis workflow">
-    <div><span>01</span><strong>Sampling & culture</strong></div>
-    <div><span>02</span><strong>Biochemical identification</strong></div>
-    <div><span>03</span><strong>AST & ESBL</strong></div>
-    <div><span>04</span><strong>DNA & PCR</strong></div>
-    <div><span>05</span><strong>Analysis</strong></div>
+
+  <div class="shell thesis-metrics" aria-label="Undergraduate thesis key results">
+    <div><strong>11</strong><span>Wet markets</span></div>
+    <div><strong>22</strong><span>Processing events</span></div>
+    <div><strong>154</strong><span>Source samples</span></div>
+    <div><strong>26.0%</strong><span>Presumptive detection</span></div>
+    <div><strong>40</strong><span>Biochemically compatible isolates retained</span></div>
+    <div><strong>35.0%</strong><span>MDR phenotype</span></div>
+  </div>
+
+  <div class="shell thesis-results-grid">
+    <article class="matrix-result">
+      <p class="mini-label">Matrix distribution</p>
+      <h3>Detection varied across the processing interface.</h3>
+      <div class="matrix-bars">
+        <div><span>Fish skin</span><i style="--value:40.9%"></i><strong>40.9%</strong></div>
+        <div><span>Viscera-associated basket surface</span><i style="--value:36.4%"></i><strong>36.4%</strong></div>
+        <div><span>Cut flesh</span><i style="--value:13.6%"></i><strong>13.6%</strong></div>
+      </div>
+      <p class="result-note">All 22 processing events yielded at least one phenotypically compatible presumptive matrix.</p>
+    </article>
+
+    <article class="evidence-boundary">
+      <p class="mini-label">Evidence boundary</p>
+      <h3>Molecular confirmation was not achieved.</h3>
+      <p>None of the 40 biochemically compatible isolates produced an interpretable <em>invA</em>-specific PCR product. The findings are therefore reported as presumptive rather than molecularly confirmed <em>Salmonella</em>.</p>
+      <p>Resistance was highest to ampicillin and tetracycline, with lower but notable resistance to cefotaxime and ciprofloxacin. Overall, 35.0% of retained isolates met the multidrug-resistance definition.</p>
+    </article>
+  </div>
+
+  <div class="shell workflow" aria-label="Undergraduate thesis workflow">
+    <div><span>01</span><strong>Linked sampling</strong></div>
+    <div><span>02</span><strong>XLD culture</strong></div>
+    <div><span>03</span><strong>Biochemical characterization</strong></div>
+    <div><span>04</span><strong>Attempted <em>invA</em> PCR</strong></div>
+    <div><span>05</span><strong>AST, MDR &amp; interpretation</strong></div>
   </div>
 </section>
 
@@ -550,8 +602,8 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
     </div>
     <div class="method-grid">
       <article>
-        <h3>Wet Lab & AMR</h3>
-        <p>Fish and environmental sampling, selective culture, <em>E. coli</em> and <em>Salmonella</em> isolation, Gram and biochemical identification, Kirby Bauer AST, ESBL confirmation, DNA extraction, PCR.</p>
+        <h3>Wet Lab &amp; AMR</h3>
+        <p>Fish and environmental sampling, selective culture, presumptive <em>Salmonella</em> recovery, Gram and biochemical characterization, Kirby-Bauer AST, DNA extraction and PCR.</p>
       </article>
       <article>
         <h3>Genetics & Bioinformatics</h3>
@@ -562,8 +614,8 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
         <p>Fish biodiversity assessment, IUCN conservation analysis, ecosystem services, household surveys, questionnaires, FGD, KII, PRA, stakeholder interpretation and livelihood context.</p>
       </article>
       <article>
-        <h3>Data, GIS & Visualization</h3>
-        <p>SPSS, QGIS, Excel, research maps, phylogenetic trees, sequence alignments, scientific charts and visual communication.</p>
+        <h3>Data &amp; GIS</h3>
+        <p>SPSS, QGIS, Excel, research maps, comparative analysis and structured data presentation.</p>
       </article>
     </div>
     <div class="computational-line"><span>Additional computational experience</span><p>RCSB PDB, PubChem, Discovery Studio, Chimera, Open Babel, PyRx, AutoDock Vina, PyMOL, GROMACS, RMSD, RMSF, radius of gyration, hydrogen bonds and MM/GBSA.</p></div>
@@ -582,13 +634,13 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
         <p class="viz-level">Advanced expertise</p>
         <h3>Biological Figure Generation</h3>
         <p>I have advanced expertise in biological figure generation and research visual design, including biological schematics, figure composition and visual refinement for academic communication.</p>
-        <p class="viz-tools"><strong>Tools:</strong> Inkscape · BioRender · Canva · Recraft</p>
+        <p class="viz-tools"><strong>Tools:</strong> Inkscape | BioRender | Canva | Recraft</p>
       </article>
       <article>
         <p class="viz-level">Moderate experience</p>
         <h3>Data Visualization</h3>
         <p>I have moderate experience in data visualization, including scientific charts, comparative plots, research maps and figure assembly for reports, presentations and manuscripts.</p>
-        <p class="viz-tools"><strong>Common sources:</strong> SPSS · QGIS · Excel · publication outputs</p>
+        <p class="viz-tools"><strong>Common sources:</strong> SPSS | QGIS | Excel | publication outputs</p>
       </article>
     </div>
   </div>
@@ -599,7 +651,8 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
     <div class="section-heading">
       <p class="section-label">08 / Publications</p>
       <h2>Publication record.</h2>
-      <p>Six scholarly works are currently represented on my Google Scholar profile.</p>
+      <p id="scholarPublicationSummary">Six scholarly works are currently represented on my Google Scholar profile.</p>
+      <p class="metric-note" id="scholarCurationNote">The publication list below is curated. Scholar metrics sync automatically when the scheduled updater succeeds.</p>
     </div>
 
     <div class="publication-group">
@@ -644,21 +697,48 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--text-3);font-
   </div>
 </section>
 
+<section class="section support-bridge" id="support">
+  <div class="shell support-layout">
+    <div class="section-heading side">
+      <p class="section-label">09 / Professional Support</p>
+      <h2>Researcher-led support for research and scientific communication.</h2>
+      <p>I take on selected projects where my research background, analytical experience and visual communication skills can add practical value.</p>
+      <a class="btn secondary support-btn" href="services.html">View Services</a>
+    </div>
+    <div class="support-tracks">
+      <article>
+        <p class="focus-kicker">Primary track</p>
+        <h3>Research &amp; Scientific Support</h3>
+        <p>Research planning, literature synthesis, manuscript development support, pre-submission review, data presentation, GIS mapping, scientific figures, graphical abstracts, posters and research presentations.</p>
+      </article>
+      <article class="creative-track">
+        <p class="focus-kicker">Secondary practice</p>
+        <h3>Visual Communication &amp; Brand Design</h3>
+        <p>Selected brand promotion, social media graphics, editorial design, campaign visuals and presentation design. Commercial creative work is kept secondary so the portfolio remains research-first.</p>
+      </article>
+      <p class="support-integrity"><strong>Working principle:</strong> support the research process without ghostwriting, fabricated analysis or guaranteed publication claims.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section contact" id="contact">
   <div class="shell contact-grid">
     <div>
-      <p class="section-label">09 / Contact</p>
-      <h2>Open to research conversations.</h2>
-      <p>I am interested in research collaboration and future graduate opportunities related to aquatic health, AMR, fish microbial ecology, conservation genetics and One Health.</p>
-      <div class="visit-panel" id="visitPanel" hidden aria-live="polite">
-        <small>Portfolio views</small><strong id="visitCount">0</strong><span>Approximate page views</span>
+      <p class="section-label">10 / Contact</p>
+      <h2>Open to research conversations and selected project work.</h2>
+      <p>I am interested in research collaboration and future graduate opportunities related to aquatic health, AMR, fish microbial ecology, conservation genetics and One Health. I also take on selected research, scientific communication and visualization projects through the services pathway.</p>
+      <div class="visit-panel public-view-badge" aria-label="Approximate public portfolio page views">
+        <small>Public page-view counter</small>
+        <img src="https://api.visitorbadge.io/api/visitors?path=shishiur.github.io%2Fword-me&amp;label=Portfolio%20views&amp;countColor=%233dc9be&amp;style=flat-square" alt="Approximate portfolio views" referrerpolicy="no-referrer">
+        <span>Approximate page views, not unique visitors.</span>
       </div>
     </div>
     <div class="contact-links">
-      <a href="mailto:shishir@pathfinderconsultant.com"><svg class="icon"><use href="#i-mail"></use></svg><span><small>Email</small>shishir@pathfinderconsultant.com</span></a>
+      <a href="mailto:shishirbhuyian@gmail.com"><svg class="icon"><use href="#i-mail"></use></svg><span><small>Email</small>shishirbhuyian@gmail.com</span></a>
       <a href="https://scholar.google.com/citations?user=TPRfbZ8AAAAJ&amp;hl=en" target="_blank" rel="noopener"><svg class="icon"><use href="#i-book"></use></svg><span><small>Google Scholar</small>Publication profile</span></a>
       <a href="https://www.linkedin.com/in/shishir-bhuyian-105a851b3" target="_blank" rel="noopener"><svg class="icon"><use href="#i-link"></use></svg><span><small>LinkedIn</small>Professional profile</span></a>
       <a href="academic-cv.html"><svg class="icon"><use href="#i-file"></use></svg><span><small>Academic CV</small>Open CV</span></a>
+      <a href="services.html"><svg class="icon"><use href="#i-chart"></use></svg><span><small>Professional support</small>Research and creative services</span></a>
     </div>
   </div>
 </section>
@@ -675,30 +755,6 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Lightweight persistent page-view counter for the public portfolio.
-// It counts page loads, not unique people. If the external counter service is unavailable, the UI stays hidden.
-async function updatePortfolioViews(){
-  const panel = document.getElementById('visitPanel');
-  const output = document.getElementById('visitCount');
-  if (!panel || !output) return;
-  const endpoint = 'https://api.counterapi.dev/v1/shishiur-word-me/portfolio-views/up';
-  try{
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 4500);
-    const response = await fetch(endpoint, {cache:'no-store', signal:controller.signal});
-    clearTimeout(timer);
-    if (!response.ok) return;
-    const payload = await response.json();
-    const candidates = [payload?.count, payload?.value, payload?.data?.count, payload?.data?.value, payload?.data?.up_count];
-    const count = candidates.map(Number).find(Number.isFinite);
-    if (!Number.isFinite(count)) return;
-    output.textContent = new Intl.NumberFormat('en-US').format(count);
-    panel.hidden = false;
-  }catch(_error){
-    // Counter is non-critical; the portfolio remains fully functional without it.
-  }
-}
-updatePortfolioViews();
 
 function setNavState(){
   nav.classList.toggle('scrolled', window.scrollY > 18);
@@ -753,21 +809,104 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', updateJourneyRail);
 updateJourneyRail();
 
-const progress = document.getElementById('thesisProgress');
-if (progress){
-  if (reduceMotion){
-    progress.style.width = '90%';
-  } else {
-    const observer = new IntersectionObserver(entries => {
-      if (entries.some(entry => entry.isIntersecting)){
-        progress.style.width = '90%';
-        observer.disconnect();
-      }
-    }, {threshold:.35});
-    observer.observe(progress);
-  }
-}
-
 </script>
+
+<script>
+(function(){
+  function sendAnalyticsEvent(name, params){
+    if (typeof gtag === 'function') {
+      gtag('event', name, params || {});
+    }
+  }
+
+  document.addEventListener('click', function(event){
+    const link = event.target.closest('a');
+    if (!link) return;
+
+    const href = link.getAttribute('href') || '';
+    const text = (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 120);
+    const common = {
+      link_url: href,
+      link_text: text,
+      page_path: window.location.pathname
+    };
+
+    if (href.indexOf('academic-cv.html') !== -1) {
+      sendAnalyticsEvent('cv_click', common);
+    } else if (href.indexOf('scholar.google.com') !== -1) {
+      sendAnalyticsEvent('scholar_click', common);
+    } else if (href.indexOf('services.html') !== -1) {
+      sendAnalyticsEvent('services_click', common);
+    } else if (href.indexOf('doi.org/') !== -1) {
+      sendAnalyticsEvent('publication_click', common);
+    } else if (href.indexOf('mailto:') === 0 && href.indexOf('Project%20Inquiry') !== -1) {
+      sendAnalyticsEvent('project_inquiry_click', common);
+    } else if (href.indexOf('mailto:') === 0) {
+      sendAnalyticsEvent('email_click', common);
+    } else if (href.indexOf('linkedin.com/') !== -1) {
+      sendAnalyticsEvent('linkedin_click', common);
+    }
+  }, {passive:true});
+})();
+</script>
+
+<script>
+(function(){
+  const fallback = {
+    works: document.getElementById('scholarWorks')?.textContent || '6',
+    citations: document.getElementById('scholarCitations')?.textContent || '60+',
+    hIndex: document.getElementById('scholarHIndex')?.textContent || '4'
+  };
+
+  function formatSyncDate(value){
+    if (!value) return '';
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return '';
+    return new Intl.DateTimeFormat('en', {day:'numeric', month:'short', year:'numeric'}).format(date);
+  }
+
+  async function syncScholarMetrics(){
+    try{
+      const response = await fetch('data/scholar.json', {cache:'no-store'});
+      if (!response.ok) return;
+      const data = await response.json();
+      const metrics = data.metrics || {};
+
+      const works = metrics.works;
+      const citations = metrics.citations_display ?? metrics.citations;
+      const hIndex = metrics.h_index;
+      const i10 = metrics.i10_index;
+
+      if (works !== null && works !== undefined) document.getElementById('scholarWorks').textContent = works;
+      if (citations !== null && citations !== undefined && citations !== '') document.getElementById('scholarCitations').textContent = citations;
+      if (hIndex !== null && hIndex !== undefined) document.getElementById('scholarHIndex').textContent = hIndex;
+
+      const dateLabel = formatSyncDate(data.last_updated_utc);
+      const note = document.getElementById('scholarMetricNote');
+      if (note && (dateLabel || i10 !== null && i10 !== undefined)) {
+        const parts = [];
+        if (dateLabel) parts.push(`Google Scholar metrics synced ${dateLabel}`);
+        if (i10 !== null && i10 !== undefined) parts.push(`i10-index ${i10}`);
+        note.textContent = `${parts.join('. ')}.`;
+      }
+
+      const summary = document.getElementById('scholarPublicationSummary');
+      if (summary && works !== null && works !== undefined) {
+        summary.textContent = `${works} scholarly ${Number(works) === 1 ? 'work is' : 'works are'} currently represented on my Google Scholar profile.`;
+      }
+
+      const curation = document.getElementById('scholarCurationNote');
+      if (curation && Array.isArray(data.articles)) {
+        curation.textContent = `Google Scholar currently returns ${data.articles.length} publication record${data.articles.length === 1 ? '' : 's'}. The publication list below remains curated for accuracy and relevance.`;
+      }
+    } catch (error) {
+      console.info('Scholar data unavailable; using verified fallback metrics.', fallback);
+    }
+  }
+
+  syncScholarMetrics();
+})();
+</script>
+
 </body>
 </html>
