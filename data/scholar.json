@@ -1,18 +1,94 @@
 {
   "source": "Google Scholar via SerpApi",
   "author_id": "TPRfbZ8AAAAJ",
-  "status": "pending_first_sync",
-  "last_updated_utc": null,
+  "status": "ok",
+  "last_updated_utc": "2026-09-01T16:31:22.555353Z",
   "profile": {
     "name": "Md Shishir Bhuyian",
+    "affiliations": "Student",
+    "email": "Verified email at student.sau.ac.bd",
+    "interests": [
+      {
+        "title": "Fish Genetic Resources",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:fish_genetic_resources",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Afish_genetic_resources"
+      },
+      {
+        "title": "Hilsha Genetics",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:hilsha_genetics",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ahilsha_genetics"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TPRfbZ8AAAAJ&citpid=3",
     "link": "https://scholar.google.com/citations?user=TPRfbZ8AAAAJ&hl=en"
   },
   "metrics": {
     "works": 6,
-    "citations": null,
-    "citations_display": "60+",
+    "citations": 61,
+    "citations_display": "61",
     "h_index": 4,
     "i10_index": 3
   },
-  "articles": []
+  "articles": [
+    {
+      "title": "Fish genetic resources and wetland conservation in Bangladesh: Comparative insights on biodiversity, sustainable management, and Sustainable Development Goals",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:u5HHmVD_uO8C",
+      "citation_id": "TPRfbZ8AAAAJ:u5HHmVD_uO8C",
+      "authors": "AR Sunny, SA Sazzad, MS Bhuyian, MN Hasan, MF Miah, ...",
+      "publication": "Limnological Review 25 (2), 20, 2025",
+      "year": 2025,
+      "citations": 21,
+      "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10196931434354707640"
+    },
+    {
+      "title": "Improving treatments for oral diseases, head and neck cancers, as well as developing new technologies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:2osOgNQ5qMEC",
+      "citation_id": "TPRfbZ8AAAAJ:2osOgNQ5qMEC",
+      "authors": "S Akhter, MAS Ansari, MG Tiva, MS Bhuyian",
+      "publication": "Pathfinder of Research 3 (1), 1-25, 2025",
+      "year": 2025,
+      "citations": 17,
+      "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8439467075623280592"
+    },
+    {
+      "title": "Transforming to Smart Healthcare: AI Innovations for ImprovingAffordability, Efficiency, and Accessibility",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:u-x6o8ySG0sC",
+      "citation_id": "TPRfbZ8AAAAJ:u-x6o8ySG0sC",
+      "authors": "MR Ashakin, MS Bhuyian, MR Hosain, RS Deya, SE Hasan",
+      "publication": "Pathfinder of Research 2 (2), 1-12, 2024",
+      "year": 2024,
+      "citations": 16,
+      "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16113730703185704460"
+    },
+    {
+      "title": "Exploring effector protein dynamics and natural fungicidal potential in rice blast pathogen Magnaporthe oryzae",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:d1gkVwhDpl0C",
+      "citation_id": "TPRfbZ8AAAAJ:d1gkVwhDpl0C",
+      "authors": "J Ferdousy, TB Robin, MS Nasrin, I Ahmed, T Hossain, MM Hasan, ...",
+      "publication": "PloS one 20 (1), e0307352, 2025",
+      "year": 2025,
+      "citations": 6,
+      "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8180683771563700789"
+    },
+    {
+      "title": "Nexus of Ecosystem Services and Hilsa (Tenualosa ilisha) Genetic Diversity to Strengthen Wetland Conservation Policy Within the SDG Framework",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:qjMakFHDy7sC",
+      "citation_id": "TPRfbZ8AAAAJ:qjMakFHDy7sC",
+      "authors": "AR Sunny, MS Bhuyian, SA Sazzad, MF Miah, M Ashrafuzzaman, K Islam, ...",
+      "publication": "Oceans 7 (3), 38, 2026",
+      "year": 2026,
+      "citations": 1,
+      "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5427737326215056520"
+    },
+    {
+      "title": "Hilsa (Tenualosa ilisha) Genetic Diversity and Conservation Strategies for Sustainable Wetland Management in Northeastern Bangladesh",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TPRfbZ8AAAAJ&pagesize=100&citation_for_view=TPRfbZ8AAAAJ:9yKSN-GCB0IC",
+      "citation_id": "TPRfbZ8AAAAJ:9yKSN-GCB0IC",
+      "authors": "SHP Atiqur Rahman Sunny, Md. Arifur Rahman, Md. Nazmul Hasan, Md Shishir ...",
+      "publication": "Egyptian Journal of Aquatic Biology & Fisheries 29 (1), 1089 – 1105, 2025",
+      "year": 2025,
+      "citations": null,
+      "cited_by_link": null
+    }
+  ]
 }
