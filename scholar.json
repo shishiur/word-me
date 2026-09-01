@@ -1,0 +1,18 @@
+{
+  "source": "Google Scholar via SerpApi",
+  "author_id": "TPRfbZ8AAAAJ",
+  "status": "pending_first_sync",
+  "last_updated_utc": null,
+  "profile": {
+    "name": "Md Shishir Bhuyian",
+    "link": "https://scholar.google.com/citations?user=TPRfbZ8AAAAJ&hl=en"
+  },
+  "metrics": {
+    "works": 6,
+    "citations": null,
+    "citations_display": "60+",
+    "h_index": 4,
+    "i10_index": 3
+  },
+  "articles": []
+}
