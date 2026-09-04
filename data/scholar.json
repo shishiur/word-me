@@ -2,7 +2,7 @@
   "source": "Google Scholar via SerpApi",
   "author_id": "TPRfbZ8AAAAJ",
   "status": "ok",
-  "last_updated_utc": "2026-09-01T16:31:22.555353Z",
+  "last_updated_utc": "2026-09-04T12:32:04.307881Z",
   "profile": {
     "name": "Md Shishir Bhuyian",
     "affiliations": "Student",
@@ -24,8 +24,8 @@
   },
   "metrics": {
     "works": 6,
-    "citations": 61,
-    "citations_display": "61",
+    "citations": 62,
+    "citations_display": "62",
     "h_index": 4,
     "i10_index": 3
   },
@@ -57,7 +57,7 @@
       "authors": "MR Ashakin, MS Bhuyian, MR Hosain, RS Deya, SE Hasan",
       "publication": "Pathfinder of Research 2 (2), 1-12, 2024",
       "year": 2024,
-      "citations": 16,
+      "citations": 17,
       "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16113730703185704460"
     },
     {
