@@ -2,7 +2,7 @@
   "source": "Google Scholar via SerpApi",
   "author_id": "TPRfbZ8AAAAJ",
   "status": "ok",
-  "last_updated_utc": "2026-09-13T02:42:28.694064Z",
+  "last_updated_utc": "2026-09-20T02:57:23.336115Z",
   "profile": {
     "name": "Md Shishir Bhuyian",
     "affiliations": "Student",
@@ -24,8 +24,8 @@
   },
   "metrics": {
     "works": 6,
-    "citations": 62,
-    "citations_display": "62",
+    "citations": 63,
+    "citations_display": "63",
     "h_index": 4,
     "i10_index": 3
   },
@@ -67,7 +67,7 @@
       "authors": "J Ferdousy, TB Robin, MS Nasrin, I Ahmed, T Hossain, MM Hasan, ...",
       "publication": "PloS one 20 (1), e0307352, 2025",
       "year": 2025,
-      "citations": 6,
+      "citations": 7,
       "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8180683771563700789"
     },
     {
