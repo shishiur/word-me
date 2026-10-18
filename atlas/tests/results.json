@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-18 22:02 UTC",
+  "browser": "141.0.7390.37",
+  "playwright": "1.56.1",
+  "checks": [
+    {
+      "name": "Loads with no console errors (desktop)",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "Hotspot selection moves the spotlight and fills the card",
+      "ok": true,
+      "detail": "card: “Matrix 1 of 7 Researcher record Fish skin 9 of 22 events40.9…”, dim 0.64"
+    },
+    {
+      "name": "Matrix selection filters the ledger; market filter narrows it",
+      "ok": true,
+      "detail": "22 cells, then 2 with market 04"
+    },
+    {
+      "name": "Keyboard: arrow keys move focus across ledger cells",
+      "ok": true,
+      "detail": "focus at ledger position 9 (flesh)"
+    },
+    {
+      "name": "Sieve steps update the count and marks",
+      "ok": true,
+      "detail": "62 → 62 (62 marks), 154 → 154"
+    },
+    {
+      "name": "Colony filter fades the other colony types",
+      "ok": true,
+      "detail": "data-read=h2s, yellow opacity 0.1"
+    },
+    {
+      "name": "invA account switch re-labels terms, header path and claims",
+      "ok": true,
+      "detail": "isolates “presumptive isolates”, header 0, extra claim list-item"
+    },
+    {
+      "name": "Zone slider reads S/I/R against reference breakpoints",
+      "ok": true,
+      "detail": "9 mm Resistant, 13 mm Intermediate, 20 mm Susceptible; zone r 64.9"
+    },
+    {
+      "name": "Agent and MDR toggle show the recorded counts",
+      "ok": true,
+      "detail": "TE “20 of 40 invA-positive isolates (provisi…”, MDR marks 14"
+    },
+    {
+      "name": "axe-core: no serious or critical violations",
+      "ok": true,
+      "detail": "0 minor/moderate: none"
+    },
+    {
+      "name": "No horizontal page scroll or errors at 1440, 1024, 768, 390, 360 px",
+      "ok": true,
+      "detail": "scrollWidth equals viewport at every width"
+    },
+    {
+      "name": "Reduced motion: animations and transitions off",
+      "ok": true,
+      "detail": "bulb animation none, mark transition 0s"
+    },
+    {
+      "name": "JavaScript disabled: content and default figures render",
+      "ok": true,
+      "detail": "6 figures, 154 ledger cells, 17 register rows"
+    },
+    {
+      "name": "Hilsa board: WebGL water shader runs",
+      "ok": true,
+      "detail": "canvas kept after shader link"
+    },
+    {
+      "name": "Studio pages: no errors or horizontal scroll at 1440 and 390 px",
+      "ok": true,
+      "detail": "9 pages"
+    }
+  ]
+}
