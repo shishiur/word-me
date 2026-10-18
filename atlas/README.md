@@ -15,7 +15,7 @@ npx http-server atlas -p 8077 -c-1      # then http://127.0.0.1:8077/
 | `index.html` | Overview: selections, prototype previews, test results, blockers |
 | `concepts/*.html` | Concept boards: two directions per experience, comparison, decision |
 | `storyboards/*.html` | Six-frame illustrated storyboards with sees / does / changes |
-| `prototype/salmonella/` | Working P01 vertical slice (`index.html` is built; `app.js` and `app.css` are hand-written) |
+| `slice/salmonella/` | Working P01 vertical slice (`index.html` is built; `app.js` and `app.css` are hand-written) |
 | `previews/*.webp` | Desktop and mobile captures from the test run |
 | `src/illus.mjs`, `src/scenes.mjs` | Illustration library: every function returns an SVG string |
 | `src/p01-data.mjs` | P01 values, each with its evidence register and source |

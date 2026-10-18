@@ -141,7 +141,7 @@ function comparison(c) {
 }
 const boardPage = (slug, title, lede, eyebrow, dirs, cmp, extra = '') => page({
   title, desc: lede, depth: 1,
-  body: `${nav(1, 'Concepts')}${subnav(1, 'concepts', slug)}<main class="wrap"><header class="page-head"><p class="eyebrow">${eyebrow}</p><h1>${esc(title)}</h1><p class="lede">${esc(lede)}</p></header>${dirs.map(direction).join('')}${comparison(cmp)}<p class="foot">Concept board · Phase 2 · 18 Oct 2026 · <a href="../storyboards/${slug}.html">storyboard</a>${slug === 'salmonella' ? ' · <a href="../prototype/salmonella/index.html">working prototype</a>' : ''}</p></main>${extra}`,
+  body: `${nav(1, 'Concepts')}${subnav(1, 'concepts', slug)}<main class="wrap"><header class="page-head"><p class="eyebrow">${eyebrow}</p><h1>${esc(title)}</h1><p class="lede">${esc(lede)}</p></header>${dirs.map(direction).join('')}${comparison(cmp)}<p class="foot">Concept board · Phase 2 · 18 Oct 2026 · <a href="../storyboards/${slug}.html">storyboard</a>${slug === 'salmonella' ? ' · <a href="../slice/salmonella/index.html">working prototype</a>' : ''}</p></main>${extra}`,
 });
 
 const CMP_COLS = ['Direction A', 'Direction B', 'Selected synthesis'];
@@ -392,7 +392,7 @@ const storyPage = (slug, title, lede, eyebrow, frames, flow) => page({
   body: `${nav(1, 'Storyboards')}${subnav(1, 'storyboards', slug)}<main class="wrap"><header class="page-head"><p class="eyebrow">${eyebrow}</p><h1>${esc(title)}</h1><p class="lede">${esc(lede)}</p></header>
     <section class="frames">${frames.map((f, i) => frame(i + 1, f)).join('')}</section>
     <section class="print flow"><h2>State carried between frames</h2><ol>${flow.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></section>
-    <p class="foot">Storyboard · Phase 2 · 18 Oct 2026 · <a href="../concepts/${slug}.html">concept board</a>${slug === 'salmonella' ? ' · <a href="../prototype/salmonella/index.html">working prototype</a>' : ''}</p></main>`,
+    <p class="foot">Storyboard · Phase 2 · 18 Oct 2026 · <a href="../concepts/${slug}.html">concept board</a>${slug === 'salmonella' ? ' · <a href="../slice/salmonella/index.html">working prototype</a>' : ''}</p></main>`,
 });
 
 function salmonellaStory() {
@@ -450,8 +450,8 @@ function hub() {
     body: `${nav(0, 'Overview')}<main class="wrap">
     <header class="page-head"><p class="eyebrow">Phase 2 · visual production · 18 October 2026</p><h1>Four experiences, eight directions, one working slice</h1>
       <p class="lede">Concept boards with two directions each, a critical comparison and a selected synthesis; illustrated storyboards for all four experiences; and the Salmonella investigation built as a tested vertical slice. Every value is tagged as published, researcher record, disputed, reference science, illustrative or awaiting evidence.</p>
-      <p><a class="btn" href="prototype/salmonella/index.html">Open the Salmonella prototype</a></p></header>
-    <section class="hero-strip" aria-label="Experiences">${cards.map(([k, t, d, art, light]) => `<article class="card"><div class="art ${light ? 'light' : ''}">${art}</div><div class="card-body"><h3>${esc(t)}</h3><p>${esc(d)}</p><p class="card-links"><a href="concepts/${k}.html">Concept board</a><a href="storyboards/${k}.html">Storyboard</a>${k === 'salmonella' ? '<a href="prototype/salmonella/index.html">Prototype</a>' : ''}</p></div></article>`).join('')}</section>
+      <p><a class="btn" href="slice/salmonella/index.html">Open the Salmonella prototype</a></p></header>
+    <section class="hero-strip" aria-label="Experiences">${cards.map(([k, t, d, art, light]) => `<article class="card"><div class="art ${light ? 'light' : ''}">${art}</div><div class="card-body"><h3>${esc(t)}</h3><p>${esc(d)}</p><p class="card-links"><a href="concepts/${k}.html">Concept board</a><a href="storyboards/${k}.html">Storyboard</a>${k === 'salmonella' ? '<a href="slice/salmonella/index.html">Prototype</a>' : ''}</p></div></article>`).join('')}</section>
     <section class="print" aria-labelledby="pv"><p class="dir-code">Prototype previews · ${RESULTS ? `Chromium ${esc(RESULTS.browser)} via Playwright ${esc(RESULTS.playwright)} · ${esc(RESULTS.date)}` : 'not yet captured'}</p><h2 class="dir-name" id="pv" style="margin:6px 0 18px">Salmonella at the Cutting Station</h2>
       <div class="shots"><figure><img src="previews/desktop-station.webp" alt="Desktop view of the prototype: night market scene with the fish-skin surface selected and its card showing 9 of 22 events" width="1440" height="900" loading="lazy"><figcaption>Desktop 1440 × 900 · chapter 01, fish skin selected</figcaption></figure>
         <figure><img src="previews/mobile-station.webp" alt="Mobile view of the prototype at 390 pixels wide showing the header, sample path and market scene" width="390" height="844" loading="lazy"><figcaption>Mobile 390 × 844</figcaption></figure></div>

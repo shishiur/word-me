@@ -36,7 +36,7 @@ ${body}
 
 export const nav = (depth, current) => {
   const up = '../'.repeat(depth);
-  const items = [['index.html', 'Overview'], ['concepts/salmonella.html', 'Concepts'], ['storyboards/salmonella.html', 'Storyboards'], ['prototype/salmonella/index.html', 'Prototype']];
+  const items = [['index.html', 'Overview'], ['concepts/salmonella.html', 'Concepts'], ['storyboards/salmonella.html', 'Storyboards'], ['slice/salmonella/index.html', 'Prototype']];
   return `<header class="site"><div class="wrap site-row"><a class="mark" href="${up}index.html">Shishir Research Atlas <span>Phase 2 studio</span></a><nav aria-label="Atlas">${items.map(([h, l]) => `<a href="${up}${h}"${l === current ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav></div></header>`;
 };
 

@@ -11,7 +11,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const raw = path.join(here, '..', 'previews', '_raw');
 fs.mkdirSync(raw, { recursive: true });
 const BASE = process.env.ATLAS_URL || 'http://127.0.0.1:8077';
-const PROTO = `${BASE}/prototype/salmonella/index.html`;
+const PROTO = `${BASE}/slice/salmonella/index.html`;
 const axePath = process.argv[2];
 const checks = [];
 const check = (name, ok, detail = '') => { checks.push({ name, ok: !!ok, detail: String(detail) }); console.log(ok ? 'PASS' : 'FAIL', name, detail); };
