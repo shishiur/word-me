@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "objects",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "scene",
+      "name",
+      "asset",
+      "anchor",
+      "bbox",
+      "depth",
+      "material",
+      "evidence"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^P0[1-8]-S\\d{2}-O\\d{3}$"
+      },
+      "scene": {
+        "type": "string",
+        "pattern": "^P0[1-8]-S\\d{2}$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "matrix": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "asset": {
+        "type": "string",
+        "pattern": "^P0[1-8]-S\\d{2}-A\\d{3}$"
+      },
+      "anchor": {
+        "type": "object",
+        "required": [
+          "x",
+          "y"
+        ],
+        "properties": {
+          "x": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 2400
+          },
+          "y": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1440
+          }
+        }
+      },
+      "bbox": {
+        "type": "object",
+        "required": [
+          "x",
+          "y",
+          "w",
+          "h"
+        ]
+      },
+      "depth": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "material": {
+        "type": "string",
+        "pattern": "^MAT-"
+      },
+      "interaction": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(P0[1-8]-E\\d{3}|REF-\\d{3})$"
+        }
+      }
+    }
+  }
+}

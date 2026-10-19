@@ -1,0 +1,76 @@
+[
+  {
+    "id": "CS-P01-LIGHT",
+    "applies": [
+      "P01-S01-A001",
+      "P01-S01-A002",
+      "P01-S01-A010",
+      "P01-S01-A011",
+      "P01-S01-A012",
+      "P01-S01-A013",
+      "P01-S01-A014",
+      "P01-S01-A015"
+    ],
+    "rules": [
+      "Key light: one 2700 K bulb at canvas (760, 240); every highlight faces it",
+      "Shadows fall down and to the right at about 35°",
+      "Ambient: 6500 K bounce from the right at 8%",
+      "Shadow colour #0b1517, never #000",
+      "Camera: 55° elevation for objects on the floor plane, eye-level for the wall",
+      "Global grain is added in code (A004); generated assets must be grain-free"
+    ]
+  },
+  {
+    "id": "CS-P01-FISH",
+    "applies": [
+      "P01-S01-A010"
+    ],
+    "rules": [
+      "Species shown: rohu, Labeo rohita (illustrative choice; the study does not name species per sample)",
+      "Head left, lying on its right side",
+      "Length 620 px; depth 200 px; length-to-depth ≈ 3.1",
+      "One dorsal fin, paired pectoral and pelvic fins, one anal fin, forked caudal fin",
+      "Scale rows visible, reddish scale centres",
+      "Steak cut at 40% of length; tail piece offset 50 px right"
+    ]
+  },
+  {
+    "id": "CS-P01-HAND",
+    "applies": [
+      "P01-S01-A013"
+    ],
+    "rules": [
+      "Right forearm from upper left",
+      "Five digits anatomically; three fingers and thumb visible",
+      "No face, torso, jewellery or identifying marks"
+    ]
+  },
+  {
+    "id": "CS-P01-LAB",
+    "applies": [
+      "P01-S03-A030"
+    ],
+    "rules": [
+      "6500 K diffuse light only",
+      "No tungsten warmth after the market → bench transition"
+    ]
+  },
+  {
+    "id": "CS-P02-HILSA",
+    "applies": [],
+    "rules": [
+      "Tenualosa ilisha: laterally compressed, deep body, ventral scutes, deeply forked tail, single mid-dorsal fin, dark shoulder blotch followed by fainter spots",
+      "Head left, side view, no perspective",
+      "Silver flank with violet-gold iridescence; blue-green dorsum",
+      "Stylised plate, never a measured specimen photograph"
+    ]
+  },
+  {
+    "id": "CS-P05-PABDA",
+    "applies": [],
+    "rules": [
+      "Ompok pabda: elongated, compressed, very long anal fin, tiny dorsal fin, two pairs of barbels, pale translucent body",
+      "Gut window shows isolation source only; no bacteria drawn on tissue"
+    ]
+  }
+]

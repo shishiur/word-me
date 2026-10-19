@@ -1,0 +1,213 @@
+[
+  {
+    "id": "P01-S01-O001",
+    "scene": "P01-S01",
+    "name": "Whole fish on block (skin surface)",
+    "matrix": "skin",
+    "asset": "P01-S01-A010",
+    "anchor": {
+      "x": 1224,
+      "y": 1096
+    },
+    "bbox": {
+      "x": 744,
+      "y": 902,
+      "w": 642,
+      "h": 331
+    },
+    "depth": 0.78,
+    "material": "MAT-FISH-SKIN-WET",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E005"
+    ]
+  },
+  {
+    "id": "P01-S01-O002",
+    "scene": "P01-S01",
+    "name": "Transverse steak cut (cut flesh)",
+    "matrix": "flesh",
+    "asset": "P01-S01-A010",
+    "anchor": {
+      "x": 1048,
+      "y": 1112
+    },
+    "bbox": {
+      "x": 1010,
+      "y": 1000,
+      "w": 80,
+      "h": 230
+    },
+    "depth": 0.78,
+    "material": "MAT-FISH-FLESH-CUT",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E005"
+    ]
+  },
+  {
+    "id": "P01-S01-O003",
+    "scene": "P01-S01",
+    "name": "Bamboo basket with viscera",
+    "matrix": "basket",
+    "asset": "P01-S01-A011",
+    "anchor": {
+      "x": 2056,
+      "y": 1164
+    },
+    "bbox": {
+      "x": 1788,
+      "y": 1080,
+      "w": 568,
+      "h": 308
+    },
+    "depth": 0.85,
+    "material": "MAT-BAMBOO-WET",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E005"
+    ]
+  },
+  {
+    "id": "P01-S01-O004",
+    "scene": "P01-S01",
+    "name": "Aluminium bowl of processing water",
+    "matrix": "water",
+    "asset": "P01-S01-A012",
+    "anchor": {
+      "x": 412,
+      "y": 1196
+    },
+    "bbox": {
+      "x": 140,
+      "y": 1126,
+      "w": 552,
+      "h": 305
+    },
+    "depth": 0.8,
+    "material": "MAT-ALUMINIUM-WATER",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E006",
+      "P01-E007"
+    ]
+  },
+  {
+    "id": "P01-S01-O005",
+    "scene": "P01-S01",
+    "name": "Handler’s hand and forearm",
+    "matrix": "hands",
+    "asset": "P01-S01-A013",
+    "anchor": {
+      "x": 848,
+      "y": 1040
+    },
+    "bbox": {
+      "x": 299,
+      "y": 334,
+      "w": 654,
+      "h": 865
+    },
+    "depth": 1,
+    "material": "MAT-SKIN-HAND",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E006",
+      "P01-E007"
+    ]
+  },
+  {
+    "id": "P01-S01-O006",
+    "scene": "P01-S01",
+    "name": "Bonti blade on wooden plank",
+    "matrix": "tool",
+    "asset": "P01-S01-A014",
+    "anchor": {
+      "x": 1400,
+      "y": 1060
+    },
+    "bbox": {
+      "x": 1276,
+      "y": 880,
+      "w": 705,
+      "h": 503
+    },
+    "depth": 0.82,
+    "material": "MAT-STEEL-BLADE",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E006",
+      "P01-E007"
+    ]
+  },
+  {
+    "id": "P01-S01-O007",
+    "scene": "P01-S01",
+    "name": "Wooden chopping block (cutting surface)",
+    "matrix": "board",
+    "asset": "P01-S01-A015",
+    "anchor": {
+      "x": 940,
+      "y": 1260
+    },
+    "bbox": {
+      "x": 684,
+      "y": 1080,
+      "w": 712,
+      "h": 288
+    },
+    "depth": 0.75,
+    "material": "MAT-WOOD-WET",
+    "interaction": "P01-S02-I001",
+    "evidence": [
+      "P01-E006",
+      "P01-E007"
+    ]
+  },
+  {
+    "id": "P01-S01-O008",
+    "scene": "P01-S01",
+    "name": "Bare tungsten bulb",
+    "matrix": null,
+    "asset": "P01-S01-A003",
+    "anchor": {
+      "x": 760,
+      "y": 240
+    },
+    "bbox": {
+      "x": 600,
+      "y": 0,
+      "w": 320,
+      "h": 400
+    },
+    "depth": 0.2,
+    "material": "MAT-TUNGSTEN",
+    "interaction": null,
+    "evidence": [
+      "P01-E015"
+    ]
+  },
+  {
+    "id": "P01-S01-O009",
+    "scene": "P01-S01",
+    "name": "Hanging balance scale (background)",
+    "matrix": null,
+    "asset": "P01-S01-A001",
+    "anchor": {
+      "x": 1860,
+      "y": 220
+    },
+    "bbox": {
+      "x": 1680,
+      "y": 80,
+      "w": 380,
+      "h": 300
+    },
+    "depth": 0.15,
+    "material": "MAT-STEEL-DULL",
+    "interaction": null,
+    "evidence": [
+      "P01-E015"
+    ]
+  }
+]

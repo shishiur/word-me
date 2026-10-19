@@ -1,0 +1,11 @@
+{
+  "name": "shishir-research-atlas-v5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "manifests": "node 05-production-manifests/build.mjs",
+    "fallbacks": "node 09-tool-fallbacks/svg/build-layers.mjs",
+    "reference": "node 09-tool-fallbacks/svg/render-reference.mjs"
+  },
+  "devDependencies": { "ajv": "8.20.0" }
+}

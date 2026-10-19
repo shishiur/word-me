@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "interactions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "scene",
+      "name",
+      "inputs",
+      "from",
+      "to",
+      "motion"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^P0[1-8]-S\\d{2}-I\\d{3}$"
+      },
+      "inputs": {
+        "type": "object",
+        "required": [
+          "click",
+          "tap",
+          "keyboard",
+          "hover"
+        ]
+      }
+    }
+  }
+}

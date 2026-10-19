@@ -1,0 +1,110 @@
+[
+  {
+    "id": "MAT-FISH-SKIN-WET",
+    "roughness": 0.3,
+    "specular": 0.55,
+    "translucency": 0.05,
+    "moisture": "high: thin water film, sharp specular streak along the lateral line",
+    "micro": "Cycloid scales 8–12 px, overlapping toward the tail",
+    "light": "Silver flank mirrors the bulb as a long soft streak; dorsum absorbs"
+  },
+  {
+    "id": "MAT-FISH-FLESH-CUT",
+    "roughness": 0.45,
+    "specular": 0.35,
+    "translucency": 0.25,
+    "moisture": "high",
+    "micro": "Concentric W-shaped myomere rings; white centrum; faint blood at the spinal artery only",
+    "light": "Subsurface warmth; no gloss halo"
+  },
+  {
+    "id": "MAT-BAMBOO-WET",
+    "roughness": 0.6,
+    "specular": 0.15,
+    "translucency": 0,
+    "moisture": "medium: darkened weave on the lower half",
+    "micro": "Strips 8–10 mm, over-under weave at 24°",
+    "light": "Matte, warm rim on top edge"
+  },
+  {
+    "id": "MAT-ALUMINIUM-WATER",
+    "roughness": 0.35,
+    "specular": 0.7,
+    "translucency": 0,
+    "moisture": "surface water slightly turbid",
+    "micro": "Dents, brushed circular marks",
+    "light": "Anisotropic highlight on rim; one bulb reflection on water"
+  },
+  {
+    "id": "MAT-SKIN-HAND",
+    "roughness": 0.5,
+    "specular": 0.2,
+    "translucency": 0.3,
+    "moisture": "low sheen on knuckles",
+    "micro": "Natural skin creases at knuckles and wrist",
+    "light": "Subsurface scattering on fingertips facing the bulb"
+  },
+  {
+    "id": "MAT-STEEL-BLADE",
+    "roughness": 0.15,
+    "specular": 0.9,
+    "translucency": 0,
+    "moisture": "wet film near the edge",
+    "micro": "Grinding marks parallel to the edge; slight patina toward the spine",
+    "light": "Thin bright line along the concave edge"
+  },
+  {
+    "id": "MAT-WOOD-WET",
+    "roughness": 0.65,
+    "specular": 0.15,
+    "translucency": 0,
+    "moisture": "damp dark patches near the fish",
+    "micro": "Growth rings, radial cracks, knife scores",
+    "light": "Warm, matte"
+  },
+  {
+    "id": "MAT-TUNGSTEN",
+    "roughness": 0,
+    "specular": 1,
+    "translucency": 1,
+    "moisture": "none",
+    "micro": "Filament not visible at this scale",
+    "light": "2700 K source; bloom radius 60 px"
+  },
+  {
+    "id": "MAT-STEEL-DULL",
+    "roughness": 0.6,
+    "specular": 0.3,
+    "translucency": 0,
+    "moisture": "none",
+    "micro": "Rust spots",
+    "light": "Silhouette only"
+  },
+  {
+    "id": "MAT-AGAR-XLD",
+    "roughness": 0.2,
+    "specular": 0.4,
+    "translucency": 0.5,
+    "moisture": "surface sheen",
+    "micro": "Faint streak tracks",
+    "light": "Backlit red; colonies domed with a small highlight"
+  },
+  {
+    "id": "MAT-AGAR-MH",
+    "roughness": 0.25,
+    "specular": 0.35,
+    "translucency": 0.6,
+    "moisture": "surface sheen",
+    "micro": "Bacterial lawn matte, zones clearer",
+    "light": "Amber transmission from below"
+  },
+  {
+    "id": "MAT-GLASS-LAB",
+    "roughness": 0.05,
+    "specular": 0.9,
+    "translucency": 0.95,
+    "moisture": "none",
+    "micro": "Rim refraction",
+    "light": "Bright arc highlight top-left"
+  }
+]

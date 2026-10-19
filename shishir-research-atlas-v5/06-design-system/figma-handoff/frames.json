@@ -1,0 +1,42 @@
+{
+  "file": "Shishir Research Atlas · P01 pilot",
+  "pages": ["00 Tokens", "01 Components", "02 P01 Desktop", "03 P01 Mobile", "04 Assets"],
+  "variables": "Create one Figma variable per key in ../tokens.json → color.* (collection 'Color', mode 'Default'), font.* (collection 'Type'), space.* and radius.* (collection 'Layout'). Variable names = token path with '/' separators, e.g. color/market/tungsten.",
+  "textStyles": [
+    { "name": "Display/XL", "token": "type.display-xl", "desktop": "Newsreader 66/67.3, -1.5%", "mobile": "Newsreader 36/36.7" },
+    { "name": "Display/L", "token": "type.display-l", "desktop": "Newsreader 46/48.8, -1%", "mobile": "Newsreader 30/31.8" },
+    { "name": "Display/M", "token": "type.display-m", "desktop": "Newsreader 28/30.8", "mobile": "same" },
+    { "name": "Body/Lede", "token": "type.lede", "desktop": "Instrument Sans 18.5/28.7", "mobile": "16/24.8" },
+    { "name": "Body/Default", "token": "type.body", "desktop": "Instrument Sans 16/24.8", "mobile": "same" },
+    { "name": "UI/Button", "token": "type.ui", "desktop": "Instrument Sans Medium 14/18.2", "mobile": "same" },
+    { "name": "Label/Eyebrow", "token": "type.label", "desktop": "IBM Plex Mono Medium 12/16.8, +10%, uppercase", "mobile": "same" },
+    { "name": "Annotation", "token": "type.annotation", "desktop": "IBM Plex Mono 12.5/18.75", "mobile": "same" },
+    { "name": "Number/L", "token": "type.number-l", "desktop": "IBM Plex Mono Medium 46/46, tabular", "mobile": "40/40" }
+  ],
+  "grids": {
+    "desktop": { "frame": [1440, 900], "columns": 12, "max": 1240, "gutter": 24, "margin": "auto (min 16)" },
+    "mobile": { "frame": [390, 844], "columns": 4, "gutter": 16, "margin": 16 }
+  },
+  "frames": [
+    { "name": "P01/Desktop/01 Overview", "size": [1440, 900], "state": "P01-S01 overview", "contents": ["Header (sticky, 92 px)", "Stage 820 × 492 at x 116, y 130", "Evidence panel 376 × 530 at x 948, y 130", "Chip row y 680"], "reference": "../../08-interactive-website/tests/screens/desktop-overview.png" },
+    { "name": "P01/Desktop/02 Focused · Fish skin", "size": [1440, 900], "state": "P01-S02 evidence-revealed(skin)", "contents": ["Stage camera zoom 1.6× on P01-S01-O001", "Spotlight at anchor", "Panel: Matrix 1 of 7"], "reference": "../../08-interactive-website/tests/screens/desktop-focused-skin.png" },
+    { "name": "P01/Desktop/03 Laboratory", "size": [1440, 900], "state": "P01-S03 step 62, colony h2s", "contents": ["XLD plate 600 × 600", "Colony segmented control", "Sieve 14 × 11 marks"], "reference": "../../08-interactive-website/tests/screens/desktop-lab.png" },
+    { "name": "P01/Desktop/04 Confirmation", "size": [1440, 900], "state": "P01-S04 record / site", "contents": ["Two account cards", "Cell, invA and empty gel figures"], "reference": null },
+    { "name": "P01/Desktop/05 Resistance", "size": [1440, 900], "state": "P01-S05 TE + MDR", "contents": ["MH plate with disc buttons", "Zone simulator", "40 count marks"], "reference": "../../08-interactive-website/tests/screens/desktop-ast.png" },
+    { "name": "P01/Mobile/01 Overview", "size": [390, 844], "state": "P01-S01 overview", "contents": ["Header two rows", "Stage 358 × 268 (4:3)", "Panel below", "Chips wrap"], "reference": "../../08-interactive-website/tests/screens/mobile-overview.png" },
+    { "name": "P01/Mobile/02 Focused · Hands", "size": [390, 844], "state": "P01-S02 evidence-revealed(hands)", "contents": ["Camera zoom 1.9×, anchor at 50%/40%"], "reference": "../../08-interactive-website/tests/screens/mobile-focused-hands.png" }
+  ],
+  "components": [
+    { "name": "Evidence chip", "variants": ["published", "researcher-record", "disputed", "reference", "illustrative", "pending", "missing", "withheld"], "code": "08-interactive-website/src/engine/evidence.ts → chip()", "css": ".reg .reg-<status>" },
+    { "name": "Hotspot", "variants": ["default", "hover", "pressed", "focus-visible"], "size": "40 px desktop / 32 px mobile", "code": "station.ts → .hotspot" },
+    { "name": "Matrix chip", "variants": ["default", "pressed"], "code": "index.html .mx-chip" },
+    { "name": "Evidence panel", "variants": ["overview", "focused (pending)", "evidence-revealed"], "code": "station.ts → renderPanel()" },
+    { "name": "Account switch", "variants": ["record", "site"], "code": "index.html fieldset.lens" },
+    { "name": "Segmented control", "variants": ["default", "pressed"], "code": ".seg button" },
+    { "name": "Funnel item", "variants": ["default", "on", "disputed"], "code": ".funnel li" },
+    { "name": "Fidelity badge", "variants": ["vector fallback", "n of 8 generated"], "code": "station.ts → .fidelity" }
+  ],
+  "layerNaming": "<frame>/<component or asset ID>/<state>, e.g. P01/Desktop/02/P01-S01-A010/dim. Raster layers keep their manifest filename.",
+  "exports": "Do not flatten the page. Raster scene layers are placed from 08-interactive-website/public/assets/p01/ (generated/ when approved, otherwise fallback/). Export UI only as SVG for review; code stays the source of truth.",
+  "motion": "Figma frames are static. Motion is defined in 05-production-manifests/motion.json and implemented in code; do not expect motion extraction from these frames."
+}
