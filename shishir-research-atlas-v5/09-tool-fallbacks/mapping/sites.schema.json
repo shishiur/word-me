@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Verified study sites (GeoJSON FeatureCollection). No coordinate may be added without a source document.",
+  "type": "object",
+  "required": ["type", "crs", "features"],
+  "properties": {
+    "type": { "const": "FeatureCollection" },
+    "crs": { "const": "EPSG:4326" },
+    "features": { "type": "array", "items": { "type": "object", "required": ["type", "geometry", "properties"], "properties": {
+      "type": { "const": "Feature" },
+      "geometry": { "type": "object", "required": ["type", "coordinates"], "properties": { "type": { "enum": ["Point", "Polygon"] } } },
+      "properties": { "type": "object", "required": ["siteId", "name", "project", "source", "precision", "licence"], "properties": {
+        "siteId": { "type": "string" }, "name": { "type": "string" }, "project": { "enum": ["P02", "P03", "P04"] },
+        "source": { "type": "string", "minLength": 10, "description": "Document and page the coordinate comes from" },
+        "precision": { "enum": ["exact", "site-level", "approximate"] }, "licence": { "type": "string" } } } } } }
+  }
+}

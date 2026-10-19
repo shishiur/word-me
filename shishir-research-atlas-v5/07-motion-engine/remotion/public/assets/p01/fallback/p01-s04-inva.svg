@@ -1,0 +1,15 @@
+<svg class="ill schematic" viewBox="0 0 900 310" role="img" aria-labelledby="t9 da"  xmlns="http://www.w3.org/2000/svg"><title id="t9">Schematic of the invA PCR target</title><desc id="da">The invA gene lies inside Salmonella pathogenicity island 1 on the chromosome, between invE and invB. A forward and a reverse primer bracket the amplified region. Schematic; not to scale.</desc><defs><linearGradient id="Ichr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5d6f7a"/><stop offset="1" stop-color="#3c4b55"/></linearGradient></defs>
+    <g font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="13" fill="#3a4650">
+      <rect x="40" y="52" width="820" height="14" rx="7" fill="url(#Ichr)"/>
+      <rect x="548" y="46" width="70" height="26" rx="3" fill="#d0465a"/>
+      <text x="40" y="36">Salmonella chromosome · ~4.8 Mb</text><text x="583" y="36" text-anchor="middle" fill="#a3283b">SPI-1 · ~40 kb</text>
+      <path d="M548 72 L120 150 M618 72 L780 150" stroke="#9aa9b2" stroke-width="1.2" stroke-dasharray="4 4" fill="none"/>
+      <line x1="110" y1="182" x2="790" y2="182" stroke="#9aa9b2" stroke-width="2"/>
+      <path d="M130 168 H250 L268 182 L250 196 H130 Z" fill="#c9d3d8"/><text x="190" y="187" text-anchor="middle">invE</text>
+      <path d="M282 164 H580 L604 182 L580 200 H282 Z" fill="#d0465a"/><text x="430" y="188" text-anchor="middle" fill="#fff" font-size="15" font-weight="500">invA</text>
+      <path d="M618 168 H730 L748 182 L730 196 H618 Z" fill="#c9d3d8"/><text x="672" y="187" text-anchor="middle">invB</text>
+      <path d="M352 146 H420 M420 146 L408 140 M420 146 L408 152" stroke="#14202a" stroke-width="2.4" fill="none"/><text x="350" y="134">F primer</text>
+      <path d="M520 220 H452 M452 220 L464 214 M452 220 L464 226" stroke="#14202a" stroke-width="2.4" fill="none"/><text x="470" y="246">R primer</text>
+      <path d="M352 262 V272 H520 V262" stroke="#14202a" stroke-width="1.4" fill="none"/>
+      <text x="436" y="292" text-anchor="middle">amplicon · length fixed by the primer pair</text>
+    </g></svg>

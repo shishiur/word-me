@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "projects",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "medium",
+      "motionSignature",
+      "status",
+      "evidence"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^P0[1-8]$"
+      },
+      "title": {
+        "type": "string"
+      },
+      "medium": {
+        "type": "string"
+      },
+      "motionSignature": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "pilot-implemented",
+          "specification",
+          "blocked-permission"
+        ]
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(P0[1-8]-E\\d{3}|REF-\\d{3})$"
+        },
+        "minItems": 1
+      }
+    }
+  }
+}

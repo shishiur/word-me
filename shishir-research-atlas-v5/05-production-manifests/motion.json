@@ -1,0 +1,219 @@
+[
+  {
+    "id": "P01-S01-M001",
+    "scene": "P01-S01",
+    "name": "Establishing dolly",
+    "trigger": "scene enter (first view)",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "t": 0,
+        "scale": 1.18,
+        "x": 0.06,
+        "y": 0.08
+      },
+      {
+        "t": 2.4,
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "duration": 2.4,
+    "ease": "power2.inOut",
+    "loop": false,
+    "interrupt": "Any selection or scroll kills it and jumps to the final state",
+    "reduced": "Final state immediately"
+  },
+  {
+    "id": "P01-S01-M002",
+    "scene": "P01-S01",
+    "name": "Bulb flicker on",
+    "trigger": "scene enter",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "t": 0,
+        "opacity": 0.2
+      },
+      {
+        "t": 0.13,
+        "opacity": 1
+      },
+      {
+        "t": 0.19,
+        "opacity": 0.35
+      },
+      {
+        "t": 0.29,
+        "opacity": 1
+      },
+      {
+        "t": 0.42,
+        "opacity": 0.6
+      },
+      {
+        "t": 0.48,
+        "opacity": 1
+      }
+    ],
+    "duration": 1.6,
+    "ease": "steps(1)",
+    "loop": false,
+    "interrupt": "Completes instantly",
+    "reduced": "opacity 1"
+  },
+  {
+    "id": "P01-S01-M003",
+    "scene": "P01-S01",
+    "name": "Pointer parallax",
+    "trigger": "pointermove / deviceorientation not used",
+    "runtime": "gsap.quickTo",
+    "keyframes": [
+      {
+        "rule": "layer x = pointerX × 24 px × depth; y = pointerY × 12 px × depth"
+      }
+    ],
+    "duration": 0.6,
+    "ease": "power3.out",
+    "loop": false,
+    "interrupt": "Continuous, overridden while focused",
+    "reduced": "Disabled"
+  },
+  {
+    "id": "P01-S02-M004",
+    "scene": "P01-S02",
+    "name": "Focus camera",
+    "trigger": "P01-S02-I001",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "rule": "world scale 1.6 (desktop) / 1.9 (mobile); translate so the object anchor lands at 38% x, 52% y of the viewport (desktop) or 50%, 40% (mobile)"
+      }
+    ],
+    "duration": 0.85,
+    "ease": "power3.inOut",
+    "loop": false,
+    "interrupt": "A new selection retargets from the current transform (overwrite: auto)",
+    "reduced": "Jump cut; spotlight only"
+  },
+  {
+    "id": "P01-S02-M005",
+    "scene": "P01-S02",
+    "name": "Spotlight and dim",
+    "trigger": "P01-S02-I001",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "rule": "non-target layers brightness 0.45, saturate 0.7; spotlight radial mask at anchor, radius 18% of stage"
+      }
+    ],
+    "duration": 0.5,
+    "ease": "power2.out",
+    "loop": false,
+    "interrupt": "Retargets",
+    "reduced": "Instant"
+  },
+  {
+    "id": "P01-S02-M006",
+    "scene": "P01-S02",
+    "name": "Return to overview",
+    "trigger": "P01-S02-I002",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "rule": "inverse of M004 and M005"
+      }
+    ],
+    "duration": 0.7,
+    "ease": "power3.inOut",
+    "loop": false,
+    "interrupt": "Retargets",
+    "reduced": "Instant"
+  },
+  {
+    "id": "P01-S03-M007",
+    "scene": "P01-S03",
+    "name": "Market to bench",
+    "trigger": "scroll into P01-S03 (ScrollTrigger, scrub)",
+    "runtime": "gsap+scrolltrigger",
+    "keyframes": [
+      {
+        "rule": "background colour #0b1517 → #eef2f1; plate rises 80 px and fades in; reversible on scroll up"
+      }
+    ],
+    "duration": "scroll-linked",
+    "ease": "none",
+    "loop": false,
+    "interrupt": "Scrub follows scroll in both directions",
+    "reduced": "Static colours, no movement"
+  },
+  {
+    "id": "P01-S03-M008",
+    "scene": "P01-S03",
+    "name": "Attrition marks",
+    "trigger": "P01-S03-I003",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "rule": "marks beyond n fade to outline, stagger 3 ms from the end; counter tweens to n"
+      }
+    ],
+    "duration": 0.6,
+    "ease": "power2.out",
+    "loop": false,
+    "interrupt": "Kills the previous tween",
+    "reduced": "Instant"
+  },
+  {
+    "id": "P01-S05-M009",
+    "scene": "P01-S05",
+    "name": "Zone radius tween",
+    "trigger": "P01-S05-I006",
+    "runtime": "gsap",
+    "keyframes": [
+      {
+        "rule": "circle r = mm / 2 × 292/45 user units"
+      }
+    ],
+    "duration": 0.35,
+    "ease": "power2.out",
+    "loop": false,
+    "interrupt": "Overwrite",
+    "reduced": "Instant"
+  },
+  {
+    "id": "P01-S01-M010",
+    "scene": "P01-S01",
+    "name": "Cinematic establishing sequence (rendered)",
+    "trigger": "none: reference video and optional poster loop",
+    "runtime": "remotion",
+    "keyframes": [
+      {
+        "f": 0,
+        "rule": "black"
+      },
+      {
+        "f": 12,
+        "rule": "bulb flickers on"
+      },
+      {
+        "f": 60,
+        "rule": "dolly out from bulb to full station, scale 1.35 → 1.0"
+      },
+      {
+        "f": 150,
+        "rule": "spotlight visits skin, basket, tool"
+      },
+      {
+        "f": 225,
+        "rule": "settle on overview, title"
+      }
+    ],
+    "duration": 8,
+    "ease": "Easing.inOut(Easing.cubic)",
+    "loop": false,
+    "interrupt": "n/a (video)",
+    "reduced": "Poster frame only"
+  }
+]

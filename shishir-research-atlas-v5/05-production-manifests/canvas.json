@@ -1,0 +1,7 @@
+{
+  "width": 2400,
+  "height": 1440,
+  "unit": "px",
+  "origin": "top-left",
+  "note": "Shared registration canvas for every P01-S01 layer. Vector fallbacks use viewBox 0 0 1200 720 (canvas / 2)."
+}

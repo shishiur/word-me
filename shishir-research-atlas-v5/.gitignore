@@ -1,0 +1,4 @@
+node_modules/
+08-interactive-website/dist/
+07-motion-engine/remotion/out/*.png
+07-motion-engine/remotion/out/render.log

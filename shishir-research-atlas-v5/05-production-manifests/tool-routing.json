@@ -1,0 +1,90 @@
+[
+  {
+    "id": "T-IMG",
+    "tool": "Image generation (ChatGPT environment)",
+    "checkedByClaude": false,
+    "claudeAccess": "none",
+    "role": "P01-S01 raster layers A001, A002, A010–A015; optional A030",
+    "input": "04-generation-prompts/image/*.md (one per asset ID) plus the vector fallback PNG as a composition reference",
+    "output": "WebP/PNG at the size in assets.json, named exactly as assets.json \"file\"",
+    "validation": "09-tool-fallbacks/image-reconstruction/check_asset.py (size, alpha, bbox vs anchor, edge halo) + 10-quality-assurance/scientific-checklist.md",
+    "fallback": "Keep the vector layer; or reconstruct from a reviewed master image with masks (image-reconstruction/README.md)"
+  },
+  {
+    "id": "T-FIGMA",
+    "tool": "Figma",
+    "checkedByClaude": true,
+    "claudeAccess": "connected; View seat on a Starter plan, so Claude cannot create or edit files here",
+    "role": "Editable frames and components for the website UI",
+    "input": "06-design-system/figma-handoff/frames.json + tokens.json",
+    "output": "Figma file with the listed frames, variables and components",
+    "validation": "Frame names and token names match the JSON exactly",
+    "fallback": "06-design-system/tokens.css + the running website is the visual reference"
+  },
+  {
+    "id": "T-MOTIONVID",
+    "tool": "Motionvid",
+    "checkedByClaude": false,
+    "claudeAccess": "none",
+    "role": "Cinematic reference shots for P01-S01",
+    "input": "04-generation-prompts/motionvid/P01-S01-shots.md + approved generated layers",
+    "output": "Short MP4 references (≤ 6 s each)",
+    "validation": "Frame-review criteria in the shot file; anatomy and object identity preserved frame to frame",
+    "fallback": "07-motion-engine/remotion composition P01-S01-M010 (rendered by Claude)"
+  },
+  {
+    "id": "T-REMOTION",
+    "tool": "Remotion 4.0.536",
+    "checkedByClaude": true,
+    "claudeAccess": "installed and rendered in this container",
+    "role": "Deterministic rendered sequences",
+    "input": "07-motion-engine/remotion",
+    "output": "MP4/PNG in 07-motion-engine/remotion/out",
+    "validation": "Frames reviewed; same layers as the website",
+    "fallback": "GSAP timeline in the website"
+  },
+  {
+    "id": "T-GSAP",
+    "tool": "GSAP 3.15 + ScrollTrigger",
+    "checkedByClaude": true,
+    "claudeAccess": "installed and tested",
+    "role": "All interactive motion",
+    "input": "08-interactive-website/src",
+    "output": "Running site",
+    "validation": "08-interactive-website/tests/run.mjs",
+    "fallback": "CSS transitions; static states"
+  },
+  {
+    "id": "T-BIORENDER",
+    "tool": "BioRender",
+    "checkedByClaude": true,
+    "claudeAccess": "connector requires sign-in; not authorised in this session",
+    "role": "Optional schematic of the invA workflow and the screening workflow for P05",
+    "input": "04-generation-prompts/biorender/*.md",
+    "output": "SVG/PNG export with licence that permits web publication (paid academic plan)",
+    "validation": "Entities and labels match the brief; licence recorded",
+    "fallback": "Existing original SVG schematics (invA, bench) in 09-tool-fallbacks/svg"
+  },
+  {
+    "id": "T-GIS",
+    "tool": "GIS Cloud",
+    "checkedByClaude": false,
+    "claudeAccess": "none",
+    "role": "Only if verified site coordinates are supplied (P02, P03)",
+    "input": "09-tool-fallbacks/mapping/sites.schema.json",
+    "output": "Map layers",
+    "validation": "Coordinates traced to a source document",
+    "fallback": "Schematic SVG map with \"positions approximate\" (existing)"
+  },
+  {
+    "id": "T-BROWSER",
+    "tool": "Playwright + Chromium 141",
+    "checkedByClaude": true,
+    "claudeAccess": "available and used",
+    "role": "QA",
+    "input": "tests/run.mjs",
+    "output": "results.json + screenshots",
+    "validation": "All checks pass",
+    "fallback": "Manual checklist in 10-quality-assurance"
+  }
+]

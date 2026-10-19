@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "evidence",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "claim",
+      "status",
+      "source"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^(P0[1-8]-E\\d{3}|REF-\\d{3})$"
+      },
+      "claim": {
+        "type": "string",
+        "minLength": 3
+      },
+      "status": {
+        "enum": [
+          "published",
+          "researcher-record",
+          "disputed",
+          "reference",
+          "illustrative",
+          "pending",
+          "missing",
+          "withheld"
+        ]
+      },
+      "source": {
+        "type": "string"
+      },
+      "check": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

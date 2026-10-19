@@ -1,0 +1,489 @@
+[
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A001",
+    "layer": "background",
+    "objects": [
+      "P01-S01-O009"
+    ],
+    "depth": 0.15,
+    "z": 10,
+    "file": "p01-s01-a001-background.webp",
+    "alpha": false,
+    "size": [
+      2880,
+      1440
+    ],
+    "bleed": 240,
+    "fallback": "fallback/p01-s01-a001.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Back wall and distant stalls of a fish market in Sylhet, Bangladesh, before dawn",
+      "structure": "Corrugated galvanised tin back wall with vertical ridges every ~30 px; a low concrete ledge at y = 410 (canvas units /2); a counter of stacked aluminium pans at right (x 1440–2400); a two-pan hanging balance scale silhouette at upper right (x 1700–2050, y 80–380); 12–16 out-of-focus warm and cool bokeh lights from other stalls between y 300 and 600",
+      "count": "One wall, one balance scale, one counter; no people",
+      "camera": "Eye-level from a seated cutter, 35 mm equivalent, 3° downward tilt, orthographic-feeling with slight perspective",
+      "framing": "Full canvas width plus 120 px bleed each side for parallax",
+      "scale": "Balance pans ≈ 60 cm wide in world space",
+      "materials": "Oxidised galvanised tin with water streaks; damp concrete; dull steel chains",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#0b1517 #132324 #1d3233 #3b5656 #f2ab46 (light falloff only near x 760)",
+      "treatment": "Shallow depth of field: wall slightly soft (f/2.8 look)",
+      "background": "Opaque",
+      "transparency": "none",
+      "aspect": "2:1 (2880 × 1440)",
+      "references": "fallback/p01-s01-a001.svg for composition",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no people, no faces, no signage text, no modern LED strips",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Parallax depth 0.15; never animated on its own"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A002",
+    "layer": "floor",
+    "objects": [],
+    "depth": 0.35,
+    "z": 20,
+    "file": "p01-s01-a002-floor.webp",
+    "alpha": true,
+    "size": [
+      2880,
+      640
+    ],
+    "bleed": 240,
+    "offset": [
+      -240,
+      800
+    ],
+    "fallback": "fallback/p01-s01-a002.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Wet concrete floor of a fish-cutting stall",
+      "structure": "Floor plane from canvas y 830 to 1440; long vertical warm reflection of the bulb under x 760; scattered silver fish scales near x 1040, y 1280; shallow puddles with faint ripples",
+      "count": "0 objects; ~30 small scales",
+      "camera": "Same as P01-S01-A001",
+      "framing": "Top edge feathered for alpha blend into the wall ledge",
+      "scale": "Scales 3–8 px",
+      "materials": "Smooth wet concrete, roughness 0.25 in puddles, 0.7 dry",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#1b2e2f → #081011, reflection #f3ac45 at 20%",
+      "treatment": "Reflections soft, not mirror-sharp",
+      "background": "Transparent above y 830",
+      "transparency": "PNG/WebP alpha; soft 40 px top feather",
+      "aspect": "4.5:1 (2880 × 640)",
+      "references": "fallback/p01-s01-a002.svg",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no blood pools, no gore",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Parallax depth 0.35"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A003",
+    "layer": "light",
+    "objects": [
+      "P01-S01-O008"
+    ],
+    "depth": 0.2,
+    "z": 30,
+    "file": "p01-s01-a003-light.png",
+    "alpha": true,
+    "size": [
+      2400,
+      1440
+    ],
+    "fallback": "fallback/p01-s01-a003.svg",
+    "tool": "code",
+    "status": "vector-final",
+    "prompt": null,
+    "note": "Bulb, glow and light cone stay vector: they are animated (flicker) and must stay pixel-aligned with the key-light position used by every generated asset."
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A010",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O001",
+      "P01-S01-O002"
+    ],
+    "depth": 0.78,
+    "z": 60,
+    "file": "p01-s01-a010-fish.png",
+    "alpha": true,
+    "size": [
+      660,
+      348
+    ],
+    "position": [
+      736,
+      894
+    ],
+    "pivot": [
+      330,
+      190
+    ],
+    "fallback": "fallback/p01-s01-a010.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "A fresh rohu carp (Labeo rohita) lying on its right side, partly cut into a transverse steak",
+      "structure": "Head to the left; body length 620 px; depth 200 px at the deepest point; one transverse cut 40 % from the snout exposing a cross-section with concentric myomere rings, a white vertebral centrum and a small dark body-cavity opening; the tail piece shifted 50 px right; forked caudal fin; reddish centres on scales typical of rohu; eye golden with dark pupil",
+      "count": "Exactly one fish in two pieces",
+      "camera": "Viewed from above at 55° elevation, matching the chopping block top",
+      "framing": "Fish only, in a 660 × 348 transparent frame; dorsal fin tip 8 px below the top edge",
+      "scale": "Adult rohu ≈ 45 cm",
+      "materials": "MAT-FISH-SKIN-WET and MAT-FISH-FLESH-CUT",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "Dorsal #26332f, flank #b7c0b6, belly #efe8db, flesh #e2867f, centrum #f4eee4",
+      "treatment": "Crisp focus; this is the focal object",
+      "background": "Transparent",
+      "transparency": "Straight alpha, no matte halo; shadow excluded (shadow comes from A015)",
+      "aspect": "55:29",
+      "references": "fallback/p01-s01-a010.svg and CS-P01-FISH",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no extra fins, no second head, no blood splatter, no knife in the fish, no ice",
+      "consistency": "CS-P01-FISH",
+      "animation": "Static; receives focus camera; anchors O001 (1224, 1096) and O002 (1048, 1112)"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A011",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O003"
+    ],
+    "depth": 0.85,
+    "z": 55,
+    "file": "p01-s01-a011-basket.png",
+    "alpha": true,
+    "size": [
+      584,
+      324
+    ],
+    "position": [
+      1780,
+      1072
+    ],
+    "pivot": [
+      292,
+      162
+    ],
+    "fallback": "fallback/p01-s01-a011.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Round shallow woven bamboo basket holding fish viscera",
+      "structure": "Rim ellipse 480 × 136 px; tapering body; inside: coiled intestine, a dark liver lobe, a pale two-chambered swim bladder",
+      "count": "One basket",
+      "camera": "Same 55° elevation as A010",
+      "framing": "Basket only, 10 px margin",
+      "scale": "Basket ≈ 50 cm across",
+      "materials": "MAT-BAMBOO-WET; viscera glossy, wet",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#c9a56a #866838 #5e4524; viscera #d98476 #7c2a2a #e7dcce",
+      "treatment": "Viscera shown factually, not gory",
+      "background": "Transparent",
+      "transparency": "Straight alpha",
+      "aspect": "146:81",
+      "references": "fallback/p01-s01-a011.svg",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no flies, no maggots, no blood splashes, no plastic basket",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Static; focus target"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A012",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O004"
+    ],
+    "depth": 0.8,
+    "z": 50,
+    "file": "p01-s01-a012-bowl.png",
+    "alpha": true,
+    "size": [
+      568,
+      322
+    ],
+    "position": [
+      132,
+      1118
+    ],
+    "pivot": [
+      284,
+      161
+    ],
+    "fallback": "fallback/p01-s01-a012.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Dented aluminium bowl (dekchi-style) of processing water",
+      "structure": "Rim ellipse 240 × 64 px in viewBox scale (480 × 128 canvas); water surface with one small warm reflection of the bulb on the right",
+      "count": "One bowl",
+      "camera": "Same 55° elevation",
+      "framing": "Bowl only",
+      "scale": "Bowl ≈ 45 cm across",
+      "materials": "MAT-ALUMINIUM-WATER",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#c9d4d6 #7e9094 #2e5050",
+      "treatment": "Water slightly turbid, not clear",
+      "background": "Transparent",
+      "transparency": "Straight alpha",
+      "aspect": "284:161",
+      "references": "fallback/p01-s01-a012.svg",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no plastic bucket, no tap",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Optional ripple loop disabled under reduced motion"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A013",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O005"
+    ],
+    "depth": 1,
+    "z": 70,
+    "file": "p01-s01-a013-hand.png",
+    "alpha": true,
+    "size": [
+      672,
+      882
+    ],
+    "position": [
+      290,
+      326
+    ],
+    "pivot": [
+      560,
+      714
+    ],
+    "fallback": "fallback/p01-s01-a013.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "A fish cutter’s right forearm and hand holding the fish head",
+      "structure": "Forearm enters from the upper-left corner; blue-and-white checked sleeve cuff; hand rests over the fish head with three fingers curled down around it and the thumb above; no face, no torso",
+      "count": "One forearm and one hand, five digits (three visible fingers, thumb, one hidden)",
+      "camera": "Same 55° elevation",
+      "framing": "Forearm and hand only",
+      "scale": "Adult forearm ≈ 26 cm",
+      "materials": "MAT-SKIN-HAND; cotton check fabric",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "Skin #b07652 → #4c2e1f; sleeve #33506a #5b7a93",
+      "treatment": "Dignified, working hands; no injury",
+      "background": "Transparent",
+      "transparency": "Straight alpha",
+      "aspect": "112:147",
+      "references": "fallback/p01-s01-a013.svg; anatomy must be checked (finger count, wrist bend)",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no face, no jewellery, no gloves, no extra fingers, no blood on skin, no identifiable person",
+      "consistency": "CS-P01-HAND",
+      "animation": "Foremost parallax layer (depth 1.0)"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A014",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O006"
+    ],
+    "depth": 0.82,
+    "z": 65,
+    "file": "p01-s01-a014-bonti.png",
+    "alpha": true,
+    "size": [
+      722,
+      520
+    ],
+    "position": [
+      1268,
+      872
+    ],
+    "pivot": [
+      300,
+      400
+    ],
+    "fallback": "fallback/p01-s01-a014.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Bonti: a traditional Bangladeshi curved blade fixed upright on a wooden plank",
+      "structure": "Plank lies on the floor angled up to the right; blade rises from an iron bracket at the plank’s left end and curves toward the fish, cutting edge on the concave side facing the cutter",
+      "count": "One bonti",
+      "camera": "Same 55° elevation",
+      "framing": "Bonti only",
+      "scale": "Blade ≈ 30 cm tall",
+      "materials": "MAT-STEEL-BLADE; worn wood plank",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#eef5f6 #8fa2a6 #36454a; plank #a87444 #5a3a20",
+      "treatment": "Bright specular line along the edge",
+      "background": "Transparent",
+      "transparency": "Straight alpha",
+      "aspect": "361:260",
+      "references": "fallback/p01-s01-a014.svg",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no kitchen knife, no cleaver, no blood dripping, no hands",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Static; focus target"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A015",
+    "layer": "object",
+    "objects": [
+      "P01-S01-O007"
+    ],
+    "depth": 0.75,
+    "z": 45,
+    "file": "p01-s01-a015-block.png",
+    "alpha": true,
+    "size": [
+      1260,
+      316
+    ],
+    "position": [
+      380,
+      1072
+    ],
+    "pivot": [
+      560,
+      140
+    ],
+    "fallback": "fallback/p01-s01-a015.svg",
+    "tool": "image-generation",
+    "status": "awaiting-generation",
+    "prompt": {
+      "subject": "Round wooden chopping block (log slice) used as a cutting surface",
+      "structure": "Block occupies x 262–978 of the 1260-px frame: top ellipse 712 × 200 px, side 88 px tall with bark texture, growth rings, knife-score marks, damp patches, contact shadow; about 30 loose silver fish scales scattered on the floor around it across the full frame width",
+      "count": "One block",
+      "camera": "Same 55° elevation",
+      "framing": "Block and its floor shadow",
+      "scale": "Block ≈ 70 cm across",
+      "materials": "MAT-WOOD-WET",
+      "lighting": "Editorial scientific illustration with photographic realism: physically plausible materials, painterly restraint, no fantasy glow, no lens-flare stars, no HDR halos. Single 2700 K tungsten bulb is the key light from upper left (canvas x 760, y 240); cool 6500 K ambient bounce at 8% intensity from the right; deep teal-black shadows (#0b1517), never pure black.",
+      "palette": "#c48d57 #9a6a3e #6a4325 #25170d",
+      "treatment": "Warm, worn, practical",
+      "background": "Transparent",
+      "transparency": "Straight alpha including soft shadow",
+      "aspect": "315:79",
+      "references": "fallback/p01-s01-a015.svg",
+      "negative": "no text, no labels, no watermark, no petri dishes, no lab equipment, no bacteria, no microscopic imagery, no data overlays, no plastic board, no fish on it (fish is A010)",
+      "consistency": "CS-P01-LIGHT",
+      "animation": "Static; focus target"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-S01",
+    "id": "P01-S01-A004",
+    "layer": "atmosphere",
+    "objects": [],
+    "depth": 0,
+    "z": 90,
+    "file": "p01-s01-a004-atmosphere.svg",
+    "alpha": true,
+    "size": [
+      2400,
+      1440
+    ],
+    "fallback": "fallback/p01-s01-a004.svg",
+    "tool": "code",
+    "status": "vector-final",
+    "prompt": null,
+    "note": "Film grain and vignette are procedural so they can switch off under reduced data or reduced motion."
+  },
+  {
+    "canvas": "CANVAS-P01-S03",
+    "id": "P01-S03-A030",
+    "layer": "background",
+    "objects": [],
+    "depth": 0.2,
+    "z": 10,
+    "file": "p01-s03-a030-bench.webp",
+    "alpha": false,
+    "size": [
+      2400,
+      1200
+    ],
+    "fallback": "none (CSS gradient bench)",
+    "tool": "image-generation",
+    "status": "optional",
+    "prompt": {
+      "subject": "Clean microbiology bench under cool daylight, out of focus",
+      "structure": "Matte white epoxy bench top filling the lower 40 %; soft shapes of a Bunsen burner, a test-tube rack and a biosafety cabinet window behind; no readable labels",
+      "count": "Background props only, all defocused",
+      "camera": "Eye level, 50 mm, f/1.8 look",
+      "framing": "Leave the centre-left 60 % empty for the plate illustration",
+      "scale": "Real lab scale",
+      "materials": "Epoxy, glass, stainless steel",
+      "lighting": "6500 K diffuse overhead; soft shadows; no tungsten",
+      "palette": "#eef2f1 #dfe9ec #9fb3b9",
+      "treatment": "Heavy defocus so it never competes with the plate",
+      "background": "Opaque",
+      "transparency": "none",
+      "aspect": "2:1",
+      "references": "none",
+      "negative": "no text, no colonies, no plates in focus, no people, no gel, no screens",
+      "consistency": "CS-P01-LAB",
+      "animation": "Parallax 0.2 during the market → bench transition"
+    }
+  },
+  {
+    "canvas": "CANVAS-P01-PLATE",
+    "id": "P01-S03-A031",
+    "layer": "object",
+    "objects": [],
+    "depth": 1,
+    "z": 50,
+    "file": "p01-s03-a031-xld-plate.svg",
+    "alpha": true,
+    "size": [
+      700,
+      700
+    ],
+    "fallback": "fallback/p01-s03-a031.svg",
+    "tool": "code",
+    "status": "vector-final",
+    "prompt": null,
+    "note": "Illustrative XLD plate stays vector: colony types are filtered interactively by data-colony attribute. A photographic plate would be mistaken for study evidence."
+  },
+  {
+    "canvas": "CANVAS-P01-GEL",
+    "id": "P01-S04-A040",
+    "layer": "object",
+    "objects": [],
+    "depth": 1,
+    "z": 50,
+    "file": "p01-s04-a040-gel.jpg",
+    "alpha": false,
+    "size": null,
+    "fallback": "fallback/p01-s04-a040-template.svg",
+    "tool": "researcher-supplied",
+    "status": "missing",
+    "prompt": null,
+    "note": "Must be the researcher’s original uncropped gel photograph. Never generated, never drawn. Until supplied, the empty lane template is shown."
+  },
+  {
+    "canvas": "CANVAS-P01-PLATE",
+    "id": "P01-S05-A050",
+    "layer": "object",
+    "objects": [],
+    "depth": 1,
+    "z": 50,
+    "file": "p01-s05-a050-mh-plate.svg",
+    "alpha": true,
+    "size": [
+      700,
+      700
+    ],
+    "fallback": "fallback/p01-s05-a050.svg",
+    "tool": "code",
+    "status": "vector-final",
+    "prompt": null,
+    "note": "Zones are drawn from the simulator state, not from data; a generated photograph would hard-code zone sizes."
+  }
+]

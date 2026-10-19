@@ -1,0 +1,156 @@
+[
+  {
+    "id": "P01-S02-I001",
+    "scene": "P01-S02",
+    "name": "Select a sampling matrix",
+    "inputs": {
+      "click": "hotspot or chip",
+      "tap": "hotspot or chip (min 32 px)",
+      "keyboard": "Tab to hotspot, Enter/Space; 1–7 number keys; ←/→ cycle",
+      "hover": "Leader brightens (no state change)"
+    },
+    "from": [
+      "overview",
+      "object-focused",
+      "evidence-revealed"
+    ],
+    "to": "object-focused → evidence-revealed (after M004 completes or immediately under reduced motion)",
+    "motion": [
+      "P01-S02-M004",
+      "P01-S02-M005"
+    ],
+    "evidencePanel": "Matrix name, events detected or \"not reported\", register chips"
+  },
+  {
+    "id": "P01-S02-I002",
+    "scene": "P01-S02",
+    "name": "Reset to overview",
+    "inputs": {
+      "click": "Reset button",
+      "tap": "Reset button",
+      "keyboard": "Escape",
+      "hover": null
+    },
+    "from": [
+      "object-focused",
+      "evidence-revealed"
+    ],
+    "to": "overview",
+    "motion": [
+      "P01-S02-M006"
+    ],
+    "evidencePanel": "Default study-design text"
+  },
+  {
+    "id": "P01-S01-I003",
+    "scene": "P01-S01",
+    "name": "Explore by pointer",
+    "inputs": {
+      "click": null,
+      "tap": null,
+      "keyboard": null,
+      "hover": "Pointer position drives M003 parallax"
+    },
+    "from": [
+      "overview"
+    ],
+    "to": "overview",
+    "motion": [
+      "P01-S01-M003"
+    ],
+    "evidencePanel": null
+  },
+  {
+    "id": "P01-S03-I003",
+    "scene": "P01-S03",
+    "name": "Step through the sieve",
+    "inputs": {
+      "click": "Step buttons 154 / 62 / 40",
+      "tap": "Same",
+      "keyboard": "Buttons; ←/→ within the group",
+      "hover": null
+    },
+    "from": [
+      "samples",
+      "xld",
+      "biochem"
+    ],
+    "to": "chosen step",
+    "motion": [
+      "P01-S03-M008"
+    ],
+    "evidencePanel": "Count, label, explanatory note"
+  },
+  {
+    "id": "P01-S03-I004",
+    "scene": "P01-S03",
+    "name": "Read a colony type",
+    "inputs": {
+      "click": "Colony button",
+      "tap": "Same",
+      "keyboard": "Buttons",
+      "hover": null
+    },
+    "from": [
+      "*"
+    ],
+    "to": "colony isolated",
+    "motion": [],
+    "evidencePanel": "Reference-science explanation"
+  },
+  {
+    "id": "P01-S04-I005",
+    "scene": "P01-S04",
+    "name": "Switch invA account",
+    "inputs": {
+      "click": "Header radio or account card",
+      "tap": "Same",
+      "keyboard": "Radio group arrows",
+      "hover": null
+    },
+    "from": [
+      "record",
+      "site"
+    ],
+    "to": "other account",
+    "motion": [],
+    "evidencePanel": "All lens-dependent terms re-label"
+  },
+  {
+    "id": "P01-S05-I006",
+    "scene": "P01-S05",
+    "name": "Choose agent and read a zone",
+    "inputs": {
+      "click": "Agent buttons or disc",
+      "tap": "Same",
+      "keyboard": "Buttons; range input with arrows",
+      "hover": null
+    },
+    "from": [
+      "agent-selected",
+      "mdr"
+    ],
+    "to": "agent-selected",
+    "motion": [
+      "P01-S05-M009"
+    ],
+    "evidencePanel": "S/I/R against reference breakpoints; study count"
+  },
+  {
+    "id": "P01-S05-I007",
+    "scene": "P01-S05",
+    "name": "Show multidrug resistance",
+    "inputs": {
+      "click": "Checkbox",
+      "tap": "Checkbox",
+      "keyboard": "Space",
+      "hover": null
+    },
+    "from": [
+      "agent-selected"
+    ],
+    "to": "mdr",
+    "motion": [],
+    "evidencePanel": "14 of 40"
+  }
+]

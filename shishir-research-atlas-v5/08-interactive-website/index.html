@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" data-lens="record">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salmonella at the Cutting Station</title>
+<meta name="description" content="P01 pilot of the Shishir Research Atlas: a layered fish-processing station, the laboratory workflow, the disputed invA confirmation and antimicrobial susceptibility, with every value linked to its evidence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&display=swap">
+</head>
+<body>
+<a class="skip" href="#P01-S01">Skip to the investigation</a>
+<header class="top" id="top" data-mode="night">
+  <div class="top-row">
+    <p class="brand"><span class="brand-a">Shishir Research Atlas</span><span class="brand-p">P01 · Salmonella &amp; AMR</span></p>
+    <ol class="funnel" aria-label="Sample path from market to resistance">
+      <li data-step="0"><b>154</b><span>samples</span></li>
+      <li data-step="1"><b>62</b><span>XLD-suspect</span></li>
+      <li data-step="2" class="on"><b>40</b><span>isolates</span></li>
+      <li data-step="3" class="f-disp"><b data-lens-text="funnelN">40</b><span data-lens-text="funnelLabel">invA+ · provisional</span></li>
+      <li data-step="4"><b>14</b><span>MDR</span></li>
+    </ol>
+    <fieldset class="lens">
+      <legend>invA account</legend>
+      <label><input type="radio" name="lens" id="lens-record" value="record" checked><span>Record <small>provisional</small></span></label>
+      <label><input type="radio" name="lens" id="lens-site" value="site"><span>Site 2026</span></label>
+    </fieldset>
+  </div>
+  <nav class="chapters" aria-label="Scenes"><a href="#P01-S01">01 Station</a><a href="#P01-S03">02 Laboratory</a><a href="#P01-S04">03 Confirmation</a><a href="#P01-S05">04 Resistance</a><a href="#register">Evidence</a></nav>
+</header>
+<div class="sr" aria-live="polite" id="live"></div>
+<noscript><p class="noscript">The interactive camera and controls need JavaScript. Everything below is shown in its default state, with the same text and evidence.</p></noscript>
+
+<main>
+<section class="band night station" id="P01-S01" data-state="loading" aria-labelledby="s01-h">
+  <div class="wrap">
+    <div class="intro">
+      <p class="eyebrow">P01-S01 · Undergraduate thesis · Sylhet Agricultural University · defended 31 August 2026</p>
+      <h1 id="s01-h">Seven surfaces at one cutting station</h1>
+      <p class="lede">At each of 22 fish-processing events in 11 Sylhet wet markets, the study sampled the fish, the water, the handler, the blade and the surfaces they touch: 154 linked samples. Choose a surface. Press 1–7, or Esc to return.</p>
+      <div class="dispute" role="note"><span class="reg reg-disputed"><i aria-hidden="true"></i>Disputed</span><p>The researcher’s latest record says all 40 isolates were invA PCR- and gel-confirmed. His portfolio text from August 2026 says none gave an interpretable product. The page follows the record as a provisional account; switch the <b>invA account</b> in the header to read it the other way.</p></div>
+    </div>
+    <div class="stage-grid">
+      <figure class="stage-fig">
+        <div class="stage" tabindex="-1">
+          <img class="stage-static" src="assets/p01/fallback/p01-s01-composite.webp" alt="Illustrated fish-cutting station at night: an aluminium bowl of water, a wooden block with a cut fish, the handler’s hand, a bonti blade and a bamboo basket of viscera." width="2400" height="1440">
+          <p class="fidelity" aria-live="off">Vector fallback</p>
+        </div>
+        <figcaption><span class="reg reg-illustrative"><i aria-hidden="true"></i>Illustrative</span> Reconstruction of a typical station (P01-E015). Positions orient the reader; they are not a measured transmission pathway.</figcaption>
+      </figure>
+      <div class="mx-card" aria-live="polite">
+        <p class="k">P01-S02 · Select a surface</p>
+        <h3 class="mx-name">Seven matrices, 22 samples each</h3>
+        <p class="mx-body">Each matrix was sampled once per processing event, so each contributes 22 of the 154 samples. Detection counts are reported for three matrices; the other four are not in the current record.</p>
+        <dl class="mx-dl"><div><dt>Study design</dt><dd>11 markets · 22 events · 154 samples <span class="reg reg-researcher-record"><i aria-hidden="true"></i>Researcher record</span></dd></div></dl>
+      </div>
+    </div>
+    <div class="mx-chips" role="group" aria-label="Choose a matrix">
+      <button type="button" class="mx-chip" data-matrix="skin" aria-pressed="false"><b>1</b> Fish skin <span class="ct">9/22</span></button>
+      <button type="button" class="mx-chip" data-matrix="flesh" aria-pressed="false"><b>2</b> Cut flesh <span class="ct">3/22</span></button>
+      <button type="button" class="mx-chip" data-matrix="basket" aria-pressed="false"><b>3</b> Viscera basket surface <span class="ct">8/22</span></button>
+      <button type="button" class="mx-chip" data-matrix="water" aria-pressed="false"><b>4</b> Processing water* <span class="ct">—</span></button>
+      <button type="button" class="mx-chip" data-matrix="hands" aria-pressed="false"><b>5</b> Handler hands* <span class="ct">—</span></button>
+      <button type="button" class="mx-chip" data-matrix="tool" aria-pressed="false"><b>6</b> Bonti blade* <span class="ct">—</span></button>
+      <button type="button" class="mx-chip" data-matrix="board" aria-pressed="false"><b>7</b> Cutting surface* <span class="ct">—</span></button>
+    </div>
+    <p class="fine">Counts are processing events with a positive sample, out of 22. * Name inferred from the site phrase “fish, water, handlers, tools and processing surfaces” (P01-E006).</p>
+  </div>
+</section>
+
+<div class="transit" aria-hidden="true"><div class="wrap"><p>Samples leave the market for the laboratory bench</p></div></div>
+
+<section class="band bench" id="P01-S03" aria-labelledby="s03-h">
+  <div class="wrap">
+    <div class="chap-head"><p class="eyebrow">P01-S03 · Selective culture and biochemistry</p><h2 id="s03-h">From 154 samples to 40 isolates</h2>
+      <p class="lede">On xylose lysine deoxycholate agar, Salmonella typically grows as red colonies with black centres: it ferments xylose, decarboxylates lysine, which returns the medium to red, and its hydrogen sulphide turns the centre black.</p></div>
+    <div class="two">
+      <figure class="plate-wrap" data-read="">
+        <img class="plate-src" src="assets/p01/fallback/p01-s03-a031.svg" alt="Illustrative XLD agar plate with red, black-centred, yellow and plain red colonies across a quadrant streak." width="700" height="700">
+        <figcaption><span class="reg reg-illustrative"><i aria-hidden="true"></i>Illustrative</span> Quadrant streak drawn for the Atlas. Not a study plate.</figcaption>
+      </figure>
+      <div>
+        <div class="seg" role="group" aria-label="Highlight a colony type">
+          <button type="button" class="colony" data-colony="h2s" aria-pressed="false"><i class="cdot h2s"></i>Red, black centre</button>
+          <button type="button" class="colony" data-colony="yel" aria-pressed="false"><i class="cdot yel"></i>Yellow</button>
+          <button type="button" class="colony" data-colony="red" aria-pressed="false"><i class="cdot red"></i>Red, no black centre</button>
+        </div>
+        <div class="note-card"><span class="reg reg-reference"><i aria-hidden="true"></i>Reference science</span><p id="colony-text">Choose a colony type to isolate it on the plate. Black centres mark hydrogen sulphide, which is why look-alikes such as Citrobacter and Proteus are removed by biochemical testing.</p></div>
+        <div class="seg" role="group" aria-label="Step through the sample path">
+          <button type="button" class="step" data-step="0" aria-pressed="false">154 <span>samples</span></button>
+          <button type="button" class="step" data-step="1" aria-pressed="false">62 <span>XLD-suspect</span></button>
+          <button type="button" class="step" data-step="2" aria-pressed="true">40 <span>isolates</span></button>
+        </div>
+        <p class="attr-n"><b id="attr-n">40</b> <span id="attr-label">biochemically compatible isolates</span> <span id="attr-chip"><span class="reg reg-researcher-record"><i aria-hidden="true"></i>Researcher record</span></span></p>
+        <div class="marks" id="attr-marks" aria-hidden="true"></div>
+        <p class="fine" id="attr-note">Biochemical tests remove look-alikes such as Citrobacter and Proteus, which also make black-centred colonies on XLD.</p>
+        <p class="fine">Marks are counts only. They do not identify which samples were positive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band bench" id="P01-S04" aria-labelledby="s04-h">
+  <div class="wrap">
+    <div class="chap-head"><p class="eyebrow">P01-S04 · Molecular confirmation <span class="reg reg-disputed"><i aria-hidden="true"></i>Disputed</span></p><h2 id="s04-h">One gene, two accounts</h2>
+      <p class="lede">invA sits in Salmonella pathogenicity island 1 and is a standard Salmonella-specific PCR target. Whether these 40 isolates carried it decides how every later number is described.</p></div>
+    <div class="accounts">
+      <article class="account on" data-account="record"><h3>Researcher’s latest record <small>provisional</small></h3><p>All 40 retained isolates were invA PCR- and gel-confirmed, according to the researcher’s latest record. The Atlas treats this as provisional until the gel photograph, controls and final thesis are checked.</p><button type="button" class="ghost use-lens" data-lens="record">Read the page this way</button></article>
+      <article class="account" data-account="site"><h3>Portfolio text, August 2026</h3><p>None of the 40 biochemically compatible isolates produced an interpretable invA-specific PCR product, according to the portfolio text published in August 2026. The findings stay presumptive.</p><button type="button" class="ghost use-lens" data-lens="site">Read the page this way</button></article>
+    </div>
+    <p class="note">Isolates are now called <b data-lens-text="isolates">invA-positive isolates (provisional)</b>.</p>
+    <div class="three">
+      <figure><img data-inline src="assets/p01/fallback/p01-s04-cell.svg" alt="Schematic rod-shaped Salmonella cell with peritrichous flagella and a 1 micrometre scale bar." width="600" height="300"><figcaption><span class="reg reg-reference"><i aria-hidden="true"></i>Reference science</span> Gram-negative rod, about 2–5 µm. Schematic.</figcaption></figure>
+      <figure><img data-inline src="assets/p01/fallback/p01-s04-inva.svg" alt="Schematic of invA between invE and invB inside SPI-1, with forward and reverse primers bracketing the amplicon." width="900" height="310"><figcaption><span class="reg reg-reference"><i aria-hidden="true"></i>Reference science</span> Rahn et al. (1992) primers amplify 284 bp; the thesis primer pair and amplicon size are pending (P01-E004).</figcaption></figure>
+      <figure><img data-inline src="assets/p01/fallback/p01-s04-a040-template.svg" alt="Empty gel template with nine labelled wells and the words gel photograph required. No bands are drawn." width="520" height="344"><figcaption><span class="reg reg-missing"><i aria-hidden="true"></i>Missing</span> P01-S04-A040 must be the original uncropped photograph. It is never drawn or generated.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="band bench" id="P01-S05" aria-labelledby="s05-h">
+  <div class="wrap">
+    <div class="chap-head"><p class="eyebrow">P01-S05 · Antimicrobial susceptibility</p><h2 id="s05-h">Reading resistance on Mueller–Hinton</h2>
+      <p class="lede">Each of the 40 isolates was lawned onto Mueller–Hinton agar with antibiotic discs; twelve agents were tested and nine interpreted (P01-E011). Under the current account they are <b data-lens-text="isolates">invA-positive isolates (provisional)</b>.</p></div>
+    <div class="two">
+      <figure class="plate-wrap mh-wrap">
+        <img class="plate-src" src="assets/p01/fallback/p01-s05-a050.svg" alt="Illustrative Mueller–Hinton plate with ampicillin, tetracycline, cefotaxime and ciprofloxacin discs and clear zones." width="700" height="700">
+        <div class="disc-btns">
+          <button type="button" class="disc-btn" data-disc="AMP" style="left:35.29%;top:35.29%"><span class="sr">Ampicillin disc</span></button>
+          <button type="button" class="disc-btn" data-disc="TE" style="left:64.71%;top:35.29%"><span class="sr">Tetracycline disc</span></button>
+          <button type="button" class="disc-btn" data-disc="CTX" style="left:64.71%;top:64.71%"><span class="sr">Cefotaxime disc</span></button>
+          <button type="button" class="disc-btn" data-disc="CIP" style="left:35.29%;top:64.71%"><span class="sr">Ciprofloxacin disc</span></button>
+        </div>
+        <figcaption><span class="reg reg-illustrative"><i aria-hidden="true"></i>Illustrative</span> One drawn isolate. Zone sizes follow the simulator, not data (P01-E012 missing).</figcaption>
+      </figure>
+      <div>
+        <div class="seg" role="group" aria-label="Choose an antibiotic">
+          <button type="button" class="agent" data-disc="AMP" aria-pressed="true"><b>AMP</b> Ampicillin</button>
+          <button type="button" class="agent" data-disc="TE" aria-pressed="false"><b>TE</b> Tetracycline</button>
+          <button type="button" class="agent" data-disc="CTX" aria-pressed="false"><b>CTX</b> Cefotaxime</button>
+          <button type="button" class="agent" data-disc="CIP" aria-pressed="false"><b>CIP</b> Ciprofloxacin</button>
+        </div>
+        <div class="sim">
+          <h3>Read a zone <span class="reg reg-illustrative"><i aria-hidden="true"></i>Simulator</span></h3>
+          <label for="zone">Zone diameter for <b id="sim-agent">Ampicillin</b>: <output id="zone-out" for="zone">6 mm</output></label>
+          <input type="range" id="zone" min="6" max="40" step="1" value="6">
+          <div class="bp" aria-hidden="true"><span class="bp-r"></span><span class="bp-i"></span><span class="bp-s"></span><i class="bp-pin"></i></div>
+          <p class="sim-read" id="sim-read" aria-live="polite">Resistant: 6 mm is at or below the 13 mm breakpoint.</p>
+          <p class="fine" id="bp-note">CLSI M100 disc-diffusion breakpoints for Enterobacterales: S ≥ 17 mm, R ≤ 13 mm. Verify the edition the thesis used (REF-003).</p>
+        </div>
+        <h3>In this study</h3>
+        <p class="rec-n" id="rec-n"><b>24</b> of 40 isolates resistant to ampicillin (60%) <span class="reg reg-researcher-record"><i aria-hidden="true"></i>Researcher record</span></p>
+        <div class="marks m40" id="ast-marks" aria-hidden="true"></div>
+        <label class="toggle"><input type="checkbox" id="mdr"> Show multidrug resistance: 14 of 40 (35.0%)</label>
+        <p class="fine">Mean MAR index 0.267, above the 0.2 reference line (Krumperman 1983, REF-004). Counts only; no per-isolate data (P01-E012).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band ink" id="register" aria-labelledby="reg-h">
+  <div class="wrap">
+    <h2 id="reg-h">Evidence behind every value</h2>
+    <div class="table-wrap"><table><thead><tr><th scope="col">ID</th><th scope="col">Claim</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead><tbody id="register-body">
+      <tr><td colspan="4">The full register is in 05-production-manifests/evidence.json.</td></tr></tbody></table></div>
+    <p class="fine">Pilot build for review. Not deployed to the live portfolio. Visual layers report their own status in the stage badge.</p>
+  </div>
+</section>
+</main>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

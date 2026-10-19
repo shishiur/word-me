@@ -1,0 +1,168 @@
+{
+  "generated": "2026-10-19",
+  "scenes": [
+    {
+      "id": "P01-S01",
+      "implementation": "implemented-tested",
+      "visualFidelity": "vector-fallback"
+    },
+    {
+      "id": "P01-S02",
+      "implementation": "implemented-tested",
+      "visualFidelity": "vector-fallback"
+    },
+    {
+      "id": "P01-S03",
+      "implementation": "implemented-tested",
+      "visualFidelity": "vector-fallback"
+    },
+    {
+      "id": "P01-S04",
+      "implementation": "implemented-tested",
+      "visualFidelity": "vector-final"
+    },
+    {
+      "id": "P01-S05",
+      "implementation": "implemented-tested",
+      "visualFidelity": "vector-fallback"
+    },
+    {
+      "id": "P02-S01",
+      "implementation": "specification",
+      "visualFidelity": "vector-concept"
+    },
+    {
+      "id": "P02-S02",
+      "implementation": "specification",
+      "visualFidelity": "vector-concept"
+    },
+    {
+      "id": "P03-S01",
+      "implementation": "specification",
+      "visualFidelity": "none"
+    },
+    {
+      "id": "P04-S01",
+      "implementation": "specification",
+      "visualFidelity": "none"
+    },
+    {
+      "id": "P05-S01",
+      "implementation": "specification",
+      "visualFidelity": "vector-concept"
+    },
+    {
+      "id": "P06-S01",
+      "implementation": "blocked-permission",
+      "visualFidelity": "none"
+    },
+    {
+      "id": "P07-S01",
+      "implementation": "specification",
+      "visualFidelity": "none"
+    },
+    {
+      "id": "P08-S01",
+      "implementation": "specification",
+      "visualFidelity": "vector-concept"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P01-S01-A001",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A002",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A003",
+      "status": "vector-final",
+      "tool": "code"
+    },
+    {
+      "id": "P01-S01-A010",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A011",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A012",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A013",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A014",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A015",
+      "status": "awaiting-generation",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S01-A004",
+      "status": "vector-final",
+      "tool": "code"
+    },
+    {
+      "id": "P01-S03-A030",
+      "status": "optional",
+      "tool": "image-generation"
+    },
+    {
+      "id": "P01-S03-A031",
+      "status": "vector-final",
+      "tool": "code"
+    },
+    {
+      "id": "P01-S04-A040",
+      "status": "missing",
+      "tool": "researcher-supplied"
+    },
+    {
+      "id": "P01-S05-A050",
+      "status": "vector-final",
+      "tool": "code"
+    }
+  ],
+  "summary": {
+    "assetsAwaitingGeneration": [
+      "P01-S01-A001",
+      "P01-S01-A002",
+      "P01-S01-A010",
+      "P01-S01-A011",
+      "P01-S01-A012",
+      "P01-S01-A013",
+      "P01-S01-A014",
+      "P01-S01-A015"
+    ],
+    "assetsMissingFromResearcher": [
+      "P01-S04-A040"
+    ],
+    "evidenceOpen": [
+      "P01-E004",
+      "P01-E006",
+      "P01-E007",
+      "P01-E012",
+      "P01-E013",
+      "P01-E014",
+      "P02-E003",
+      "P05-E002",
+      "P06-E001"
+    ]
+  }
+}

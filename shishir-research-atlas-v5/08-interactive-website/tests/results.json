@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-19 00:46 UTC",
+  "browser": "Chromium 141.0.7390.37 (headless)",
+  "url": "http://127.0.0.1:4173/",
+  "passed": 18,
+  "total": 18,
+  "checks": [
+    {
+      "id": "T01",
+      "name": "Loads without console errors; establishing → overview",
+      "ok": true,
+      "detail": "0 errors; loading→establishing establishing→overview; ready in 1391 ms"
+    },
+    {
+      "id": "T02",
+      "name": "Select hotspot → object-focused → evidence-revealed; camera zooms 1.6×; others dim",
+      "ok": true,
+      "detail": "zoom 1.600, dimmed 5 layers, spot 1"
+    },
+    {
+      "id": "T03",
+      "name": "Interrupting a focus move retargets cleanly (no stale reveal)",
+      "ok": true,
+      "detail": "final evidence-revealed(tool); stale basket reveals 0"
+    },
+    {
+      "id": "T04",
+      "name": "Escape resets to overview and the base camera",
+      "ok": true,
+      "detail": "scale 0.3375 vs base 0.3375"
+    },
+    {
+      "id": "T05",
+      "name": "Keyboard: number keys select, arrows cycle and move focus",
+      "ok": true,
+      "detail": "focus on water"
+    },
+    {
+      "id": "T06",
+      "name": "Focus move frame rate measured (headless Chromium, software GPU)",
+      "ok": true,
+      "detail": "51 fps during the 0.85 s focus move"
+    },
+    {
+      "id": "T07",
+      "name": "Selecting during the establishing dolly ends it and focuses",
+      "ok": true,
+      "detail": "loading→establishing establishing→overview overview→object-focused(board) object-focused→evidence-revealed(board)"
+    },
+    {
+      "id": "T08",
+      "name": "invA account switch re-labels the open panel, header path and later chapters",
+      "ok": true,
+      "detail": "header 0; S05 “presumptive isolates”"
+    },
+    {
+      "id": "T09",
+      "name": "Scroll-linked market → bench transition reverses on scroll up",
+      "ok": true,
+      "detail": "down: bench, back up: night"
+    },
+    {
+      "id": "T10",
+      "name": "Sieve step and colony filter",
+      "ok": true,
+      "detail": "count 62, marks 62, yellow opacity 0.1"
+    },
+    {
+      "id": "T11",
+      "name": "Zone simulator reads R/I/S against reference breakpoints and redraws the zone",
+      "ok": true,
+      "detail": "Resistant / Intermediate / Susceptible; zone r 64.888889"
+    },
+    {
+      "id": "T12",
+      "name": "MDR toggle shows 14 of 40 and no console errors across chapters",
+      "ok": true,
+      "detail": "14 marks; 0 errors"
+    },
+    {
+      "id": "T13",
+      "name": "axe-core: no serious or critical violations",
+      "ok": true,
+      "detail": "1 minor: heading-order"
+    },
+    {
+      "id": "T14",
+      "name": "Reduced motion: establishing skipped, focus applied in the same frame",
+      "ok": true,
+      "detail": "evidence-revealed immediately; zoom 1.60"
+    },
+    {
+      "id": "T15",
+      "name": "Phone: tap hotspot and chip; targets ≥ 32 px",
+      "ok": true,
+      "detail": "visible hotspots skin,flesh,basket,water,hands,tool,board; smallest 32px"
+    },
+    {
+      "id": "T16",
+      "name": "No horizontal scroll or errors at 1440, 1024, 768, 390, 360 px",
+      "ok": true,
+      "detail": "scrollWidth = viewport at every width"
+    },
+    {
+      "id": "T17",
+      "name": "JavaScript off: static composite, text and plate figures render",
+      "ok": true,
+      "detail": "composite 2400px wide, 7 chips, 2 plates"
+    },
+    {
+      "id": "T18",
+      "name": "Asset drop-in: checker PASS, then the site loads the generated layer at manifest coordinates",
+      "ok": true,
+      "detail": "checker PASS; layer generated at 1780px,1072px 584px; badge “1 of 8 generated layers · rest vector”"
+    }
+  ]
+}

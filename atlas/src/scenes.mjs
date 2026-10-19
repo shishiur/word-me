@@ -66,6 +66,7 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <linearGradient id="${p}gut" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d98476"/><stop offset="1" stop-color="#7c2a2a"/></linearGradient>
       <mask id="${p}spotMask"><rect width="1200" height="720" fill="#fff"/><circle class="spot-hole" cx="0" cy="0" r="112" fill="#000" filter="url(#${p}b30)" style="transform:translate(${sp[0]}px,${sp[1]}px)"/></mask>
     </defs>
+<!--L:A001-->
     <rect width="1200" height="720" fill="url(#${p}wall)"/>
     <rect width="1200" height="410" fill="url(#${p}tin)" opacity=".85"/>
     <g opacity=".9"><path d="M720 262 L1200 244 L1200 410 L720 414 Z" fill="#0b1516"/><path d="M720 262 L1200 244 L1200 256 L720 274 Z" fill="#1f3233"/>
@@ -73,15 +74,18 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
     <g fill="none" stroke="#3a5254" stroke-width="2.2" opacity=".55"><path d="M930 40 V86 M860 86 H1000 M866 86 L846 168 M866 86 L888 168 M994 86 L972 168 M994 86 L1016 168"/><path d="M838 168 Q867 190 896 168 M964 168 Q994 190 1024 168"/></g>
     <g filter="url(#${p}b6)">${bokeh}</g>
     <rect width="1200" height="720" fill="url(#${p}vig)"/>
+<!--L:A002-->
     <path d="M0 404 L1200 392 L1200 420 L0 432 Z" fill="#1c2e2f"/><path d="M0 404 L1200 392" stroke="#4c6563" stroke-width="1.5" opacity=".7"/>
     <path d="M0 432 L1200 420 L1200 720 L0 720 Z" fill="url(#${p}floor)"/>
     <g filter="url(#${p}b14)"><ellipse cx="384" cy="610" rx="40" ry="140" fill="#f3ac45" opacity=".2"/><ellipse cx="384" cy="474" rx="18" ry="44" fill="#ffd089" opacity=".32"/><ellipse cx="900" cy="690" rx="200" ry="20" fill="#9fc3c4" opacity=".06"/></g>
     <g fill="none" stroke="#f3ac45" stroke-opacity=".14" stroke-width="1.4"><ellipse cx="300" cy="684" rx="130" ry="8"/><ellipse cx="860" cy="700" rx="160" ry="7"/><ellipse cx="120" cy="660" rx="80" ry="5"/></g>
+<!--L:A003-->
     <path d="M368 126 L392 126 L840 720 L-60 720 Z" fill="#f3ac45" opacity=".045"/>
     <rect width="1200" height="720" fill="url(#${p}glow)"/>
     <path d="M380 0 V88" stroke="#1a1a1a" stroke-width="2.5"/><rect x="371" y="84" width="18" height="18" rx="3" fill="#2a2724"/><rect x="373" y="98" width="14" height="6" fill="#57514a"/>
     <g class="bulb"><circle cx="380" cy="120" r="74" fill="#ffc463" opacity=".34" filter="url(#${p}b14)"/><circle cx="380" cy="120" r="18" fill="url(#${p}bulb)"/><path d="M374 117 q6 -10 12 0" stroke="#fff6dc" stroke-width="1.5" fill="none"/></g>
 
+<!--L:O004-->
     <ellipse cx="208" cy="692" rx="136" ry="18" fill="#000" opacity=".55" filter="url(#${p}b6)"/>
     <g class="obj" data-matrix="water">
       <path d="M86 596 C92 656 142 690 206 690 C270 690 320 656 326 596 Z" fill="url(#${p}steel)"/>
@@ -91,6 +95,7 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <path d="M90 594 A120 32 0 0 1 200 564" fill="none" stroke="#fff" stroke-width="2" opacity=".6"/>
     </g>
 
+<!--L:O007-->
     <ellipse cx="530" cy="648" rx="206" ry="24" fill="#000" opacity=".6" filter="url(#${p}b6)"/>
     <g class="obj" data-matrix="board">
       <path d="M342 590 A178 50 0 0 0 698 590 L698 634 A178 50 0 0 1 342 634 Z" fill="url(#${p}woodSide)"/>
@@ -99,8 +104,10 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <ellipse cx="470" cy="574" rx="90" ry="14" fill="#fff" opacity=".08"/>
     </g>
     <g fill="#dfe8e6">${scales}</g>
+<!--L:O001-->
     <g class="obj" data-matrix="skin flesh"><g transform="translate(372 556) rotate(-4) scale(.31)">${fish.svg}</g></g>
 
+<!--L:O006-->
     <ellipse cx="840" cy="672" rx="150" ry="14" fill="#000" opacity=".55" filter="url(#${p}b6)"/>
     <g class="obj" data-matrix="tool">
       <path d="M704 648 L950 612 L962 630 L716 670 Z" fill="url(#${p}plank)"/><path d="M716 670 L962 630 L962 642 L718 684 Z" fill="#3a2414"/>
@@ -111,6 +118,7 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <path d="M700 520 C704 540 706 556 706 566" stroke="#b3424d" stroke-width="3" opacity=".35" fill="none"/>
     </g>
 
+<!--L:O003-->
     <ellipse cx="1036" cy="672" rx="140" ry="16" fill="#000" opacity=".6" filter="url(#${p}b6)"/>
     <g class="obj" data-matrix="basket">
       <path d="M910 578 C916 632 950 670 1030 672 C1110 670 1144 632 1150 578 Z" fill="url(#${p}weave)"/>
@@ -123,6 +131,7 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <path d="M954 580 C968 568 990 584 1008 576 M1074 580 q8 -4 14 0" stroke="#fff" stroke-width="2" opacity=".5" fill="none"/>
     </g>
 
+<!--L:O005-->
     <g class="obj" data-matrix="hands">
       <path d="M196 262 C250 322 322 410 374 476 L422 458 C374 392 302 302 252 236 Z" fill="url(#${p}arm)"/>
       <path d="M150 196 L258 168 L294 258 L204 296 Z" fill="url(#${p}check)"/><path d="M204 296 L294 258" stroke="#1d2f3e" stroke-width="4"/><path d="M150 196 L258 168" stroke="#7d9ab0" stroke-width="2" opacity=".6"/>
@@ -136,7 +145,9 @@ export function marketScene({ p = uid('ms'), spot = null, markers = false, leade
       <path d="M396 470 C414 462 440 466 458 482" fill="none" stroke="#e8b48e" stroke-width="2.2" opacity=".6"/>
       <path d="M262 250 C306 304 350 368 392 442" fill="none" stroke="#e8b48e" stroke-width="2" opacity=".4"/>
     </g>
+<!--L:A004-->
     ${grainRectS(p)}
+<!--L:END-->
     <rect class="spot-dim" width="1200" height="720" fill="#03080a" mask="url(#${p}spotMask)" opacity="${spot ? dimOp : 0}"/>
     ${leaders ? `<g class="leaders">${STATION.order.map(lead).join('')}</g>` : ''}
     ${markers ? `<g class="markers">${STATION.order.map(mark).join('')}</g>` : ''}

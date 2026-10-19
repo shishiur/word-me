@@ -1,0 +1,236 @@
+[
+  {
+    "id": "P01-S01",
+    "project": "P01",
+    "title": "Enter the fish-processing station",
+    "question": "Where were the samples taken?",
+    "purpose": "Establish the real working environment of a Sylhet wet-market cutter before any data appear.",
+    "states": [
+      "loading",
+      "establishing",
+      "overview"
+    ],
+    "evidence": [
+      "P01-E001",
+      "P01-E015"
+    ],
+    "implementation": "implemented-tested",
+    "visualFidelity": "vector-fallback"
+  },
+  {
+    "id": "P01-S02",
+    "project": "P01",
+    "title": "Explore the seven sampling matrices",
+    "question": "What did each surface show?",
+    "purpose": "Let the visitor select each sampled surface; the camera focuses and the record appears.",
+    "states": [
+      "overview",
+      "object-focused",
+      "evidence-revealed"
+    ],
+    "evidence": [
+      "P01-E005",
+      "P01-E006",
+      "P01-E007",
+      "P01-E014"
+    ],
+    "implementation": "implemented-tested",
+    "visualFidelity": "vector-fallback"
+  },
+  {
+    "id": "P01-S03",
+    "project": "P01",
+    "title": "Laboratory workflow",
+    "question": "How did 154 samples become 40 isolates?",
+    "purpose": "Move from market to bench and step through selective culture and biochemistry with count-only marks.",
+    "states": [
+      "samples",
+      "xld",
+      "biochem"
+    ],
+    "evidence": [
+      "P01-E001",
+      "P01-E002",
+      "P01-E003",
+      "REF-001"
+    ],
+    "implementation": "implemented-tested",
+    "visualFidelity": "vector-fallback"
+  },
+  {
+    "id": "P01-S04",
+    "project": "P01",
+    "title": "Molecular confirmation",
+    "question": "Were the isolates confirmed as Salmonella?",
+    "purpose": "Show the invA method and both conflicting accounts without drawing a gel.",
+    "states": [
+      "record",
+      "site"
+    ],
+    "evidence": [
+      "P01-E004",
+      "P01-E013",
+      "REF-002"
+    ],
+    "implementation": "implemented-tested",
+    "visualFidelity": "vector-final"
+  },
+  {
+    "id": "P01-S05",
+    "project": "P01",
+    "title": "Antimicrobial susceptibility",
+    "question": "How resistant were they?",
+    "purpose": "Read a disc-diffusion zone against reference breakpoints, then see the study’s aggregate counts.",
+    "states": [
+      "agent-selected",
+      "mdr"
+    ],
+    "evidence": [
+      "P01-E008",
+      "P01-E009",
+      "P01-E010",
+      "P01-E011",
+      "P01-E012",
+      "REF-003",
+      "REF-004",
+      "REF-005"
+    ],
+    "implementation": "implemented-tested",
+    "visualFidelity": "vector-fallback"
+  },
+  {
+    "id": "P02-S01",
+    "project": "P02",
+    "title": "Two places, one river system",
+    "question": "Where were the hilsa sampled?",
+    "purpose": "Static schematic of Surma River and Hakaluki Haor with n = 3 badges; no routes.",
+    "states": [
+      "overview",
+      "site-selected"
+    ],
+    "evidence": [
+      "P02-E001"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "vector-concept"
+  },
+  {
+    "id": "P02-S02",
+    "project": "P02",
+    "title": "One fish, one gene, 1,114 positions",
+    "question": "What did the genetics measure?",
+    "purpose": "Specimen → mitogenome → alignment thread; bases show as N until the FASTA arrives.",
+    "states": [
+      "specimen",
+      "mitogenome",
+      "thread"
+    ],
+    "evidence": [
+      "P02-E001",
+      "P02-E003"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "vector-concept"
+  },
+  {
+    "id": "P03-S01",
+    "project": "P03",
+    "title": "Three wetlands compared",
+    "question": "How do the wetlands differ in species and threat?",
+    "purpose": "Mangrove, floodplain and estuary panels with species unit marks coloured by IUCN category.",
+    "states": [
+      "overview",
+      "compare"
+    ],
+    "evidence": [
+      "P03-E001"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "none"
+  },
+  {
+    "id": "P04-S01",
+    "project": "P04",
+    "title": "From water to household",
+    "question": "Who depends on these fish?",
+    "purpose": "Findings, authors’ interpretation and recommendations in three separate registers.",
+    "states": [
+      "landscape",
+      "household",
+      "registers"
+    ],
+    "evidence": [
+      "P04-E001"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "none"
+  },
+  {
+    "id": "P05-S01",
+    "project": "P05",
+    "title": "From the gut to the bench",
+    "question": "What is being tested, and what is not yet known?",
+    "purpose": "Anatomical origin, then gastric and bile gates; four untested gates stay dashed.",
+    "states": [
+      "origin",
+      "gate-1",
+      "gate-2",
+      "untested"
+    ],
+    "evidence": [
+      "P05-E001",
+      "P05-E002"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "vector-concept"
+  },
+  {
+    "id": "P06-S01",
+    "project": "P06",
+    "title": "How field data is made",
+    "question": "How was the endline collected?",
+    "purpose": "Form, quality checks and comparison frame with no outcome values.",
+    "states": [
+      "form",
+      "checks",
+      "frame"
+    ],
+    "evidence": [
+      "P06-E001"
+    ],
+    "implementation": "blocked-permission",
+    "visualFidelity": "none"
+  },
+  {
+    "id": "P07-S01",
+    "project": "P07",
+    "title": "Effector structures",
+    "question": "What did the modelling predict?",
+    "purpose": "Mol* view of the real PDB entries; \"in silico prediction\" banner.",
+    "states": [
+      "picker",
+      "structure"
+    ],
+    "evidence": [
+      "P07-E001"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "none"
+  },
+  {
+    "id": "P08-S01",
+    "project": "P08",
+    "title": "Braided research channels",
+    "question": "How did the methods develop over time?",
+    "purpose": "Dated braid of four method channels; claimed transfers marked.",
+    "states": [
+      "overview",
+      "node-selected"
+    ],
+    "evidence": [
+      "P08-E001"
+    ],
+    "implementation": "specification",
+    "visualFidelity": "vector-concept"
+  }
+]

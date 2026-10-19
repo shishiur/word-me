@@ -1,0 +1,19 @@
+{
+  "name": "shishir-atlas-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/build-fallback-assets.mjs",
+    "dev": "npm run assets && vite",
+    "build": "npm run assets && tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "node tests/run.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0"
+  }
+}

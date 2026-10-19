@@ -1,0 +1,86 @@
+[
+  {
+    "id": "P01",
+    "title": "Salmonella and antimicrobial resistance in Sylhet wet markets",
+    "medium": "2.5D layered environment + deterministic lab illustration",
+    "motionSignature": "Spotlight camera: a single warm key light the visitor moves between surfaces",
+    "status": "pilot-implemented",
+    "evidence": [
+      "P01-E001",
+      "P01-E004"
+    ]
+  },
+  {
+    "id": "P02",
+    "title": "Hilsa (Tenualosa ilisha) molecular genetics",
+    "medium": "Specimen plate + SVG/Canvas alignment thread",
+    "motionSignature": "Inward zoom: fish → mitogenome → 1,114 positions, with n = 3 pinned",
+    "status": "specification",
+    "evidence": [
+      "P02-E001",
+      "P02-E002",
+      "P02-E003"
+    ]
+  },
+  {
+    "id": "P03",
+    "title": "Fish genetic resources and wetland biodiversity",
+    "medium": "Three-landscape comparison, unit charts by IUCN category",
+    "motionSignature": "Lateral pan between three wetlands; species marks re-sort on compare",
+    "status": "specification",
+    "evidence": [
+      "P03-E001"
+    ]
+  },
+  {
+    "id": "P04",
+    "title": "Ecosystem services and livelihoods",
+    "medium": "Layered landscape with people-scale vignettes; three evidence registers",
+    "motionSignature": "Vertical reveal from water to household; quotes rise into registers",
+    "status": "specification",
+    "evidence": [
+      "P04-E001"
+    ]
+  },
+  {
+    "id": "P05",
+    "title": "Pabda gut-derived bacterial screening (ongoing)",
+    "medium": "Anatomy cutaway + bench gates",
+    "motionSignature": "An isolate token travels gate to gate; empty gates never animate",
+    "status": "specification",
+    "evidence": [
+      "P05-E001",
+      "P05-E002"
+    ]
+  },
+  {
+    "id": "P06",
+    "title": "Safe-fish value-chain endline survey (name withheld)",
+    "medium": "Field-data trail without outcome values",
+    "motionSignature": "Form → check → frame: data being made, never results",
+    "status": "blocked-permission",
+    "evidence": [
+      "P06-E001"
+    ]
+  },
+  {
+    "id": "P07",
+    "title": "Rice-blast effector modelling (computational)",
+    "medium": "Mol* viewer of real PDB entries, lazy-loaded",
+    "motionSignature": "User-driven rotation only; no auto-spin",
+    "status": "specification",
+    "evidence": [
+      "P07-E001"
+    ]
+  },
+  {
+    "id": "P08",
+    "title": "Research Evolution",
+    "medium": "Braided channels over a dated axis",
+    "motionSignature": "Channels draw once, left to right; claimed transfers dash on hover only",
+    "status": "specification",
+    "evidence": [
+      "P08-E001"
+    ]
+  }
+]

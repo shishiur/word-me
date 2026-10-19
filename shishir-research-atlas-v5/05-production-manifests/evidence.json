@@ -1,0 +1,212 @@
+[
+  {
+    "id": "P01-E001",
+    "claim": "11 wet markets, 22 processing events, 7 matrices, 154 samples",
+    "status": "researcher-record",
+    "source": "Portfolio site (Aug 2026) and researcher brief agree",
+    "check": "Thesis methods chapter"
+  },
+  {
+    "id": "P01-E002",
+    "claim": "62 XLD-suspect candidates",
+    "status": "researcher-record",
+    "source": "Researcher brief only",
+    "check": "Thesis results; confirm whether the unit is samples or colonies"
+  },
+  {
+    "id": "P01-E003",
+    "claim": "40 biochemically compatible isolates retained",
+    "status": "researcher-record",
+    "source": "Site and brief agree",
+    "check": "Thesis results"
+  },
+  {
+    "id": "P01-E004",
+    "claim": "40 of 40 isolates invA PCR- and gel-confirmed",
+    "status": "disputed",
+    "source": "Researcher latest record; the August 2026 site text says no isolate gave an interpretable product",
+    "check": "Final thesis, uncropped gel with ladder and controls, primer pair and amplicon size"
+  },
+  {
+    "id": "P01-E005",
+    "claim": "Event-level detection: fish skin 9/22, viscera basket surface 8/22, cut flesh 3/22",
+    "status": "researcher-record",
+    "source": "Portfolio site",
+    "check": "Thesis matrix table"
+  },
+  {
+    "id": "P01-E006",
+    "claim": "Names of four further matrices (water, hands, tool, cutting surface)",
+    "status": "pending",
+    "source": "Inferred from the site phrase \"fish, water, handlers, tools and processing surfaces\"",
+    "check": "Thesis sampling protocol"
+  },
+  {
+    "id": "P01-E007",
+    "claim": "Detection counts for the four further matrices",
+    "status": "missing",
+    "source": "Not in any supplied record",
+    "check": "Thesis matrix table"
+  },
+  {
+    "id": "P01-E008",
+    "claim": "Ampicillin resistance 60% (24/40); tetracycline 50% (20/40)",
+    "status": "researcher-record",
+    "source": "Researcher brief; counts derived from n = 40",
+    "check": "Thesis AST table"
+  },
+  {
+    "id": "P01-E009",
+    "claim": "Cefotaxime and ciprofloxacin resistance \"lower but notable\"",
+    "status": "researcher-record",
+    "source": "Portfolio site; no values",
+    "check": "Thesis AST table"
+  },
+  {
+    "id": "P01-E010",
+    "claim": "MDR 14/40 (35.0%); mean MAR index 0.267",
+    "status": "researcher-record",
+    "source": "Site and brief",
+    "check": "Thesis AST table and MDR definition used"
+  },
+  {
+    "id": "P01-E011",
+    "claim": "12 agents tested, 9 interpreted",
+    "status": "researcher-record",
+    "source": "Researcher brief",
+    "check": "Reason for the three exclusions"
+  },
+  {
+    "id": "P01-E012",
+    "claim": "Per-isolate zone diameters",
+    "status": "missing",
+    "source": "Not supplied",
+    "check": "Per-isolate AST table with CLSI edition"
+  },
+  {
+    "id": "P01-E013",
+    "claim": "Gel photograph",
+    "status": "missing",
+    "source": "Not supplied; never drawn or generated",
+    "check": "Uncropped original image file"
+  },
+  {
+    "id": "P01-E014",
+    "claim": "Sampling method per matrix (swab, rinse, tissue)",
+    "status": "missing",
+    "source": "Not supplied",
+    "check": "Thesis protocol"
+  },
+  {
+    "id": "P01-E015",
+    "claim": "Station layout",
+    "status": "illustrative",
+    "source": "Reconstruction of a typical Bangladeshi fish-cutting station; not a measured site or transmission pathway",
+    "check": "Researcher field photographs, if consent exists"
+  },
+  {
+    "id": "REF-001",
+    "claim": "XLD colony appearance (red, black H2S centre)",
+    "status": "reference",
+    "source": "Standard XLD chemistry",
+    "check": null
+  },
+  {
+    "id": "REF-002",
+    "claim": "invA as a Salmonella PCR target",
+    "status": "reference",
+    "source": "Rahn et al., Mol. Cell. Probes 6:271–279 (1992), PMID 1528198",
+    "check": null
+  },
+  {
+    "id": "REF-003",
+    "claim": "Disc-diffusion breakpoints",
+    "status": "reference",
+    "source": "CLSI M100, Enterobacterales (from Claude’s knowledge; verify the edition the thesis used)",
+    "check": "CLSI M100 edition"
+  },
+  {
+    "id": "REF-004",
+    "claim": "MAR > 0.2 threshold",
+    "status": "reference",
+    "source": "Krumperman, Appl. Environ. Microbiol. 46:165–170 (1983), PMID 6351743",
+    "check": null
+  },
+  {
+    "id": "REF-005",
+    "claim": "MDR definition",
+    "status": "reference",
+    "source": "Magiorakos et al., Clin. Microbiol. Infect. 18:268–281 (2012), PMID 21793988",
+    "check": "Thesis definition"
+  },
+  {
+    "id": "P02-E001",
+    "claim": "cytb alignment of 1,114 positions, 1,099 invariant; n = 3 per site (Hakaluki Haor, Surma River), May–Oct 2023",
+    "status": "published",
+    "source": "Sunny et al., Oceans 7(3):38 (2026), doi:10.3390/oceans7030038",
+    "check": null
+  },
+  {
+    "id": "P02-E002",
+    "claim": "FST 0.000–0.017; one stock in the Sylhet haor–river system",
+    "status": "published",
+    "source": "EJABF 29(1):1089–1105 (2025), doi:10.21608/ejabf.2025.408729 (via secondary records)",
+    "check": "Read the EJABF PDF directly"
+  },
+  {
+    "id": "P02-E003",
+    "claim": "Alignment FASTA, GenBank accessions, tissue type, Bhuyian’s lab role",
+    "status": "missing",
+    "source": "Not supplied",
+    "check": "Researcher files"
+  },
+  {
+    "id": "P03-E001",
+    "claim": "3 wetlands (Sundarbans, Sylhet floodplain, Meghna basin); 165 species; vulnerable shares 12/15/9%",
+    "status": "published",
+    "source": "Limnological Review 25(2):20 (2025), doi:10.3390/limnolrev25020020",
+    "check": null
+  },
+  {
+    "id": "P04-E001",
+    "claim": "60 species; household surveys of livelihood dependence and cultural practice",
+    "status": "published",
+    "source": "Oceans 7(3):38 (2026)",
+    "check": "Exact household counts from the paper"
+  },
+  {
+    "id": "P05-E001",
+    "claim": "Ongoing project SAURES-UGC-2025-26-Fish-067: gut-derived isolates, gastric and bile tolerance, CFU enumeration",
+    "status": "researcher-record",
+    "source": "Researcher brief",
+    "check": "Award letter and role"
+  },
+  {
+    "id": "P05-E002",
+    "claim": "Species identity (Priestia/Bacillus reported)",
+    "status": "withheld",
+    "source": "Unverified; withheld until 16S data",
+    "check": "16S rRNA sequencing results"
+  },
+  {
+    "id": "P06-E001",
+    "claim": "PRCC Safe Fish endline, Mar–Sep 2025, research assistant role",
+    "status": "withheld",
+    "source": "Researcher brief; name withheld pending PRCC permission",
+    "check": "Written PRCC permission"
+  },
+  {
+    "id": "P07-E001",
+    "claim": "14 effector structures, AutoDock Vina, 100 ns GROMACS MD; 13th of 17 authors; no experimental validation",
+    "status": "published",
+    "source": "PLOS ONE 20(1):e0307352 (2025), PMID 39854296",
+    "check": null
+  },
+  {
+    "id": "P08-E001",
+    "claim": "Dated chronology 2023–2026",
+    "status": "published",
+    "source": "Publication dates as above; thesis, Pabda and survey dates are researcher-record",
+    "check": "CV"
+  }
+]
