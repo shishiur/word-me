@@ -38,7 +38,7 @@ h1 .en, h2 .en, h3 .en{ font-weight:400; color:var(--muted); font-size:0.72em; d
 
 /* ---------- chapter opener ---------- */
 .chapter-opener{ break-before:page; margin:0 0 10pt; }
-.chapter-opener .kicker{ font-family:"Tinos","Noto Sans Bengali"; font-size:10pt; letter-spacing:1.2pt;
+.chapter-opener .kicker{ font-family:"Tinos","Noto Sans Bengali"; font-size:10pt; letter-spacing:0;
   color:var(--teal); text-transform:uppercase; margin-bottom:2pt; }
 .chapter-opener h1{ break-before:avoid; }
 .chapter-opener .banner{ width:100%; display:block; margin:0 0 10pt; border-radius:3pt; }
@@ -48,7 +48,7 @@ h1 .en, h2 .en, h3 .en{ font-weight:400; color:var(--muted); font-size:0.72em; d
 
 /* ---------- boxes ---------- */
 .box{ break-inside:avoid; border-radius:4pt; padding:9pt 11pt 6pt; margin:9pt 0 11pt; font-size:10.6pt; line-height:1.55; text-align:left; }
-.box > .label, .label{ font-family:"Tinos","Noto Sans Bengali"; font-weight:700; font-size:9pt; letter-spacing:0.8pt;
+.box > .label, .label{ font-family:"Tinos","Noto Sans Bengali"; font-weight:700; font-size:9.2pt; letter-spacing:0;
   text-transform:uppercase; display:block; margin-bottom:3pt; }
 .concept{ background:var(--mist); border-left:4pt solid var(--teal); }
 .concept .label{ color:var(--teal); }
@@ -147,3 +147,23 @@ ul li::marker{ color:var(--teal); }
 .toc a{ border:none; color:var(--ink); }
 .refs p{ padding-left:18pt; text-indent:-18pt; text-align:left; font-size:10pt; }
 .html-only{} .docx-only{ display:none; }
+
+/* ---------- table of contents ---------- */
+.toc-page{ break-before:page; break-after:page; }
+.toc-title{ font-family:"Noto Sans Bengali"; font-weight:700; font-size:24pt; color:var(--hnavy); }
+.toc-sub{ font-family:"Tinos"; color:var(--muted); font-size:12pt; margin-bottom:10pt; border-bottom:2.2pt solid var(--ulblue); padding-bottom:5pt; }
+.toc-list{ list-style:none; padding:0; margin:0; }
+.toc-list li{ display:flex; align-items:baseline; gap:4pt; margin:0; padding:1.6pt 0; font-size:10.4pt; line-height:1.4; text-align:left; }
+.toc-list li .t{ flex:0 1 auto; }
+.toc-list li .dots{ flex:1 1 auto; border-bottom:0.8pt dotted #9fb2bd; transform:translateY(-3pt); min-width:12pt; }
+.toc-list li .p{ flex:0 0 auto; font-family:"Noto Sans Bengali"; color:var(--teal); font-weight:700; }
+.toc-list li a{ border:none; color:var(--ink); }
+.toc-list li.toc-part{ margin-top:7pt; font-family:"Noto Sans Bengali"; font-weight:700; font-size:11.2pt; }
+.toc-list li.toc-part a{ color:var(--hnavy); }
+.toc-list li.toc-ch{ padding-left:12pt; }
+/* briefs */
+.sheet.brief{ break-before:page; }
+.sheet.brief:first-of-type{ break-before:auto; }
+.h1en{ font-family:"Tinos"; color:var(--muted); font-size:13pt; margin:-9pt 0 12pt; letter-spacing:0.2pt; }
+.divider .inner p{ color:#DCEBEF; font-size:12pt; max-width:140mm; text-align:left; }
+.divider h1.part{ color:#fff; border:none; font-size:30pt; break-before:avoid; margin-top:4pt; }
