@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 980" width="161.5mm" height="98.0mm" role="img" aria-labelledby="t d"><title id="t">দশ পাঠের উৎস-সংযোগ মানচিত্র</title><desc id="d">দশটি পাঠের নোড ও তাদের মধ্যে যাচাইকৃত উদ্ধৃতি-সংযোগ (নিরেট) ও প্রস্তাবিত ধারণাগত সংযোগ (ড্যাশ)।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="980" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<line x1="180" y1="160" x2="180" y2="420" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="180.0" y="280.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">নকশা-নীতি</text>
+<line x1="180" y1="160" x2="520" y2="720" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="350.0" y="430.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">নকশা-নীতি</text>
+<line x1="180" y1="420" x2="520" y2="720" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="350.0" y="560.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">CPR সংজ্ঞা</text>
+<line x1="520" y1="160" x2="520" y2="420" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="520.0" y="280.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">Table 1 অভিযোজিত</text>
+<line x1="520" y1="720" x2="860" y2="720" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="690.0" y="710.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">সংজ্ঞা</text>
+<line x1="520" y1="720" x2="1200" y2="820" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="860.0" y="760.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">মূল প্রবন্ধ</text>
+<line x1="1200" y1="560" x2="1200" y2="820" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="1200.0" y="680.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">কেস-ভিত্তি</text>
+<line x1="1200" y1="820" x2="1420" y2="290" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="1310.0" y="545.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">Fig 5.2</text>
+<line x1="520" y1="160" x2="1420" y2="290" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="970.0" y="215.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">উদ্ধৃতি</text>
+<line x1="180" y1="420" x2="1420" y2="290" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="800.0" y="345.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">CPR সংজ্ঞা</text>
+<line x1="520" y1="420" x2="860" y2="290" stroke="#7e98a6" stroke-width="3" marker-end="url(#ah-solid)"/>
+<text x="690.0" y="345.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">SES</text>
+<line x1="860" y1="290" x2="1200" y2="820" stroke="#7e98a6" stroke-width="3" stroke-dasharray="16 10" marker-end="url(#ah-dashed)"/>
+<text x="1030.0" y="545.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">স্থিতি বনাম গতিশীলতা</text>
+<rect x="30" y="110" width="300" height="100" rx="16" fill="#fff" stroke="#103553" stroke-width="4" opacity="1"/>
+<text x="180" y="152" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">W01</text>
+<text x="180" y="192" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Ostrom 1990</text>
+<rect x="30" y="370" width="300" height="100" rx="16" fill="#fff" stroke="#103553" stroke-width="4" opacity="1"/>
+<text x="180" y="412" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">W02</text>
+<text x="180" y="452" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Ostrom et al. 1999</text>
+<rect x="370" y="110" width="300" height="100" rx="16" fill="#fff" stroke="#103553" stroke-width="4" opacity="1"/>
+<text x="520" y="152" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">W03</text>
+<text x="520" y="192" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Ostrom 2007</text>
+<rect x="370" y="370" width="300" height="100" rx="16" fill="#fff" stroke="#103553" stroke-width="4" opacity="1"/>
+<text x="520" y="412" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">W04</text>
+<text x="520" y="452" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Ostrom 2009</text>
+<rect x="710" y="240" width="300" height="100" rx="16" fill="#fff" stroke="#4D94B5" stroke-width="4" opacity="1"/>
+<text x="860" y="282" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#4D94B5" text-anchor="middle" letter-spacing="0">W05</text>
+<text x="860" y="322" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Agrawal et al. 2023</text>
+<rect x="370" y="670" width="300" height="100" rx="16" fill="#fff" stroke="#147C80" stroke-width="4" opacity="1"/>
+<text x="520" y="712" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">W06</text>
+<text x="520" y="752" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Nayak &amp; Berkes 2011</text>
+<rect x="710" y="670" width="300" height="100" rx="16" fill="#fff" stroke="#147C80" stroke-width="4" opacity="1"/>
+<text x="860" y="712" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">W07</text>
+<text x="860" y="752" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Galappaththi &amp; Nayak 2017</text>
+<rect x="1050" y="510" width="300" height="100" rx="16" fill="#fff" stroke="#147C80" stroke-width="4" opacity="1"/>
+<text x="1200" y="552" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">W08</text>
+<text x="1200" y="592" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Nayak (সম্পা.) 2021</text>
+<rect x="1050" y="770" width="300" height="100" rx="16" fill="#fff" stroke="#147C80" stroke-width="4" opacity="1"/>
+<text x="1200" y="812" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">W09</text>
+<text x="1200" y="852" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Nayak &amp; Berkes 2022</text>
+<rect x="1270" y="240" width="300" height="100" rx="16" fill="#fff" stroke="#4E7960" stroke-width="4" opacity="1"/>
+<text x="1420" y="282" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#4E7960" text-anchor="middle" letter-spacing="0">W10</text>
+<text x="1420" y="322" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Berkes &amp; Franz 2025</text>
+<text x="40" y="950" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="25" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">নিরেট তীর = লক্ষ্য-পাঠ উৎস-পাঠটিকে স্পষ্টভাবে উদ্ধৃত/অভিযোজিত করেছে (যাচাইকৃত উদ্ধৃতি)। ড্যাশ = আমাদের প্রস্তাবিত ধারণাগত সংলাপ, উদ্ধৃতি নয়।</text></svg>

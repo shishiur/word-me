@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 1200" width="161.5mm" height="120.0mm" role="img" aria-labelledby="t d"><title id="t">পণ্যের ধরন ও সম্পত্তি-অধিকার ব্যবস্থা</title><desc id="d">উপরে দুই অক্ষের ২×২ ছক: বর্জনযোগ্যতা ও বিয়োজ্যতা অনুযায়ী ব্যক্তিগত, ক্লাব, সাধারণ-পুল ও জনপণ্য। নিচে দেখানো হয়েছে, একই সাধারণ-পুল সম্পদ চারটি ভিন্ন সম্পত্তি-অধিকার ব্যবস্থার অধীনে থাকতে পারে: উন্মুক্ত প্রবেশ, গোষ্ঠী সম্পত্তি, রাষ্ট্রীয় সম্পত্তি ও ব্যক্তিগত সম্পত্তি।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="1200" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<text x="970" y="52" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">বর্জনযোগ্যতা (excludability): কাউকে বাদ দেওয়া কতটা সহজ?</text>
+<text x="650.0" y="104" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">সহজ</text>
+<text x="1290.0" y="104" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">কঠিন / ব্যয়বহুল</text>
+<text transform="translate(48,430) rotate(-90)" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle">বিয়োজ্যতা (subtractability)</text>
+<text x="250" y="274.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="700" fill="#55636E" text-anchor="end" letter-spacing="0">উচ্চ:</text>
+<text x="250" y="318.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">ভাগ কমে</text>
+<text x="250" y="574.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="700" fill="#55636E" text-anchor="end" letter-spacing="0">নিম্ন:</text>
+<text x="250" y="618.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">ভাগ কমে না</text>
+<rect x="338" y="138" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="650.0" y="215" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">ব্যক্তিগত পণ্য</text>
+<text x="650.0" y="262" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Private goods</text>
+<text x="650.0" y="345" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">উদাহরণ: বাজারে কেনা এক কেজি মাছ</text>
+<rect x="978" y="138" width="624" height="284" rx="14" fill="#E2F0EE" stroke="#147C80" stroke-width="5" opacity="1"/>
+<text x="1290.0" y="215" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">সাধারণ-পুল সম্পদ</text>
+<text x="1290.0" y="262" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Common-pool resource (CPR)</text>
+<text x="1290.0" y="345" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">উদাহরণ: হাওরের মাছের মজুদ</text>
+<rect x="338" y="438" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="650.0" y="515" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">ক্লাব / টোল পণ্য</text>
+<text x="650.0" y="562" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Club (toll) goods</text>
+<text x="650.0" y="645" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">উদাহরণ: টোল দিয়ে পার হওয়ার সেতু</text>
+<rect x="978" y="438" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1290.0" y="515" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">জনপণ্য</text>
+<text x="1290.0" y="562" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Public goods</text>
+<text x="1290.0" y="645" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">উদাহরণ: রেডিওতে ঘূর্ণিঝড়-সতর্কবার্তা</text>
+<rect x="1140" y="118" width="300" height="44" rx="8" fill="#147C80" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1290" y="149" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">এই বইয়ের কেন্দ্র</text>
+<text x="970" y="774" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#8a5d0c" text-anchor="middle" letter-spacing="0">সতর্কতা: দুই মাত্রাই প্রযুক্তি ও প্রতিষ্ঠানে বদলায় (কাঁটাতার, জিপিএস, লিজ-চুক্তি)</text>
+<path d="M1606,295.0 C1670,400.0 1650,790 1482.0,852" stroke="#147C80" stroke-width="5" fill="none" opacity="1" marker-end="url(#ah-solid)"/>
+<rect x="30" y="850" width="1555" height="330" rx="14" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="60" y="902" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">একই সম্পদ, ভিন্ন সম্পত্তি-অধিকার ব্যবস্থা (property-rights regime): মানুষের তৈরি নিয়ম</text>
+<rect x="55" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#B6684F" stroke-width="4" opacity="1"/>
+<rect x="55" y="930" width="362" height="14" rx="4" fill="#B6684F" stroke="none" stroke-width="0" opacity="1"/>
+<text x="236.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">উন্মুক্ত প্রবেশ</text>
+<text x="236.0" y="1046" font-family="Tinos, Noto Serif Bengali, serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Open access</text>
+<text x="236.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">কার্যকর অধিকার নেই</text>
+<rect x="440" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#4E7960" stroke-width="4" opacity="1"/>
+<rect x="440" y="930" width="362" height="14" rx="4" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="621.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">গোষ্ঠী সম্পত্তি</text>
+<text x="621.0" y="1046" font-family="Tinos, Noto Serif Bengali, serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Group property</text>
+<text x="621.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">দল বাইরের লোক ঠেকায়</text>
+<rect x="825" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#4D94B5" stroke-width="4" opacity="1"/>
+<rect x="825" y="930" width="362" height="14" rx="4" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1006.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">রাষ্ট্রীয় সম্পত্তি</text>
+<text x="1006.0" y="1046" font-family="Tinos, Noto Serif Bengali, serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Government property</text>
+<text x="1006.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">রাষ্ট্র অনুমতি/নিয়ন্ত্রণ দেয়</text>
+<rect x="1210" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#D8A34A" stroke-width="4" opacity="1"/>
+<rect x="1210" y="930" width="362" height="14" rx="4" fill="#D8A34A" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1391.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">ব্যক্তিগত সম্পত্তি</text>
+<text x="1391.0" y="1046" font-family="Tinos, Noto Serif Bengali, serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Individual property</text>
+<text x="1391.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">বাদ দিতে ও বেচতে পারে</text></svg>

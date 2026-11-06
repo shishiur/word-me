@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 760" width="161.5mm" height="76.0mm" role="img" aria-labelledby="t d"><title id="t">নেপালের সেচ: মালিকানা বনাম শস্য-তীব্রতা</title><desc id="d">দণ্ডচিত্র: মাথার দিকে কৃষক-মালিকানাধীন ২৪৬% বনাম সরকারি ২০৮%; লেজের দিকে ২৩৭% বনাম ১৮২%।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="760" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<line x1="240" y1="620.0" x2="1560" y2="620.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="230" y="630.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">0%</text>
+<line x1="240" y1="450.0" x2="1560" y2="450.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="230" y="460.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">100%</text>
+<line x1="240" y1="280.0" x2="1560" y2="280.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="230" y="290.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">200%</text>
+<line x1="240" y1="110.0" x2="1560" y2="110.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="230" y="120.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">300%</text>
+<rect x="340" y="201.8" width="180" height="418.2" rx="4" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="430" y="185.8" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">246%</text>
+<rect x="560" y="266.40000000000003" width="180" height="353.59999999999997" rx="4" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="650" y="250.40000000000003" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">208%</text>
+<text x="540" y="670" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">মাথার দিক (head-end)</text>
+<text x="540" y="712" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">F=10.51, P=0.002</text>
+<rect x="980" y="217.10000000000002" width="180" height="402.9" rx="4" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1070" y="201.10000000000002" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">237%</text>
+<rect x="1200" y="310.6" width="180" height="309.4" rx="4" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1290" y="294.6" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">182%</text>
+<text x="1180" y="670" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">লেজের দিক (tail-end)</text>
+<text x="1180" y="712" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">F=20.33, P=0.004</text>
+<rect x="1180" y="40" width="30" height="30" rx="4" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1222" y="66" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">কৃষক-মালিকানা (N=97)</text>
+<rect x="1180" y="90" width="30" height="30" rx="4" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1222" y="116" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">সরকারি মালিকানা (N=21)</text>
+<text x="40" y="60" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">শস্য-তীব্রতা (%)</text>
+<text x="1595" y="750" font-family="Tinos, Noto Serif Bengali, serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">তথ্য: Ostrom et al. (1999) Table 2, Lam (1998) p.106 থেকে; মান হুবহু, চিত্র মৌলিক। ১০০% = এক মৌসুমে সব জমি পূর্ণ ব্যবহার।</text></svg>

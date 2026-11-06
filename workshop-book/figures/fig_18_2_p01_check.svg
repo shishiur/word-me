@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 700" width="161.5mm" height="70.0mm" role="img" aria-labelledby="t d"><title id="t">P01 অভ্যন্তরীণ সামঞ্জস্য-পরীক্ষা</title><desc id="d">ছয়টি যাচাই-বিন্দুতে প্রবন্ধের ভেতরের অসামঞ্জস্য ও রেফারেন্স-যাচাইয়ের ফল।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="700" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="20" y="20" width="1575" height="80" rx="10" fill="#103553" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="72" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="start" letter-spacing="0">যাচাই-বিন্দু</text>
+<text x="450" y="72" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="start" letter-spacing="0">এক জায়গায় যা লেখা</text>
+<text x="1030" y="72" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="start" letter-spacing="0">অন্য জায়গায় যা লেখা</text>
+<rect x="20" y="110" width="1575" height="82" rx="6" fill="#F8ECE7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="162" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">নমুনা-সংখ্যা</text>
+<text x="450" y="162" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">পদ্ধতি: প্রতিটি স্থানে ৬০</text>
+<text x="1030" y="162" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">ফলাফল: প্রতিটি স্থানে ৩০ (মোট ৯০)</text>
+<rect x="20" y="200" width="1575" height="82" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="252" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">টিস্যু</text>
+<text x="450" y="252" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">সংরক্ষণ: পাখনা, ইথানলে</text>
+<text x="1030" y="252" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">DNA: 'muscle tissue' থেকে</text>
+<rect x="20" y="290" width="1575" height="82" rx="6" fill="#F8ECE7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="342" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">হ্যাপ্লোটাইপ</text>
+<text x="450" y="342" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">মাত্র ৩টি হ্যাপ্লোটাইপ</text>
+<text x="1030" y="342" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">Hd = 1.000 ('প্রতিটি নমুনা অনন্য')</text>
+<rect x="20" y="380" width="1575" height="82" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="432" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">বৈচিত্র্য-মান</text>
+<text x="450" y="432" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">π প্রতি-সাইট অনুপাত (সাধারণত &lt;০.০৫)</text>
+<text x="1030" y="432" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">রিপোর্ট: PiJC = 2.50198</text>
+<rect x="20" y="470" width="1575" height="82" rx="6" fill="#F8ECE7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="522" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">পৃথকীকরণ</text>
+<text x="450" y="522" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">FST জনগোষ্ঠী-স্তরের পরিমাপ</text>
+<text x="1030" y="522" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">তুলনা: একক GenBank অ্যাক্সেশনের সঙ্গে</text>
+<rect x="20" y="560" width="1575" height="82" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="40" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">রেফারেন্স (নমুনা ৪টি DOI)</text>
+<text x="450" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">১টি মিলেছে (Sultana et al. 2022)</text>
+<text x="1030" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#B6684F" text-anchor="start" letter-spacing="0">৩টি সম্পূর্ণ ভিন্ন প্রবন্ধে যায়</text>
+<text x="1595" y="690" font-family="Tinos, Noto Serif Bengali, serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">উৎস: Sunny et al. (2025) EJABF 29(1):1089–1105 পূর্ণপাঠ; DOI যাচাই Crossref API, ৬ নভেম্বর ২০২৬</text></svg>

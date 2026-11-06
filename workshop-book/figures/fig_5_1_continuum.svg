@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 760" width="161.5mm" height="76.0mm" role="img" aria-labelledby="t d"><title id="t">commonisation–decommonisation ধারাবাহিকতা</title><desc id="d">একটি রঙিন অনুভূমিক দণ্ডে বাঁদিকে প্রবল decommonisation, ডানদিকে প্রবল commonisation; নিচে প্রতিকূল শর্ত, যুগপৎ প্রক্রিয়া ও অনুকূল শর্তের তালিকা।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="760" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#B6684F"/><stop offset="0.5" stop-color="#E8E1CF"/><stop offset="1" stop-color="#4E7960"/></linearGradient></defs>
+<rect x="120" y="300" width="1375" height="70" rx="35" fill="url(#cg)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="140" y="270" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#B6684F" text-anchor="start" letter-spacing="0">← প্রবল decommonisation</text>
+<text x="1475" y="270" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#4E7960" text-anchor="end" letter-spacing="0">প্রবল commonisation →</text>
+<text x="807" y="345" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">একই ধারাবাহিকতায় দুই দিকেই চলা সম্ভব</text>
+<path d="M807,250 C700,150 400,150 300,240" stroke="#B6684F" stroke-width="6" fill="none" opacity="1" marker-end="url(#ah-solid)"/>
+<path d="M807,250 C910,150 1200,150 1310,240" stroke="#4E7960" stroke-width="6" fill="none" opacity="1" marker-end="url(#ah-solid)"/>
+<circle cx="807" cy="250" r="18" fill="#12334B"/>
+<text x="807" y="120" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">বর্তমান অবস্থা</text>
+<rect x="120" y="420" width="445" height="300" rx="14" fill="#F8ECE7" stroke="#B6684F" stroke-width="3" opacity="1"/>
+<text x="142" y="470" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#B6684F" text-anchor="start" letter-spacing="0">প্রতিকূল শর্ত</text>
+<text x="142" y="520.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">উচ্চ ও বর্ধিষ্ণু জনঘনত্ব</text>
+<text x="142" y="559.2" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">কেন্দ্রীভূত রাষ্ট্র-নিয়ন্ত্রণ</text>
+<text x="142" y="598.4" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">ব্যক্তিকরণ-অনুকূল নীতি</text>
+<text x="142" y="637.6" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">প্রথাগত অধিকার বিতর্কিত</text>
+<text x="142" y="676.8" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">সম্পদ-অবক্ষয়</text>
+<rect x="575" y="420" width="445" height="300" rx="14" fill="#EEF3F6" stroke="#103553" stroke-width="3" opacity="1"/>
+<text x="597" y="470" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">যুগপৎ প্রক্রিয়া</text>
+<text x="597" y="520.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">কিছু উপাদানে commonisation,</text>
+<text x="597" y="559.2" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">অন্য উপাদানে decommonisation</text>
+<text x="597" y="598.4" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">(যেমন Seri মৎস্য)</text>
+<text x="597" y="637.6" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">সংযোগ থাকলে: co-evolution</text>
+<text x="597" y="676.8" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">(Nayak &amp; Berkes 2022 §3)</text>
+<rect x="1030" y="420" width="445" height="300" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="1052" y="470" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#4E7960" text-anchor="start" letter-spacing="0">অনুকূল শর্ত</text>
+<text x="1052" y="520.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">নিম্ন জনঘনত্ব</text>
+<text x="1052" y="559.2" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">স্থানীয় প্রতিষ্ঠান নেতৃত্বে</text>
+<text x="1052" y="598.4" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">সম্প্রদায়-নিয়ন্ত্রণ অনুকূল নীতি</text>
+<text x="1052" y="637.6" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">প্রথাগত অধিকার স্বীকৃত</text>
+<text x="1052" y="676.8" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">অনুকূল সম্পদ-অবস্থা</text>
+<text x="1595" y="752" font-family="Tinos, Noto Serif Bengali, serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Nayak &amp; Berkes (2011 Fig.1; 2022 Fig.1) ও Berkes et al. (2025 Fig.5.2) অবলম্বনে মৌলিক পুনর্নির্মাণ; 'অনুকূল' শব্দটি লেখকদের স্বীকৃত মূল্যবোধগত অবস্থান</text></svg>

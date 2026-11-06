@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 720" width="161.5mm" height="72.0mm" role="img" aria-labelledby="t d"><title id="t">দশটি চলক ও স্ব-সংগঠন</title><desc id="d">Ostrom 2009-এর দশটি চলকের প্রস্তাবিত প্রভাবের গুণগত আকৃতি: আকার ও উৎপাদনশীলতা কুঁজ-আকৃতি, সচলতা নেতিবাচক, ব্যবহারকারী-সংখ্যা শর্তসাপেক্ষ, বাকিগুলো ধনাত্মক।</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="720" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="10" y="20" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="168.0" y="64" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">RS3 আকার</text>
+<line x1="50" y1="270" x2="296" y2="270" stroke="#55636E" stroke-width="2"/>
+<line x1="50" y1="270" x2="50" y2="110" stroke="#55636E" stroke-width="2"/>
+<path d="M50,250 C136.1,110 209.9,110 296,250" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="296" y="302" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="332" y="20" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="490.0" y="64" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">RS5 উৎপাদনশীলতা</text>
+<line x1="372" y1="270" x2="618" y2="270" stroke="#55636E" stroke-width="2"/>
+<line x1="372" y1="270" x2="372" y2="110" stroke="#55636E" stroke-width="2"/>
+<path d="M372,250 C458.1,110 531.9,110 618,250" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="618" y="302" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="654" y="20" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="812.0" y="64" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">RS7 পূর্বাভাসযোগ্যতা</text>
+<line x1="694" y1="270" x2="940" y2="270" stroke="#55636E" stroke-width="2"/>
+<line x1="694" y1="270" x2="694" y2="110" stroke="#55636E" stroke-width="2"/>
+<path d="M694,250 C792.4,230 841.6,126.0 940,118.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="940" y="302" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="976" y="20" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1134.0" y="64" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">RU1 সচলতা</text>
+<line x1="1016" y1="270" x2="1262" y2="270" stroke="#55636E" stroke-width="2"/>
+<line x1="1016" y1="270" x2="1016" y2="110" stroke="#55636E" stroke-width="2"/>
+<path d="M1016,118.0 C1114.4,126.0 1163.6,230 1262,250" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="1262" y="302" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="1298" y="20" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1456.0" y="64" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">U1 ব্যবহারকারী</text>
+<line x1="1338" y1="270" x2="1584" y2="270" stroke="#55636E" stroke-width="2"/>
+<line x1="1338" y1="270" x2="1338" y2="110" stroke="#55636E" stroke-width="2"/>
+<path d="M1338,160 L1584,230" stroke="#D8A34A" stroke-width="4" fill="none" opacity="1" stroke-dasharray="16 10"/>
+<path d="M1338,210 L1584,150" stroke="#D8A34A" stroke-width="5" fill="none" opacity="1" stroke-dasharray="16 10"/>
+<text x="1584" y="302" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="10" y="350" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="168.0" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">U5 নেতৃত্ব</text>
+<line x1="50" y1="600" x2="296" y2="600" stroke="#55636E" stroke-width="2"/>
+<line x1="50" y1="600" x2="50" y2="440" stroke="#55636E" stroke-width="2"/>
+<path d="M50,580 C148.4,560 197.6,456.0 296,448.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="296" y="632" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="332" y="350" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="490.0" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">U6 সামাজিক পুঁজি</text>
+<line x1="372" y1="600" x2="618" y2="600" stroke="#55636E" stroke-width="2"/>
+<line x1="372" y1="600" x2="372" y2="440" stroke="#55636E" stroke-width="2"/>
+<path d="M372,580 C470.4,560 519.6,456.0 618,448.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="618" y="632" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="654" y="350" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="812.0" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">U7 SES-জ্ঞান</text>
+<line x1="694" y1="600" x2="940" y2="600" stroke="#55636E" stroke-width="2"/>
+<line x1="694" y1="600" x2="694" y2="440" stroke="#55636E" stroke-width="2"/>
+<path d="M694,580 C792.4,560 841.6,456.0 940,448.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="940" y="632" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="976" y="350" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1134.0" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">U8 সম্পদের গুরুত্ব</text>
+<line x1="1016" y1="600" x2="1262" y2="600" stroke="#55636E" stroke-width="2"/>
+<line x1="1016" y1="600" x2="1016" y2="440" stroke="#55636E" stroke-width="2"/>
+<path d="M1016,580 C1114.4,560 1163.6,456.0 1262,448.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="1262" y="632" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<rect x="1298" y="350" width="316" height="300" rx="10" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1456.0" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">GS6 নিয়ম-স্বায়ত্তশাসন</text>
+<line x1="1338" y1="600" x2="1584" y2="600" stroke="#55636E" stroke-width="2"/>
+<line x1="1338" y1="600" x2="1338" y2="440" stroke="#55636E" stroke-width="2"/>
+<path d="M1338,580 C1436.4,560 1485.6,456.0 1584,448.0" stroke="#147C80" stroke-width="5" fill="none" opacity="1"/>
+<text x="1584" y="632" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">চলকের মান →</text>
+<text x="1605" y="712" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="25" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">y = স্ব-সংগঠনের সম্ভাবনা। Ostrom (2009) পাঠ্যের গুণগত রূপ, মাপা বক্ররেখা নয়। কমলা ড্যাশ = প্রভাব শর্তসাপেক্ষ।</text></svg>
