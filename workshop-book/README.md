@@ -6,7 +6,7 @@ Bengali-first illustrated study book for the *Making Commons Dynamic: Ephemeral 
 
 | File | What it is |
 |---|---|
-| `output/Making_Commons_Dynamic_Deep_Study_Book.pdf` | 79-page A4 print/reading edition: embedded fonts, selectable Bengali text, nested PDF bookmarks (chapters + sections), clickable contents with page numbers, running heads, Bengali page numbers |
+| `output/Making_Commons_Dynamic_Deep_Study_Book.pdf` | 78-page A4 print/reading edition: embedded fonts, selectable Bengali text, nested PDF bookmarks (chapters + sections), clickable contents with page numbers, running heads, Bengali page numbers |
 | `output/Making_Commons_Dynamic_Deep_Study_Book.docx` | Editable master: real Heading 1–3 styles, custom box styles, Word TOC field (Word asks to update fields on open), A4 mirrored margins, figures with alt text |
 | `output/Workshop_Author_Session_Briefs.pdf` | 6-page reading-based revision sheets (no session schedule was available) |
 | `output/*_EN.pdf`, `output/*_EN.docx` | **English edition**: same structure, chapters, figures and evidence labels (90-page book, 6-page briefs, editable DOCX) |
