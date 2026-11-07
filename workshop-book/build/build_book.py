@@ -4,11 +4,42 @@ import os, re, subprocess, sys, html
 from pypdf import PdfReader, PdfWriter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-B, SRC, OUT, FIG = (os.path.join(ROOT, d) for d in ("build", "src/book", "output", "figures"))
-BN = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
+LANG = os.environ.get("BOOK_LANG", "bn")
+CFG = {
+  "bn": dict(src="src/book", digits=str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯"),
+             unnumbered=("কর্মশালা-পুনরালোচনা", "দ্বিভাষিক", "তথ্যসূত্র", "সম্পাদকীয়", "এই বই"),
+             short="কমন্সকে গতিশীল করা · অধ্যয়ন-সহচর",
+             parts=("ভিত্তি", "পদ্ধতি:", "দশটি পাঠ", "সংশ্লেষণ:", "গবেষণা-সেতু", "কর্মশালা, উত্তর"),
+             toc=("সূচিপত্র", "Contents"), css=["../build/book.css"], pagetitle="কমন্সকে গতিশীল করা", suffix="",
+             title="কমন্সকে গতিশীল করা: Making Commons Dynamic – Deep Study Book", subject="Making Commons Dynamic – Bengali study book",
+             docx_title="কমন্সকে গতিশীল করা: Making Commons Dynamic", lang="bn-BD",
+             brief_start="# কর্মশালা-পুনরালোচনা", brief_end="# সিদ্ধান্ত-ল্যাবের",
+             brief_drop="# কর্মশালা-পুনরালোচনা পাতা [Workshop revision sheets]{.en}",
+             brief_head=("---\npagetitle: কর্মশালা-সংক্ষেপ\n---\n\n"
+                         "# কর্মশালা-সংক্ষেপ: পাঠভিত্তিক পুনরালোচনা-পাতা [Workshop author/session briefs]{.en}\n\n"
+                         "এই পাতাগুলো *কমন্সকে গতিশীল করা* অধ্যয়ন-সহচরের অংশ ৬ থেকে নেওয়া। কোনো সেশন-সূচি বা বক্তা-তালিকা পাওয়া যায়নি, "
+                         "তাই পাতাগুলো পাঠ-ভিত্তিক। প্রতিটি প্রশ্নের পটভূমি মূল বইয়ের সংশ্লিষ্ট অধ্যায়ে আছে। চিহ্ন: পৃষ্ঠা-উল্লেখ জার্নাল-পৃষ্ঠা অনুযায়ী।\n\n")),
+  "en": dict(src="src/book_en", digits=str.maketrans("", ""),
+             unnumbered=("Workshop revision sheets", "Glossary", "References", "Editorial note", "How to use"),
+             short="Making Commons Dynamic · Study Companion",
+             parts=("Foundations:", "Methods:", "Ten readings:", "Synthesis:", "Research bridge:", "Workshop, answers"),
+             toc=("Contents", "English edition"), css=["../build/book.css", "../build/book_en.css"], pagetitle="Making Commons Dynamic", suffix="_EN",
+             title="Making Commons Dynamic – Deep Study Book (English edition)", subject="Making Commons Dynamic – English study book",
+             docx_title="Making Commons Dynamic: A Deep Study Companion (English edition)", lang="en-GB",
+             brief_start="# Workshop revision sheets", brief_end="# Guided answers",
+             brief_drop="# Workshop revision sheets [One page per reading]{.en}",
+             brief_head=("---\npagetitle: Workshop briefs\n---\n\n"
+                         "# Workshop briefs: reading-based revision sheets [Author/session briefs, English edition]{.en}\n\n"
+                         "These sheets are taken from Part 6 of the *Making Commons Dynamic* study companion. No session schedule or speaker list "
+                         "was available, so the sheets are organised by reading. The background to every question is in the matching chapter of the book. "
+                         "Page references follow the printed journal pages.\n\n")),
+}[LANG]
+B, OUT, FIG = (os.path.join(ROOT, d) for d in ("build", "output", "figures"))
+SRC = os.path.join(ROOT, CFG["src"])
+BN = CFG["digits"]
 FILES = ["00_front.md", "01_part1.md", "02_part2.md", "03_part3a.md", "03_part3b.md", "04_synthesis.md", "05_bridge.md", "06_workshop.md"]
-UNNUMBERED = ("কর্মশালা-পুনরালোচনা", "দ্বিভাষিক", "তথ্যসূত্র", "সম্পাদকীয়", "এই বই")
-BOOK_SHORT = "কমন্সকে গতিশীল করা · অধ্যয়ন-সহচর"
+UNNUMBERED = CFG["unnumbered"]
+BOOK_SHORT = CFG["short"]
 
 
 def run(cmd, **kw):
@@ -30,7 +61,7 @@ def assemble():
             lines.append(line)
         parts.append("\n".join(lines))
     md = "\n\n".join(parts)
-    p = os.path.join(OUT, "book.md")
+    p = os.path.join(OUT, f"book{CFG['suffix']}.md")
     open(p, "w", encoding="utf-8").write(md)
     print("chapters numbered:", n)
     return p
@@ -38,14 +69,14 @@ def assemble():
 
 def to_html(md, out_html, toc_html=""):
     run(["pandoc", md, "-f", "markdown-auto_identifiers", "-t", "html5", "--standalone", f"--template={B}/template.html",
-         f"--lua-filter={B}/filters.lua", "--css=../build/book.css", "--metadata", "pagetitle=কমন্সকে গতিশীল করা",
-         "-o", out_html])
+         f"--lua-filter={B}/filters.lua", *[f"--css={c}" for c in CFG["css"]], "--metadata", f"pagetitle={CFG['pagetitle']}",
+         "--metadata", f"lang={CFG['lang'][:2]}", "-o", out_html])
     h = open(out_html, encoding="utf-8").read()
     h = re.sub(r'<div id="toc-here">\s*</div>', lambda m: toc_html, h, count=1)
     cnt = iter(range(1, 1000))
     h = re.sub(r'<h1(?![^>]*\bid=)([^>]*)>', lambda m: f'<h1 id="ch{next(cnt)}"{m.group(1)}>', h)
     # move English sub-titles out of h1 so PDF bookmarks stay clean
-    h = re.sub(r'(<h1[^>]*>)((?:(?!</h1>).)*?)\s*<span class="en">((?:(?!</h1>).)*?)</span>\s*</h1>', r'\1\2</h1><div class="h1en">\3</div>', h, flags=re.S)
+    h = re.sub(r'(<h1[^>]*>)((?:(?!</h1>).)*?)\s*<span\s+class="en">((?:(?!</h1>).)*?)</span>\s*</h1>', r'\1\2</h1><div class="h1en">\3</div>', h, flags=re.S)
     open(out_html, "w", encoding="utf-8").write(h)
     return h
 
@@ -55,8 +86,8 @@ def h1_list(h):
     res = []
     for m in re.finditer(r'<h1(?: id="([^"]*)")?[^>]*>(.*?)</h1>', h, flags=re.S):
         raw = m.group(2)
-        txt = re.sub(r'<span class="en">.*?</span>', "", raw, flags=re.S)
-        txt = html.unescape(re.sub(r"<[^>]+>", "", txt)).strip()
+        txt = re.sub(r'<span\s+class="en">.*?</span>', "", raw, flags=re.S)
+        txt = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", txt))).strip()
         res.append((m.group(1), txt))
     return res
 
@@ -64,12 +95,12 @@ def h1_list(h):
 def toc_markup(entries, pages=None):
     rows = []
     for i, (hid, txt) in enumerate(entries):
-        pg = str(pages[i]).translate(BN) if pages else "০০০"
-        is_part = txt.startswith(("ভিত্তি", "পদ্ধতি:", "দশটি পাঠ", "সংশ্লেষণ:", "গবেষণা-সেতু", "কর্মশালা, উত্তর"))
+        pg = str(pages[i]).translate(BN) if pages else "000".translate(BN)
+        is_part = txt.startswith(CFG["parts"])
         cls = "toc-part" if is_part else "toc-ch"
         link = f'<a href="#{hid}">{html.escape(txt)}</a>' if hid else html.escape(txt)
         rows.append(f'<li class="{cls}"><span class="t">{link}</span><span class="dots"></span><span class="p">{pg}</span></li>')
-    return ('<section class="toc-page"><div class="toc-title">সূচিপত্র</div><div class="toc-sub">Contents</div><ol class="toc-list">'
+    return (f'<section class="toc-page"><div class="toc-title">{CFG["toc"][0]}</div><div class="toc-sub">{CFG["toc"][1]}</div><ol class="toc-list">'
             + "".join(rows) + "</ol></section>")
 
 
@@ -102,7 +133,7 @@ def header_overlay(chapters, npages, skip_pages, out_pdf):
             divs.append(f'<div class="pg"><div class="rh" style="{side}">{text}</div></div>')
         else:
             divs.append('<div class="pg"></div>')
-    doc = ('<!doctype html><html lang="bn"><head><meta charset="utf-8"><style>@page{size:A4;margin:0}'
+    doc = ('<!doctype html><html lang="' + CFG["lang"][:2] + '"><head><meta charset="utf-8"><style>@page{size:A4;margin:0}'
            'body{margin:0}.pg{position:relative;width:210mm;height:297mm;break-after:page;overflow:hidden}'
            '.rh{position:absolute;top:11mm;font:8.6pt "Tinos","Noto Sans Bengali";color:#147C80;border-bottom:0.5pt solid #B3DCEB;padding-bottom:1.2mm}'
            '</style></head><body>' + "".join(divs) + "</body></html>")
@@ -112,21 +143,33 @@ def header_overlay(chapters, npages, skip_pages, out_pdf):
     os.remove(hp)
 
 
-def stamp(base_pdf, overlay_pdf, out_pdf, title):
+def fix_bookmarks(w, titles):
+    """Chromium drops spaces at line wraps in bookmark titles; rewrite top-level titles from the clean h1 text."""
+    from pypdf.generic import NameObject, TextStringObject
+    node = w._root_object["/Outlines"].get_object().get("/First")
+    i = 0
+    while node is not None and i < len(titles):
+        o = node.get_object()
+        o[NameObject("/Title")] = TextStringObject(titles[i])
+        node = o.get("/Next"); i += 1
+
+
+def stamp(base_pdf, overlay_pdf, out_pdf, title, titles=None):
     w = PdfWriter(clone_from=base_pdf)
+    if titles: fix_bookmarks(w, titles)
     ov = PdfReader(overlay_pdf)
     for i, page in enumerate(w.pages):
         page.merge_page(ov.pages[i])
         page.compress_content_streams(level=9)
     w.add_metadata({"/Title": title, "/Author": "Study companion prepared for the workshop participant (research.edx)",
-                    "/Subject": "Making Commons Dynamic – Bengali study book", "/Lang": "bn"})
+                    "/Subject": CFG["subject"], "/Lang": CFG["lang"][:2]})
     w.compress_identical_objects(remove_duplicates=True, remove_unreferenced=True)
     with open(out_pdf, "wb") as f:
         w.write(f)
 
 
 def build_pdf(md):
-    h = os.path.join(OUT, "book.html")
+    h = os.path.join(OUT, f"book{CFG['suffix']}.html")
     html0 = to_html(md, h, "")
     entries = [e for e in h1_list(html0)]
     # front-matter h1s before the TOC marker stay in the outline but the TOC lists everything after the cover
@@ -140,12 +183,12 @@ def build_pdf(md):
     tmp2 = os.path.join(OUT, "_pass2.pdf"); render_pdf(h, tmp2)
     outl2, n2 = outline_pages(tmp2)
     assert [p for _, p in outl2] == [p for _, p in outl], "pagination changed between passes"
-    divider_titles = ("ভিত্তি", "পদ্ধতি:", "দশটি পাঠ", "সংশ্লেষণ:", "গবেষণা-সেতু", "কর্মশালা, উত্তর")
+    divider_titles = CFG["parts"]
     skip = {1} | {p for t, p in outl2 if t.startswith(divider_titles)}
     chapters = [(re.sub(r"\s+", " ", t), p) for t, p in outl2]
     ov = os.path.join(OUT, "_overlay.pdf"); header_overlay(chapters, n2, skip, ov)
-    final = os.path.join(OUT, "Making_Commons_Dynamic_Deep_Study_Book.pdf")
-    stamp(tmp2, ov, final, "কমন্সকে গতিশীল করা: Making Commons Dynamic – Deep Study Book")
+    final = os.path.join(OUT, f"Making_Commons_Dynamic_Deep_Study_Book{CFG['suffix']}.pdf")
+    stamp(tmp2, ov, final, CFG["title"], [txt for _, txt in entries])
     for t in (tmp1, tmp2, ov): os.remove(t)
     print("PDF pages:", n2, "->", final)
     return outl2
@@ -154,25 +197,21 @@ def build_pdf(md):
 def build_docx(md):
     ref = os.path.join(B, "reference.docx")
     run(["python3", os.path.join(B, "make_refdocx.py"), ref])
-    out = os.path.join(OUT, "Making_Commons_Dynamic_Deep_Study_Book.docx")
+    out = os.path.join(OUT, f"Making_Commons_Dynamic_Deep_Study_Book{CFG['suffix']}.docx")
     run(["pandoc", md, "-f", "markdown", "-t", "docx", f"--reference-doc={ref}", f"--lua-filter={B}/filters.lua",
-         "--metadata", "title=কমন্সকে গতিশীল করা: Making Commons Dynamic", "--metadata", "lang=bn-BD", "-o", out], cwd=OUT)
+         "--metadata", f"title={CFG['docx_title']}", "--metadata", f"lang={CFG['lang']}", "-o", out], cwd=OUT)
     print("DOCX ->", out)
 
 
 def build_briefs():
     txt = open(os.path.join(SRC, "06_workshop.md"), encoding="utf-8").read()
-    a = txt.index("# কর্মশালা-পুনরালোচনা"); b = txt.index("# সিদ্ধান্ত-ল্যাবের")
-    body = txt[a:b].replace("::: {.sheet .keep}", "::: {.sheet .keep .brief}")
-    head = ("---\npagetitle: কর্মশালা-সংক্ষেপ\n---\n\n"
-            "# কর্মশালা-সংক্ষেপ: পাঠভিত্তিক পুনরালোচনা-পাতা [Workshop author/session briefs]{.en}\n\n"
-            "এই পাতাগুলো *কমন্সকে গতিশীল করা* অধ্যয়ন-সহচরের অংশ ৬ থেকে নেওয়া। কোনো সেশন-সূচি বা বক্তা-তালিকা পাওয়া যায়নি, "
-            "তাই পাতাগুলো পাঠ-ভিত্তিক। প্রতিটি প্রশ্নের পটভূমি মূল বইয়ের সংশ্লিষ্ট অধ্যায়ে আছে। চিহ্ন: পৃষ্ঠা-উল্লেখ জার্নাল-পৃষ্ঠা অনুযায়ী।\n\n")
+    a = txt.index(CFG["brief_start"]); b = txt.index(CFG["brief_end"])
+    body = txt[a:b].replace("::: {.sheet .keep}", "::: {.sheet .keep .brief}").replace(CFG["brief_drop"], "")
     md = os.path.join(OUT, "briefs.md")
-    open(md, "w", encoding="utf-8").write(head + body.replace("# কর্মশালা-পুনরালোচনা পাতা [Workshop revision sheets]{.en}", ""))
+    open(md, "w", encoding="utf-8").write(CFG["brief_head"] + body)
     h = os.path.join(OUT, "briefs.html")
     to_html(md, h, "")
-    pdf = os.path.join(OUT, "Workshop_Author_Session_Briefs.pdf")
+    pdf = os.path.join(OUT, f"Workshop_Author_Session_Briefs{CFG['suffix']}.pdf")
     render_pdf(h, pdf)
     os.remove(md); os.remove(h)
     print("briefs ->", pdf)

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 520" width="161.5mm" height="52.0mm" role="img" aria-labelledby="t d"><title id="t">Reading route</title><desc id="d">Six-step route: foundations, methods, ten readings, synthesis, research bridge, workshop.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="520" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<path d="M60,300 C400,150 700,430 1000,280 S1450,200 1570,300" stroke="#cfe3e6" stroke-width="40" fill="none" opacity="1"/>
+<circle cx="145.0" cy="120" r="62" fill="#147C80"/>
+<text x="145.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="30" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#147C80" stroke-width="4" opacity="1"/>
+<text x="145.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Foundations</text>
+<text x="145.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">CPR · rights ·</text>
+<text x="145.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">Institutions</text>
+<line x1="264" y1="320" x2="289" y2="320" stroke="#147C80" stroke-width="5" marker-end="url(#ah-solid)"/>
+<circle cx="408.0" cy="120" r="62" fill="#D8A34A"/>
+<text x="408.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">2</text>
+<rect x="293" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#D8A34A" stroke-width="4" opacity="1"/>
+<text x="408.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Methods</text>
+<text x="408.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">question →</text>
+<text x="408.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">evidence → claim</text>
+<line x1="527" y1="320" x2="552" y2="320" stroke="#D8A34A" stroke-width="5" marker-end="url(#ah-solid)"/>
+<circle cx="671.0" cy="120" r="62" fill="#103553"/>
+<text x="671.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">3</text>
+<rect x="556" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#103553" stroke-width="4" opacity="1"/>
+<text x="671.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">10 readings</text>
+<text x="671.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">authors' logic</text>
+<text x="671.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">reconstruction</text>
+<line x1="790" y1="320" x2="815" y2="320" stroke="#103553" stroke-width="5" marker-end="url(#ah-solid)"/>
+<circle cx="934.0" cy="120" r="62" fill="#4D94B5"/>
+<text x="934.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">4</text>
+<rect x="819" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#4D94B5" stroke-width="4" opacity="1"/>
+<text x="934.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Synthesis</text>
+<text x="934.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">reading against</text>
+<text x="934.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">reading</text>
+<line x1="1053" y1="320" x2="1078" y2="320" stroke="#4D94B5" stroke-width="5" marker-end="url(#ah-solid)"/>
+<circle cx="1197.0" cy="120" r="62" fill="#4E7960"/>
+<text x="1197.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="1082" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#4E7960" stroke-width="4" opacity="1"/>
+<text x="1197.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Bridge</text>
+<text x="1197.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">haor and hilsa</text>
+<text x="1197.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">research</text>
+<line x1="1316" y1="320" x2="1341" y2="320" stroke="#4E7960" stroke-width="5" marker-end="url(#ah-solid)"/>
+<circle cx="1460.0" cy="120" r="62" fill="#B6684F"/>
+<text x="1460.0" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="60" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">6</text>
+<rect x="1345" y="210" width="230" height="220" rx="14" fill="#fff" stroke="#B6684F" stroke-width="4" opacity="1"/>
+<text x="1460.0" y="275" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Workshop</text>
+<text x="1460.0" y="340" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">questions and</text>
+<text x="1460.0" y="385" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">revision</text>
+<text x="1585" y="500" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Route: concepts first, judgement next, application last</text></svg>

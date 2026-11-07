@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 860" width="161.5mm" height="86.0mm" role="img" aria-labelledby="t d"><title id="t">Hardin, roving bandits and Maine lobster</title><desc id="d">Comparison of three systems on SES variables: Hardin's pasture, roving bandits, Maine lobster.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="860" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="436" y="30" width="378" height="74" rx="10" fill="#B6684F" stroke="none" stroke-width="0" opacity="1"/>
+<text x="625.0" y="78" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">Hardin's pasture</text>
+<rect x="826" y="30" width="378" height="74" rx="10" fill="#D8A34A" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1015.0" y="78" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">Roving bandits</text>
+<rect x="1216" y="30" width="378" height="74" rx="10" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1405.0" y="78" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">Maine lobster</text>
+<rect x="20" y="120" width="1575" height="100" rx="6" fill="#F4F9F8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="180" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">RS1 resource system</text>
+<text x="625.0" y="180" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">pasture</text>
+<text x="1015.0" y="180" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">coastal waters</text>
+
+<rect x="20" y="228" width="1575" height="100" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="288" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">GS governance</text>
+<text x="625.0" y="288" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">none</text>
+
+<text x="1405.0" y="288" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">local rules + state</text>
+<rect x="20" y="336" width="1575" height="100" rx="6" fill="#F4F9F8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="396" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">RU1/RU6 units and marks</text>
+<text x="625.0" y="396" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">cattle: owner identifiable</text>
+<text x="1015.0" y="396" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">owned once caught</text>
+<text x="1405.0" y="396" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">V-notch: visible mark</text>
+<rect x="20" y="444" width="1575" height="100" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="504" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">U1 + RS3 user pressure</text>
+<text x="625.0" y="504" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">high</text>
+<text x="1015.0" y="504" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">many boats, finite stock</text>
+<text x="1405.0" y="504" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">harbour-based groups</text>
+<rect x="20" y="552" width="1575" height="100" rx="6" fill="#F4F9F8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">U3–U7 history, leadership, norms</text>
+<text x="625.0" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">isolated, short-term</text>
+
+<text x="1405.0" y="612" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">generations; trust</text>
+<rect x="20" y="660" width="1575" height="100" rx="6" fill="#fff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="36" y="720" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">I1/O2 outcome</text>
+<text x="625.0" y="720" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">overharvest (theoretical)</text>
+<text x="1015.0" y="720" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">overharvest occurred</text>
+<text x="1405.0" y="720" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">recovery after collapse</text>
+<text x="36" y="800" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#147C80" text-anchor="start" letter-spacing="0">Lesson: where Hardin's assumptions hold, his prediction holds; the question is where they hold.</text>
+<text x="1585" y="848" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Source: Ostrom (2007) PNAS, Hardin and Roving Bandits sections; original table</text></svg>

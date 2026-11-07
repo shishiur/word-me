@@ -9,6 +9,8 @@ Bengali-first illustrated study book for the *Making Commons Dynamic: Ephemeral 
 | `output/Making_Commons_Dynamic_Deep_Study_Book.pdf` | 79-page A4 print/reading edition: embedded fonts, selectable Bengali text, nested PDF bookmarks (chapters + sections), clickable contents with page numbers, running heads, Bengali page numbers |
 | `output/Making_Commons_Dynamic_Deep_Study_Book.docx` | Editable master: real Heading 1–3 styles, custom box styles, Word TOC field (Word asks to update fields on open), A4 mirrored margins, figures with alt text |
 | `output/Workshop_Author_Session_Briefs.pdf` | 6-page reading-based revision sheets (no session schedule was available) |
+| `output/*_EN.pdf`, `output/*_EN.docx` | **English edition**: same structure, chapters, figures and evidence labels (90-page book, 6-page briefs, editable DOCX) |
+| `figures_en/` | English versions of all figures (generated from the same code via `build/fig_strings_en.py`) |
 | `figures/` | 19 original figures as SVG (vector, editable text) + PNG (2000 px); cover as SVG + 300-dpi JPEG |
 | `ledgers/Source_Coverage_Ledger.csv/.md` | What was actually read, from which copy, at what depth |
 | `ledgers/Evidence_and_Claims.csv` | 24 consequential claims with location, claim type and verification notes |
@@ -18,7 +20,9 @@ Bengali-first illustrated study book for the *Making Commons Dynamic: Ephemeral 
 ## Rebuild
 
 ```bash
-cd build && ./make_book.sh          # figures, PDF (two-pass TOC + header overlay), DOCX, briefs
+cd build && ./make_book.sh                     # Bengali: figures, PDF (two-pass TOC + header overlay), DOCX, briefs
+FIG_LANG=en python3 figs_core.py ../figures_en && FIG_LANG=en python3 figs_more.py ../figures_en   # English figures (then render PNGs with render.js)
+BOOK_LANG=en python3 build_book.py             # English edition (sources in src/book_en)
 python3 make_ledgers.py
 ```
 Requires pandoc 3, Node + Playwright Chromium, Python (pypdf, python-docx, Pillow), fonts Noto Serif/Sans Bengali and Tinos.

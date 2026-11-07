@@ -3,6 +3,44 @@ Units: 10 SVG units = 1 mm at full text-column width (161.5 mm -> 1615 units).
 Text sizes: 32 u ~ 9 pt (minimum for labels), 36 u ~ 10 pt, 42 u ~ 12 pt.
 """
 from xml.sax.saxutils import escape
+import os, re, json
+
+_BN = re.compile(r">([^<>]*[\u0980-\u09FF][^<>]*)<")
+_LANG = os.environ.get("FIG_LANG", "bn")
+_DICT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fig_strings_en.json")
+
+
+def _localise(svg):
+    """English figures: replace every Bengali text node via the translation table (FIG_LANG=en).
+    FIG_LANG=collect writes the untranslated strings to fig_strings_todo.json."""
+    from xml.sax.saxutils import unescape
+    if _LANG == "bn":
+        return svg
+    found = [unescape(m) for m in _BN.findall(svg)]
+    if _LANG == "collect":
+        todo = os.path.join(os.path.dirname(_DICT_PATH), "fig_strings_todo.json")
+        cur = json.load(open(todo, encoding="utf-8")) if os.path.exists(todo) else {}
+        for s in found:
+            cur.setdefault(s, "")
+        json.dump(cur, open(todo, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+        return svg
+    table = json.load(open(_DICT_PATH, encoding="utf-8"))
+    missing = [s for s in found if s not in table]
+    if missing:
+        raise KeyError(f"untranslated figure strings: {missing[:5]}")
+    svg = _BN.sub(lambda m: ">" + escape(table[unescape(m.group(1))]) + "<", svg)
+    # drop a text element that merely repeats the preceding one (Bengali label + identical English subtitle)
+    out, prev = [], None
+    for part in re.split(r"(<text[^>]*>[^<]*</text>)", svg):
+        m = re.match(r"<text[^>]*>([^<]*)</text>$", part)
+        if m:
+            if prev is not None and m.group(1).strip() == prev and len(prev) > 3:
+                continue
+            prev = m.group(1).strip()
+        elif part.strip():
+            prev = None if "<text" in part else prev
+        out.append(part)
+    return "".join(out)
 
 C = dict(navy="#12334B", hnavy="#103553", teal="#147C80", river="#4D94B5", leaf="#4E7960",
          ochre="#D8A34A", terra="#B6684F", ivory="#FAF8F2", mist="#EBF5F3", ul="#B3DCEB",
@@ -60,6 +98,7 @@ class SVG:
                f'height="{self.h/10}mm" role="img" aria-labelledby="t d">'
                f'<title id="t">{escape(title)}</title><desc id="d">{escape(desc)}</desc>'
                f'<defs>{"".join(self.defs)}</defs>{body}</svg>')
+        svg = _localise(svg)
         with open(path, "w", encoding="utf-8") as f:
             f.write(svg)
 

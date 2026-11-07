@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 1000" width="161.5mm" height="100.0mm" role="img" aria-labelledby="t d"><title id="t">Social-ecological system framework</title><desc id="d">Four core subsystems (resource system, resource units, governance system, users) produce interactions and outcomes, set in a social context and related ecosystems.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="1000" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="20" y="20" width="1575" height="960" rx="20" fill="#F7F4EC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="60" y="80" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Social, economic and political settings (S)</text>
+<rect x="110" y="150" width="460" height="150" rx="18" fill="#fff" stroke="#4D94B5" stroke-width="5" opacity="1"/>
+<text x="340.0" y="219.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="38" font-weight="700" fill="#4D94B5" text-anchor="middle" letter-spacing="0">Resource system</text>
+<text x="340.0" y="265.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Resource system (RS)</text>
+<rect x="1045" y="150" width="460" height="150" rx="18" fill="#fff" stroke="#103553" stroke-width="5" opacity="1"/>
+<text x="1275.0" y="219.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="38" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Governance system</text>
+<text x="1275.0" y="265.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Governance system (GS)</text>
+<rect x="110" y="640" width="460" height="150" rx="18" fill="#fff" stroke="#4E7960" stroke-width="5" opacity="1"/>
+<text x="340.0" y="709.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="38" font-weight="700" fill="#4E7960" text-anchor="middle" letter-spacing="0">Resource units</text>
+<text x="340.0" y="755.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Resource units (RU)</text>
+<rect x="1045" y="640" width="460" height="150" rx="18" fill="#fff" stroke="#D8A34A" stroke-width="5" opacity="1"/>
+<text x="1275.0" y="709.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="38" font-weight="700" fill="#D8A34A" text-anchor="middle" letter-spacing="0">Users</text>
+<text x="1275.0" y="755.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Users (U)</text>
+<ellipse cx="807" cy="470" rx="250" ry="120" fill="#E2F0EE" stroke="#147C80" stroke-width="5"/>
+<text x="807" y="450" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">Interactions → Outcomes</text>
+
+<line x1="570" y1="290" x2="610" y2="400" stroke="#147C80" stroke-width="5" marker-end="url(#ah-solid)"/>
+<line x1="1045" y1="290" x2="1005" y2="400" stroke="#147C80" stroke-width="5" marker-end="url(#ah-solid)"/>
+<line x1="570" y1="650" x2="610" y2="545" stroke="#147C80" stroke-width="5" marker-end="url(#ah-solid)"/>
+<line x1="1045" y1="650" x2="1005" y2="545" stroke="#147C80" stroke-width="5" marker-end="url(#ah-solid)"/>
+<line x1="340" y1="300" x2="340" y2="630" stroke="#4D94B5" stroke-width="4" marker-end="url(#ah-solid)"/>
+<text x="360" y="470" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">generates</text>
+<line x1="1275" y1="300" x2="1275" y2="630" stroke="#103553" stroke-width="4" marker-end="url(#ah-solid)"/>
+<text x="1295" y="470" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">sets rules</text>
+<path d="M807,590 C807,700 807,820 807,860" stroke="#147C80" stroke-width="4" fill="none" opacity="1" stroke-dasharray="16 10" marker-end="url(#ah-dashed)"/>
+<text x="830" y="830" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">Feedback: outcomes in turn change the subsystems</text>
+<text x="60" y="940" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="700" fill="#4E7960" text-anchor="start" letter-spacing="0">Related ecosystems (ECO): climate, pollution, flows into the focal SES</text>
+<text x="1565" y="970" font-family="Tinos, Noto Serif Bengali, serif" font-size="25" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Simplified original redraw after Ostrom (2007 Fig.1; 2009 Fig.1)</text></svg>

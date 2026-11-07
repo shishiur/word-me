@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 760" width="161.5mm" height="76.0mm" role="img" aria-labelledby="t d"><title id="t">Roving bandits: sea urchins</title><desc id="d">Line chart of global urchin harvest 1945–1995 and, on the right, the eight-step sequence of geographic expansion.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="760" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<line x1="200" y1="620.0" x2="1020" y2="620.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="185" y="629.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">0</text>
+<line x1="200" y1="453.33333333333337" x2="1020" y2="453.33333333333337" stroke="#dde5e8" stroke-width="1"/>
+<text x="185" y="462.33333333333337" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">4</text>
+<line x1="200" y1="286.6666666666667" x2="1020" y2="286.6666666666667" stroke="#dde5e8" stroke-width="1"/>
+<text x="185" y="295.6666666666667" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">8</text>
+<line x1="200" y1="120.0" x2="1020" y2="120.0" stroke="#dde5e8" stroke-width="1"/>
+<text x="185" y="129.0" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">12</text>
+<path d="M268,616 L405,566 L542,516 L678,474 L815,266 L952,128" stroke="#147C80" stroke-width="6" fill="none" opacity="1"/>
+<circle cx="268" cy="616" r="10" fill="#147C80"/>
+<text x="268.3333333333333" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1945</text>
+<circle cx="405" cy="566" r="10" fill="#147C80"/>
+<text x="405.0" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1955</text>
+<circle cx="542" cy="516" r="10" fill="#147C80"/>
+<text x="541.6666666666667" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1965</text>
+<circle cx="678" cy="474" r="10" fill="#147C80"/>
+<text x="678.3333333333334" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1975</text>
+<circle cx="815" cy="266" r="10" fill="#147C80"/>
+<text x="815.0" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1985</text>
+<circle cx="952" cy="128" r="10" fill="#147C80"/>
+<text x="951.6666666666666" y="660" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">1995</text>
+<text x="200" y="70" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Global sea-urchin harvest (×10⁴ t)</text>
+<text x="1100" y="70" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Sequential expansion (per text)</text>
+<circle cx="1120" cy="121" r="14" fill="#D8A34A"/>
+<text x="1120" y="129" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">1</text>
+<text x="1150" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Japan: decline ~1960</text>
+<line x1="1120" y1="138" x2="1120" y2="168" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="183" r="14" fill="#D8A34A"/>
+<text x="1120" y="191" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">2</text>
+<text x="1150" y="192" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Korea</text>
+<line x1="1120" y1="200" x2="1120" y2="230" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="245" r="14" fill="#D8A34A"/>
+<text x="1120" y="253" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">3</text>
+<text x="1150" y="254" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Washington–Oregon 1971</text>
+<line x1="1120" y1="262" x2="1120" y2="292" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="307" r="14" fill="#D8A34A"/>
+<text x="1120" y="315" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">4</text>
+<text x="1150" y="316" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Baja &amp; California 1972–73</text>
+<line x1="1120" y1="324" x2="1120" y2="354" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="369" r="14" fill="#D8A34A"/>
+<text x="1120" y="377" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">5</text>
+<text x="1150" y="378" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Chile 1975</text>
+<line x1="1120" y1="386" x2="1120" y2="416" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="431" r="14" fill="#D8A34A"/>
+<text x="1120" y="439" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">6</text>
+<text x="1150" y="440" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Alaska &amp; British Columbia 1980</text>
+<line x1="1120" y1="448" x2="1120" y2="478" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="493" r="14" fill="#D8A34A"/>
+<text x="1120" y="501" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">7</text>
+<text x="1150" y="502" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Russia 1982</text>
+<line x1="1120" y1="510" x2="1120" y2="540" stroke="#D8A34A" stroke-width="3" marker-end="url(#ah-solid)"/>
+<circle cx="1120" cy="555" r="14" fill="#D8A34A"/>
+<text x="1120" y="563" font-family="Tinos, Noto Serif Bengali, serif" font-size="20" font-weight="700" fill="#3b2a06" text-anchor="middle" letter-spacing="0">8</text>
+<text x="1150" y="564" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="28" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">NW Atlantic 1987–89</text>
+<text x="1595" y="750" font-family="Tinos, Noto Serif Bengali, serif" font-size="24" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Data: Berkes &amp; Franz (2025) Fig.5.1b; original source Andrew et al. 2002. Note the 1995 point vs the text's 'peak ~1990'.</text></svg>

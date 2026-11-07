@@ -2,7 +2,10 @@
 local box_styles = { concept="Concept Box", method="Method Box", caution="Caution Box", ecology="Ecology Box",
   recap="Recap Box", check="Check Box", ["fig-read"]="Figure Reading", quote="Quote Box" }
 
-local TOC_XML = [[<w:p><w:pPr><w:pStyle w:val="TOCHeading"/></w:pPr><w:r><w:t>সূচিপত্র</w:t></w:r></w:p><w:p><w:r><w:fldChar w:fldCharType="begin" w:dirty="true"/></w:r><w:r><w:instrText xml:space="preserve"> TOC \o "1-1" \h \z \u </w:instrText></w:r><w:r><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:t>সূচিপত্র হালনাগাদ করতে এখানে ক্লিক করে F9 চাপুন (Word)।</w:t></w:r><w:r><w:fldChar w:fldCharType="end"/></w:r></w:p>]]
+local EN = os.getenv("BOOK_LANG") == "en"
+local TOC_TITLE = EN and "Contents" or "সূচিপত্র"
+local TOC_HINT = EN and "Click here and press F9 in Word to update the table of contents." or "সূচিপত্র হালনাগাদ করতে এখানে ক্লিক করে F9 চাপুন (Word)।"
+local TOC_XML = [[<w:p><w:pPr><w:pStyle w:val="TOCHeading"/></w:pPr><w:r><w:t>]] .. TOC_TITLE .. [[</w:t></w:r></w:p><w:p><w:r><w:fldChar w:fldCharType="begin" w:dirty="true"/></w:r><w:r><w:instrText xml:space="preserve"> TOC \o "1-1" \h \z \u </w:instrText></w:r><w:r><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:t>]] .. TOC_HINT .. [[</w:t></w:r><w:r><w:fldChar w:fldCharType="end"/></w:r></w:p>]]
 
 function Div(el)
   local docx = FORMAT:match("docx")

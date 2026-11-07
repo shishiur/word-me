@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 1960" width="161.5mm" height="196.0mm" role="img" aria-labelledby="t d"><title id="t">Reasoning chain of Nayak &amp; Berkes (2011)</title><desc id="d">Eight-step vertical flowchart: observation, prior knowledge, puzzle, question, conceptual tool, design, evidence, claim. Each step carries D (documented) or I (inference) and a page reference. The evidence-to-claim arrow is dashed because several drivers co-occurred.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="1960" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="60" y="40" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="90" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">1. Observation</text>
+<rect x="1040" y="62" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="89" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="88" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">pp.132–133</text>
+<text x="86" y="142" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Caste-based fishery commons persisted in Chilika for centuries;</text>
+<text x="86" y="186" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">they broke down with shrimp farming in the 1980s</text>
+<line x1="585.0" y1="214" x2="585.0" y2="250" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="256" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="306" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">2. Prior knowledge</text>
+<rect x="1040" y="278" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="305" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="304" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">p.134</text>
+<text x="86" y="358" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Ostrom (1990) design principles; Agrawal (2002) 24 conditions:</text>
+<text x="86" y="402" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">mostly internal (group-level) variables</text>
+<line x1="585.0" y1="430" x2="585.0" y2="466" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="472" width="1050" height="170" rx="14" fill="#EAF3F8" stroke="#4D94B5" stroke-width="3" opacity="1"/>
+<text x="86" y="522" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">3. Puzzle / gap</text>
+<rect x="1040" y="494" width="44" height="38" rx="6" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="521" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">I</text>
+<text x="1020" y="520" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">reconstruction</text>
+<text x="86" y="574" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Commons treated as a fixed 'regime'; external drivers and</text>
+<text x="86" y="618" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">change over time are under-theorised</text>
+<line x1="585.0" y1="646" x2="585.0" y2="682" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="688" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="738" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">4. Research question</text>
+<rect x="1040" y="710" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="737" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="736" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">p.133</text>
+<text x="86" y="790" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Which factors build commons, which break them, and how</text>
+<text x="86" y="834" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">can 'commons be kept as commons'?</text>
+<line x1="585.0" y1="862" x2="585.0" y2="898" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="904" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="954" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">5. Conceptual tool</text>
+<rect x="1040" y="926" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="953" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="952" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">pp.132–133</text>
+<text x="86" y="1006" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">commonisation ↔ decommonisation: building or losing the</text>
+<text x="86" y="1050" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">institutions that handle excludability and subtractability</text>
+<line x1="585.0" y1="1078" x2="585.0" y2="1114" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="1120" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="1170" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">6. Research design</text>
+<rect x="1040" y="1142" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="1169" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="1168" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">pp.133–134</text>
+<text x="86" y="1222" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">One lagoon, two villages (early vs late stage), 28 months;</text>
+<text x="86" y="1266" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">households N=160, monthly N=30, villages N=140; lease records 1957–</text>
+<line x1="585.0" y1="1294" x2="585.0" y2="1330" stroke="#12334B" stroke-width="5" marker-end="url(#ah-solid)"/>
+<rect x="60" y="1336" width="1050" height="170" rx="14" fill="#EDF3EE" stroke="#4E7960" stroke-width="3" opacity="1"/>
+<text x="86" y="1386" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">7. Evidence</text>
+<rect x="1040" y="1358" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="1385" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="1020" y="1384" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">pp.138–140</text>
+<text x="86" y="1438" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Income down 70–80% (2002–08); 95% of cooperatives defunct;</text>
+<text x="86" y="1482" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">&gt;60% of area under illegal shrimp farms (conservative estimate)</text>
+<line x1="585.0" y1="1510" x2="585.0" y2="1546" stroke="#12334B" stroke-width="5" stroke-dasharray="16 10" marker-end="url(#ah-dashed)"/>
+<rect x="60" y="1552" width="1050" height="170" rx="14" fill="#EAF3F8" stroke="#4D94B5" stroke-width="3" opacity="1"/>
+<text x="86" y="1602" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">8. Claim</text>
+<rect x="1040" y="1574" width="44" height="38" rx="6" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1062" y="1601" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">I</text>
+<text x="1020" y="1600" font-family="Tinos, Noto Serif Bengali, serif" font-size="27" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">pp.140–141</text>
+<text x="86" y="1654" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">commons → decommonisation → open access → privatisation;</text>
+<text x="86" y="1698" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">The process is ongoing and potentially two-way</text>
+<rect x="1150" y="462" width="445" height="180" rx="12" fill="#EBF5F3" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1168" y="506" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#147C80" text-anchor="start" letter-spacing="0">Why this step?</text>
+<text x="1168" y="552.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">A list of internal variables</text>
+<text x="1168" y="592.02" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">cannot explain change;</text>
+<text x="1168" y="632.04" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">so a 'process' concept is needed</text>
+<rect x="1150" y="1110" width="445" height="180" rx="12" fill="#FBF4E6" stroke="#9A6B12" stroke-width="2" opacity="1"/>
+<text x="1168" y="1154" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#9A6B12" text-anchor="start" letter-spacing="0">Design logic</text>
+<text x="1168" y="1200.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Two villages = two stages</text>
+<text x="1168" y="1240.02" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">of change compared, not a</text>
+<text x="1168" y="1280.04" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">controlled experiment</text>
+<rect x="1150" y="1406" width="445" height="180" rx="12" fill="#F8ECE7" stroke="#B6684F" stroke-width="2" opacity="1"/>
+<text x="1168" y="1450" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="700" fill="#B6684F" text-anchor="start" letter-spacing="0">Weak link ⚠</text>
+<text x="1168" y="1496.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Markets, policy, new sea mouth</text>
+<text x="1168" y="1536.02" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">and nylon nets co-occurred;</text>
+<text x="1168" y="1576.04" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">separate effects not measured</text>
+<path d="M1150,1486 C1090,1486 1150,1529.0 605.0,1529.0" stroke="#B6684F" stroke-width="3" fill="none" opacity="1" stroke-dasharray="3 9" stroke-linecap="round"/>
+<rect x="70" y="1774" width="44" height="38" rx="6" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="92" y="1801" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">D</text>
+<text x="130" y="1800" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">Stated explicitly by the authors (documented)</text>
+<rect x="70" y="1828" width="44" height="38" rx="6" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="92" y="1855" font-family="Tinos, Noto Serif Bengali, serif" font-size="28" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">I</text>
+<text x="130" y="1854" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">Our reasoned reconstruction or the authors' interpretation (inference)</text>
+<line x1="900" y1="1790" x2="990" y2="1790" stroke="#12334B" stroke-width="4" marker-end="url(#ah-solid)"/>
+<text x="1005" y="1800" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">Documented logical step</text>
+<line x1="900" y1="1844" x2="990" y2="1844" stroke="#12334B" stroke-width="4" stroke-dasharray="16 10" marker-end="url(#ah-dashed)"/>
+<text x="1005" y="1854" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="400" fill="#55636E" text-anchor="start" letter-spacing="0">Leap from evidence to claim</text>
+<text x="1575" y="1945" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Source: Nayak &amp; Berkes (2011), Conservation and Society 9(2):132–145; journal page numbers. Original figure.</text></svg>

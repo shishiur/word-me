@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 960" width="161.5mm" height="96.0mm" role="img" aria-labelledby="t d"><title id="t">The bundle of rights</title><desc id="d">Grid of four right-holders (authorized user, claimant, proprietor, owner) against five rights (access, withdrawal, management, exclusion, alienation); below, the Chilika paradox.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="960" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<text x="622.5" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Access</text>
+
+<text x="827.5" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Withdrawal</text>
+
+<text x="1032.5" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Management</text>
+
+<text x="1237.5" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Exclusion</text>
+
+<text x="1442.5" y="130" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Alienation</text>
+
+<text x="40" y="258" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Authorized user</text>
+
+<rect x="530" y="214" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="622.5" y="274" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="735" y="214" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="827.5" y="274" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="940" y="214" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1032.5" y="274" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="1145" y="214" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1237.5" y="274" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="1350" y="214" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1442.5" y="274" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<text x="40" y="378" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Claimant</text>
+
+<rect x="530" y="334" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="622.5" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="735" y="334" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="827.5" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="940" y="334" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1032.5" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="1145" y="334" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1237.5" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="1350" y="334" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1442.5" y="394" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<text x="40" y="498" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Proprietor</text>
+
+<rect x="530" y="454" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="622.5" y="514" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="735" y="454" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="827.5" y="514" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="940" y="454" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1032.5" y="514" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="1145" y="454" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1237.5" y="514" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="1350" y="454" width="185" height="92" rx="10" fill="#F1F4F5" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1442.5" y="514" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#9aa7ae" text-anchor="middle" letter-spacing="0">—</text>
+<text x="40" y="618" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Owner</text>
+
+<rect x="530" y="574" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="622.5" y="634" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="735" y="574" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="827.5" y="634" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="940" y="574" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1032.5" y="634" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="1145" y="574" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1237.5" y="634" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="1350" y="574" width="185" height="92" rx="10" fill="#147C80" stroke="#147C80" stroke-width="2" opacity="1"/>
+<text x="1442.5" y="634" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">✓</text>
+<rect x="30" y="720" width="1555" height="210" rx="12" fill="#F8ECE7" stroke="#B6684F" stroke-width="2" opacity="1"/>
+<text x="55" y="772" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#B6684F" text-anchor="start" letter-spacing="0">The Chilika paradox (Nayak &amp; Berkes 2011, p.142)</text>
+<text x="55" y="825" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">Leases gave fisher villages legal access and withdrawal; management, exclusion and alienation were de facto.</text>
+<text x="55" y="872" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">By 2010, though still paying lease fees, they held not one right in practice; encroachers had moved from 'thin access'</text>
+<text x="55" y="916" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="31" font-weight="400" fill="#1B232B" text-anchor="start" letter-spacing="0">to full de facto rights. Rights on paper ≠ the power to exercise them.</text>
+<text x="1585" y="950" font-family="Tinos, Noto Serif Bengali, serif" font-size="26" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">Concept: Schlager &amp; Ostrom (1992), cited in W10 §5.3; original redraw</text></svg>

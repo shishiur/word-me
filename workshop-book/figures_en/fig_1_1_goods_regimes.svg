@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1615 1200" width="161.5mm" height="120.0mm" role="img" aria-labelledby="t d"><title id="t">Types of goods and property-rights regimes</title><desc id="d">Top: 2×2 grid of excludability and subtractability giving private, club, common-pool and public goods. Bottom: the same common-pool resource can sit under four property-rights regimes: open access, group property, government property and individual property.</desc><defs><marker id="ah-solid" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dashed" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker><marker id="ah-dotted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs><rect x="0" y="0" width="1615" height="1200" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1"/>
+<text x="970" y="52" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="36" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Excludability: how easy is it to keep others out?</text>
+<text x="650.0" y="104" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">Easy</text>
+<text x="1290.0" y="104" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0">Hard / costly</text>
+<text transform="translate(48,430) rotate(-90)" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="34" font-weight="700" fill="#103553" text-anchor="middle">Subtractability (rivalry)</text>
+<text x="250" y="274.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="700" fill="#55636E" text-anchor="end" letter-spacing="0">High:</text>
+<text x="250" y="318.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">use depletes</text>
+<text x="250" y="574.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="700" fill="#55636E" text-anchor="end" letter-spacing="0">Low:</text>
+<text x="250" y="618.0" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#55636E" text-anchor="end" letter-spacing="0">no depletion</text>
+<rect x="338" y="138" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="650.0" y="215" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Private goods</text>
+
+<text x="650.0" y="345" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">e.g. 1 kg of fish bought at market</text>
+<rect x="978" y="138" width="624" height="284" rx="14" fill="#E2F0EE" stroke="#147C80" stroke-width="5" opacity="1"/>
+<text x="1290.0" y="215" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#147C80" text-anchor="middle" letter-spacing="0">Common-pool resource</text>
+<text x="1290.0" y="262" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Common-pool resource (CPR)</text>
+<text x="1290.0" y="345" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">e.g. the fish stock of a haor</text>
+<rect x="338" y="438" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="650.0" y="515" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Club / toll goods</text>
+<text x="650.0" y="562" font-family="Tinos, Noto Serif Bengali, serif" font-size="32" font-weight="400" fill="#55636E" text-anchor="middle" letter-spacing="0" font-style="italic">Club (toll) goods</text>
+<text x="650.0" y="645" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">e.g. a toll bridge</text>
+<rect x="978" y="438" width="624" height="284" rx="14" fill="#F4F1EA" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="1290.0" y="515" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="44" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Public goods</text>
+
+<text x="1290.0" y="645" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="32" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">e.g. cyclone warnings on radio</text>
+<rect x="1140" y="118" width="300" height="44" rx="8" fill="#147C80" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1290" y="149" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="29" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">Focus of this book</text>
+<text x="970" y="774" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#8a5d0c" text-anchor="middle" letter-spacing="0">Caution: both dimensions shift with technology and institutions (barbed wire, GPS, lease contracts)</text>
+<path d="M1606,295.0 C1670,400.0 1650,790 1482.0,852" stroke="#147C80" stroke-width="5" fill="none" opacity="1" marker-end="url(#ah-solid)"/>
+<rect x="30" y="850" width="1555" height="330" rx="14" fill="#FAFCFC" stroke="#C9D6DC" stroke-width="2" opacity="1"/>
+<text x="60" y="902" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="33" font-weight="700" fill="#103553" text-anchor="start" letter-spacing="0">Same resource, different property-rights regimes: rules made by people</text>
+<rect x="55" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#B6684F" stroke-width="4" opacity="1"/>
+<rect x="55" y="930" width="362" height="14" rx="4" fill="#B6684F" stroke="none" stroke-width="0" opacity="1"/>
+<text x="236.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Open access</text>
+
+<text x="236.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">no effective rights</text>
+<rect x="440" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#4E7960" stroke-width="4" opacity="1"/>
+<rect x="440" y="930" width="362" height="14" rx="4" fill="#4E7960" stroke="none" stroke-width="0" opacity="1"/>
+<text x="621.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Group property</text>
+
+<text x="621.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">group keeps outsiders out</text>
+<rect x="825" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#4D94B5" stroke-width="4" opacity="1"/>
+<rect x="825" y="930" width="362" height="14" rx="4" fill="#4D94B5" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1006.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Government property</text>
+
+<text x="1006.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">state permits / controls use</text>
+<rect x="1210" y="930" width="362" height="225" rx="12" fill="#fff" stroke="#D8A34A" stroke-width="4" opacity="1"/>
+<rect x="1210" y="930" width="362" height="14" rx="4" fill="#D8A34A" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1391.0" y="1000" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="35" font-weight="700" fill="#103553" text-anchor="middle" letter-spacing="0">Individual property</text>
+
+<text x="1391.0" y="1110" font-family="Noto Sans Bengali, Tinos, sans-serif" font-size="30" font-weight="400" fill="#1B232B" text-anchor="middle" letter-spacing="0">can exclude and sell</text></svg>

@@ -1,0 +1,9 @@
+/* English edition overrides (loaded after book.css) */
+@page{ @bottom-center{ content:counter(page); font:9pt "Tinos"; color:#55636E; } }
+body{ line-height:1.5; hyphens:auto; }
+.misconceptions .wrong::before{ content:"✗ Misconception"; font-family:"Tinos"; }
+.misconceptions .right::before{ content:"✓ Better understanding"; font-family:"Tinos"; }
+.fig-read::before{ content:"How to read this figure — "; font-family:"Tinos"; }
+.cover .bn-title.en-cover{ font-family:"Tinos"; font-size:38pt; line-height:1.12; }
+.toc-list li .p{ font-family:"Tinos"; }
+.toc-list li.toc-part{ font-family:"Tinos"; }
