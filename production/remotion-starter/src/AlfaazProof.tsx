@@ -5,18 +5,18 @@ import '@fontsource/open-sans/600.css';
 
 // GATE A: 20 s proof of S01-S03. Silent: no narration or score exist yet.
 // Captions are PROVISIONAL (not synced to a recording).
-const FPS = 24;
-const W = 1080;
-const H = 1920;
-const RED = '#E83A36';
-const DEEP = '#AA2426';
-const INK = '#171415';
-const CREAM = '#F3E8D8';
-const HERO = "'Caveat Brush', Impact, sans-serif";
-const SANS = "'Open Sans', Arial, sans-serif";
+export const FPS = 24;
+export const W = 1080;
+export const H = 1920;
+export const RED = '#E83A36';
+export const DEEP = '#AA2426';
+export const INK = '#171415';
+export const CREAM = '#F3E8D8';
+export const HERO = "'Caveat Brush', Impact, sans-serif";
+export const SANS = "'Open Sans', Arial, sans-serif";
 
-const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const rng = (seed: number) => () => {
+export const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+export const rng = (seed: number) => () => {
   seed |= 0; seed = (seed + 0x6d2b79f5) | 0;
   let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
   t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
@@ -24,7 +24,7 @@ const rng = (seed: number) => () => {
 };
 
 // Hand-drawn "line boil": displacement seed changes every 3 frames (8 drawings/s).
-const Filters: React.FC = () => {
+export const Filters: React.FC = () => {
   const f = useCurrentFrame();
   const k = Math.floor(f / 3) % 4;
   return (
@@ -44,7 +44,7 @@ const Filters: React.FC = () => {
 };
 
 // ---------- hero lettering (separate channel from captions) ----------
-const Hero: React.FC<{lines: {t: string; size: number}[]; at: number; until: number; top: number; rot?: number; align?: 'center' | 'left'}> = ({lines, at, until, top, rot = -1.5, align = 'center'}) => {
+export const Hero: React.FC<{lines: {t: string; size: number}[]; at: number; until: number; top: number; rot?: number; align?: 'center' | 'left'}> = ({lines, at, until, top, rot = -1.5, align = 'center'}) => {
   const frame = useCurrentFrame();
   const f = frame - at;
   if (frame < at || frame > until) return null;
@@ -70,10 +70,11 @@ const Hero: React.FC<{lines: {t: string; size: number}[]; at: number; until: num
 };
 
 // ---------- provisional access captions ----------
-const Caption: React.FC<{lines: string[]; at: number; until: number}> = ({lines, at, until}) => {
+export const Caption: React.FC<{lines: string[]; at: number; until: number}> = ({lines, at, until}) => {
   const frame = useCurrentFrame();
   if (frame < at || frame > until) return null;
-  const o = interpolate(frame, [at, at + 6, until - 6, until], [0, 1, 1, 0], clamp);
+  const fd = Math.max(1, Math.min(6, Math.floor((until - at) / 2) - 1));
+  const o = interpolate(frame, [at, at + fd, until - fd, until], [0, 1, 1, 0], clamp);
   return (
     <div style={{position: 'absolute', left: 50, right: 50, top: 1500, display: 'flex', justifyContent: 'center', opacity: o}}>
       <div style={{background: 'rgba(23,20,21,.62)', borderRadius: 14, padding: '14px 24px', textAlign: 'center', fontFamily: SANS, fontWeight: 600, fontSize: 44, lineHeight: 1.28, color: '#FBF5EA'}}>
@@ -85,7 +86,7 @@ const Caption: React.FC<{lines: string[]; at: number; until: number}> = ({lines,
 
 // ---------- S01: hand + phone ----------
 const PHONE = {x: 350, y: 620, w: 380, h: 660};
-const Phone: React.FC<{frame: number; showText: boolean}> = ({frame, showText}) => {
+export const Phone: React.FC<{frame: number; showText: boolean}> = ({frame, showText}) => {
   const typed = 'HOW ARE YOU?';
   const typeStart = 24, perChar = 3;
   const delStart = 112, perDel = 3.4;
@@ -121,7 +122,7 @@ const Phone: React.FC<{frame: number; showText: boolean}> = ({frame, showText}) 
         <g fontFamily={HERO} fontSize={80} fill={INK}>
           <text x={PHONE.x + 40} y={PHONE.y + 340}>{l1}</text>
           <text x={PHONE.x + 40} y={PHONE.y + 445}>{l2}</text>
-          {cursorOn && frame < 260 && <rect x={PHONE.x + 44 + (l2 ? l2.length : l1.length) * 38} y={(l2 ? PHONE.y + 445 : PHONE.y + 340) - 84} width={7} height={92} fill={INK} />}
+          {cursorOn && <rect x={PHONE.x + 44 + (l2 ? l2.length : l1.length) * 38} y={(l2 ? PHONE.y + 445 : PHONE.y + 340) - 84} width={7} height={92} fill={INK} />}
         </g>
       )}
       {scratches}
@@ -129,7 +130,7 @@ const Phone: React.FC<{frame: number; showText: boolean}> = ({frame, showText}) 
   );
 };
 
-const Hand: React.FC = () => (
+export const Hand: React.FC = () => (
   <g fill={INK}>
     {/* forearm + palm */}
     <path d="M 468 1920 C 478 1760 452 1640 470 1540 C 486 1440 540 1350 620 1318 L 730 1296 C 800 1290 842 1336 826 1410 C 812 1500 826 1700 846 1920 Z" />
@@ -143,7 +144,7 @@ const Hand: React.FC = () => (
   </g>
 );
 
-const SceneA: React.FC = () => {
+export const SceneA: React.FC = () => {
   const frame = useCurrentFrame();
   const enter = Easing.out(Easing.cubic)(interpolate(frame, [0, 22], [0, 1], clamp));
   const bob = Math.sin(frame / 31) * 7;
@@ -162,7 +163,7 @@ const SceneA: React.FC = () => {
 };
 
 // ---------- S02: phone shrinks, text becomes chalk dots ----------
-const SceneB: React.FC = () => {
+export const SceneB: React.FC = () => {
   const frame = useCurrentFrame();
   const k = interpolate(frame, [0, 70], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
   const scale = interpolate(k, [0, 1], [1, 0.2]);
@@ -195,7 +196,7 @@ const SceneB: React.FC = () => {
 };
 
 // ---------- S03: ALFAAZ grows; microscopic letters dissolve ----------
-const SceneC: React.FC = () => {
+export const SceneC: React.FC = () => {
   const frame = useCurrentFrame();
   const letters = React.useMemo(() => {
     const r = rng(2024);
@@ -226,7 +227,7 @@ const SceneC: React.FC = () => {
 };
 
 // ---------- ink wipe transition (single pass, no strobe) ----------
-const Wipe: React.FC<{center: number}> = ({center}) => {
+export const Wipe: React.FC<{center: number}> = ({center}) => {
   const frame = useCurrentFrame();
   const a = center - 11, b = center + 11;
   if (frame < a || frame > b) return null;

@@ -1,0 +1,619 @@
+{
+ "duration": 440.4,
+ "scenes": [
+  {
+   "id": "S01",
+   "title": "The unsent message",
+   "hero_word": "UNSENT",
+   "visual": "Black hand cut from paper holds white rectangular phone; words HOW ARE YOU? appear and become scratches.",
+   "sfx": "silence, one paper drag",
+   "start": 0.0,
+   "end": 18.654
+  },
+  {
+   "id": "S02",
+   "title": "The weight of ordinary words",
+   "hero_word": "TOO SMALL",
+   "visual": "Phone rectangle shrinks against enormous red field, text becomes tiny chalk dots.",
+   "sfx": "dry pencil taps",
+   "start": 18.654,
+   "end": 37.643
+  },
+  {
+   "id": "S03",
+   "title": "What the song asks",
+   "hero_word": "ALFAAZ",
+   "visual": "Huge hand-lettered ALFAAZ grows while thousands of microscopic letters dissolve.",
+   "sfx": "subtle paper flutter",
+   "start": 37.643,
+   "end": 54.836
+  },
+  {
+   "id": "S04",
+   "title": "The thesis",
+   "hero_word": "WHO AM I?",
+   "visual": "A human profile carved from ink, second silhouette forms inside.",
+   "sfx": "single deep brush stroke",
+   "start": 54.836,
+   "end": 70.113
+  },
+  {
+   "id": "S05",
+   "title": "Change without permission",
+   "hero_word": "NOTICE",
+   "visual": "Tea cup, red scarf and tiny story scraps orbit a simple silhouette.",
+   "sfx": "cup set down",
+   "start": 70.113,
+   "end": 88.752
+  },
+  {
+   "id": "S06",
+   "title": "The invisible new habit",
+   "hero_word": "FIRST THOUGHT",
+   "visual": "Thought line travels from protagonist to an absent outline; line becomes a path.",
+   "sfx": "thin string pluck",
+   "start": 88.752,
+   "end": 105.817
+  },
+  {
+   "id": "S07",
+   "title": "The changed self",
+   "hero_word": "CHANGED",
+   "visual": "Layers of profile cutouts shift out of registration, revealing another contour.",
+   "sfx": "soft layered rustle",
+   "start": 105.817,
+   "end": 123.201
+  },
+  {
+   "id": "S08",
+   "title": "A necessary question",
+   "hero_word": "REMAIN",
+   "visual": "Two silhouettes share a shadow, then step into two distinct shadows.",
+   "sfx": "shadows swish",
+   "start": 123.201,
+   "end": 137.22
+  },
+  {
+   "id": "S09",
+   "title": "A street can remember",
+   "hero_word": "THE SAME ROAD",
+   "visual": "Black street lamps on red painted road; footprints overlay like cut-paper memories.",
+   "sfx": "footstep on grit",
+   "start": 137.22,
+   "end": 156.653
+  },
+  {
+   "id": "S10",
+   "title": "Ordinary places become sacred",
+   "hero_word": "MEMORY",
+   "visual": "Bus stop morphs into cafe cup, then a tiny gramophone.",
+   "sfx": "cup clink muted",
+   "start": 156.653,
+   "end": 174.805
+  },
+  {
+   "id": "S11",
+   "title": "The world versus its meaning",
+   "hero_word": "MEANING",
+   "visual": "Flat red city folds into map of thin red thread around black cutouts.",
+   "sfx": "paper fold",
+   "start": 174.805,
+   "end": 194.43
+  },
+  {
+   "id": "S12",
+   "title": "Attention as generosity",
+   "hero_word": "ATTENTION",
+   "visual": "Eye sketched in charcoal becomes cup reflection; tiny gestures written round iris.",
+   "sfx": "subtle graphite scrape",
+   "start": 194.43,
+   "end": 216.598
+  },
+  {
+   "id": "S13",
+   "title": "Uncertainty enters",
+   "hero_word": "DO THEY?",
+   "visual": "Two eyes on opposite sides of frame, one bright and one fading.",
+   "sfx": "room tone",
+   "start": 216.598,
+   "end": 231.721
+  },
+  {
+   "id": "S14",
+   "title": "The silent screen",
+   "hero_word": "REMEMBER",
+   "visual": "Phone framed between giant hands, no notification; thought bubbles misalign.",
+   "sfx": "one quiet click",
+   "start": 231.721,
+   "end": 250.493
+  },
+  {
+   "id": "S15",
+   "title": "The fear beneath distance",
+   "hero_word": "FORGOTTEN",
+   "visual": "Two hand-drawn portraits; one portrait fades while the paper around it remains.",
+   "sfx": "low air movement",
+   "start": 250.493,
+   "end": 267.285
+  },
+  {
+   "id": "S16",
+   "title": "Other minds remain other",
+   "hero_word": "ANOTHER WORLD",
+   "visual": "Black oval opens into a second independent landscape with different marks.",
+   "sfx": "small distant bell",
+   "start": 267.285,
+   "end": 286.722
+  },
+  {
+   "id": "S17",
+   "title": "Care without possession",
+   "hero_word": "LET THEM BE",
+   "visual": "Two silhouettes face each other across narrow blank paper, no forced merge.",
+   "sfx": "subtle stillness",
+   "start": 286.722,
+   "end": 304.939
+  },
+  {
+   "id": "S18",
+   "title": "What we knew how to give",
+   "hero_word": "AS MUCH AS I KNEW",
+   "visual": "Ink hand holds imperfectly drawn heart; lines repaired with white pencil.",
+   "sfx": "light scratch",
+   "start": 304.939,
+   "end": 322.861
+  },
+  {
+   "id": "S19",
+   "title": "Feeling versus practice",
+   "hero_word": "SHOW UP",
+   "visual": "Three ordinary hands: offering tea, holding door, placing note.",
+   "sfx": "three soft domestic foley",
+   "start": 322.861,
+   "end": 341.334
+  },
+  {
+   "id": "S20",
+   "title": "Fromm and action",
+   "hero_word": "LOVE IS AN ACTION",
+   "visual": "A painted red heart transforms into hands performing helpful actions.",
+   "sfx": "warm brush roll",
+   "start": 341.334,
+   "end": 361.94
+  },
+  {
+   "id": "S21",
+   "title": "The limit of sincerity",
+   "hero_word": "LISTEN",
+   "visual": "Giant speaking mouth collapses, replaced by listening ear and quiet open hand.",
+   "sfx": "music recedes",
+   "start": 361.94,
+   "end": 380.583
+  },
+  {
+   "id": "S22",
+   "title": "Language is finite",
+   "hero_word": "NO WORDS",
+   "visual": "Letters burst outward from mouth into vast red paper; small white sentence persists.",
+   "sfx": "scratch flutter",
+   "start": 380.583,
+   "end": 398.331
+  },
+  {
+   "id": "S23",
+   "title": "The limit of words",
+   "hero_word": "REACH",
+   "visual": "Long white word-ribbon crosses gap but stops before second person outline.",
+   "sfx": "single held note",
+   "start": 398.331,
+   "end": 416.654
+  },
+  {
+   "id": "S24",
+   "title": "Final question",
+   "hero_word": "WHAT DO WE DO?",
+   "visual": "All words recede, one cup stays, two separate figures share a small warm circle; fade to ALFAAZ.",
+   "sfx": "music resolves, 2s silence",
+   "start": 416.654,
+   "end": 440.4
+  }
+ ],
+ "cues": [
+  {
+   "scene": "S01",
+   "start": 0.8,
+   "end": 7.264,
+   "text": "Have you ever opened a message, typed a few words, and then deleted them?"
+  },
+  {
+   "scene": "S01",
+   "start": 7.814,
+   "end": 11.227,
+   "text": "Maybe you only wanted to ask how someone was."
+  },
+  {
+   "scene": "S01",
+   "start": 11.777,
+   "end": 17.004,
+   "text": "Yet even that simple question felt strangely difficult."
+  },
+  {
+   "scene": "S02",
+   "start": 18.654,
+   "end": 23.134,
+   "text": "It is not always because we have nothing to say."
+  },
+  {
+   "scene": "S02",
+   "start": 23.684,
+   "end": 35.993,
+   "text": "Sometimes it is because the other person carries so much meaning that an ordinary sentence suddenly feels too small."
+  },
+  {
+   "scene": "S03",
+   "start": 37.643,
+   "end": 39.99,
+   "text": "That is the world of Alfaaz."
+  },
+  {
+   "scene": "S03",
+   "start": 40.54,
+   "end": 42.375,
+   "text": "The word means words."
+  },
+  {
+   "scene": "S03",
+   "start": 42.925,
+   "end": 53.186,
+   "text": "But the song keeps returning to a paradox: the more deeply we feel, the harder it can become to explain ourselves."
+  },
+  {
+   "scene": "S04",
+   "start": 54.836,
+   "end": 59.401,
+   "text": "What if love is not only about wanting someone near you?"
+  },
+  {
+   "scene": "S04",
+   "start": 59.951,
+   "end": 68.463,
+   "text": "What if it quietly changes what you notice, what you remember, and even the person you think you are?"
+  },
+  {
+   "scene": "S05",
+   "start": 70.113,
+   "end": 74.167,
+   "text": "At first, the changes are almost invisible."
+  },
+  {
+   "scene": "S05",
+   "start": 74.717,
+   "end": 77.383,
+   "text": "You remember how they take their tea."
+  },
+  {
+   "scene": "S05",
+   "start": 77.933,
+   "end": 83.331,
+   "text": "You notice a particular color because they once said they liked it."
+  },
+  {
+   "scene": "S05",
+   "start": 83.881,
+   "end": 87.102,
+   "text": "You collect stories to tell them later."
+  },
+  {
+   "scene": "S06",
+   "start": 88.752,
+   "end": 92.336,
+   "text": "Then one day something interesting happens."
+  },
+  {
+   "scene": "S06",
+   "start": 92.886,
+   "end": 99.03,
+   "text": "A small event occurs, and your first thought is to tell that person."
+  },
+  {
+   "scene": "S06",
+   "start": 99.58,
+   "end": 104.167,
+   "text": "They have become part of the way you experience your own day."
+  },
+  {
+   "scene": "S07",
+   "start": 105.817,
+   "end": 109.059,
+   "text": "Nobody announced this transformation."
+  },
+  {
+   "scene": "S07",
+   "start": 109.609,
+   "end": 111.764,
+   "text": "There was no official beginning."
+  },
+  {
+   "scene": "S07",
+   "start": 112.314,
+   "end": 121.551,
+   "text": "Your habits changed a little at a time, until loving someone became one of the ways you understood yourself."
+  },
+  {
+   "scene": "S08",
+   "start": 123.201,
+   "end": 126.764,
+   "text": "But there is a question hidden in this beauty."
+  },
+  {
+   "scene": "S08",
+   "start": 127.314,
+   "end": 135.57,
+   "text": "If another person helps shape who we become, how do we remain ourselves while loving them?"
+  },
+  {
+   "scene": "S09",
+   "start": 137.22,
+   "end": 141.06,
+   "text": "Think about a road you have walked a hundred times."
+  },
+  {
+   "scene": "S09",
+   "start": 141.61,
+   "end": 145.791,
+   "text": "Nothing about its bricks or streetlights changes."
+  },
+  {
+   "scene": "S09",
+   "start": 146.341,
+   "end": 155.003,
+   "text": "Yet after walking it with one particular person, the same road can feel entirely different."
+  },
+  {
+   "scene": "S10",
+   "start": 156.653,
+   "end": 159.469,
+   "text": "A bus stop becomes a memory."
+  },
+  {
+   "scene": "S10",
+   "start": 160.019,
+   "end": 165.864,
+   "text": "A caf\u00e9 table becomes a small monument to a conversation."
+  },
+  {
+   "scene": "S10",
+   "start": 166.414,
+   "end": 173.155,
+   "text": "A song played in a shop can bring back an evening you thought you had forgotten."
+  },
+  {
+   "scene": "S11",
+   "start": 174.805,
+   "end": 176.853,
+   "text": "The objects stay ordinary."
+  },
+  {
+   "scene": "S11",
+   "start": 177.403,
+   "end": 179.153,
+   "text": "Their meaning does not."
+  },
+  {
+   "scene": "S11",
+   "start": 179.703,
+   "end": 192.78,
+   "text": "That may be one of the most remarkable things about affection: it changes our relationship with the world without changing the world itself."
+  },
+  {
+   "scene": "S12",
+   "start": 194.43,
+   "end": 201.555,
+   "text": "Simone Weil called attention the rarest and purest form of generosity."
+  },
+  {
+   "scene": "S12",
+   "start": 202.105,
+   "end": 214.948,
+   "text": "Perhaps love often begins there: in noticing what others overlook, and remembering something small because it mattered to one person."
+  },
+  {
+   "scene": "S13",
+   "start": 216.598,
+   "end": 219.521,
+   "text": "But attention creates vulnerability."
+  },
+  {
+   "scene": "S13",
+   "start": 220.071,
+   "end": 222.929,
+   "text": "You know how often you think about someone."
+  },
+  {
+   "scene": "S13",
+   "start": 223.479,
+   "end": 230.071,
+   "text": "You cannot know, with the same certainty, how often they think about you."
+  },
+  {
+   "scene": "S14",
+   "start": 231.721,
+   "end": 236.329,
+   "text": "You look at your phone again even though nothing has changed."
+  },
+  {
+   "scene": "S14",
+   "start": 236.879,
+   "end": 243.365,
+   "text": "You wonder whether they remember the conversation you have replayed so many times."
+  },
+  {
+   "scene": "S14",
+   "start": 243.915,
+   "end": 248.843,
+   "text": "Maybe it was extraordinary to you and ordinary to them."
+  },
+  {
+   "scene": "S15",
+   "start": 250.493,
+   "end": 254.653,
+   "text": "Sometimes distance is not the deepest fear."
+  },
+  {
+   "scene": "S15",
+   "start": 255.203,
+   "end": 265.635,
+   "text": "The deepest fear is discovering that a memory you have carefully kept alive has become faint in someone else."
+  },
+  {
+   "scene": "S16",
+   "start": 267.285,
+   "end": 278.655,
+   "text": "Iris Murdoch described love as the extremely difficult realization that something other than oneself is real."
+  },
+  {
+   "scene": "S16",
+   "start": 279.205,
+   "end": 285.072,
+   "text": "The person we love has an inner world that does not belong to us."
+  },
+  {
+   "scene": "S17",
+   "start": 286.722,
+   "end": 289.581,
+   "text": "Their feelings may differ from ours."
+  },
+  {
+   "scene": "S17",
+   "start": 290.131,
+   "end": 292.797,
+   "text": "Their memories may not match."
+  },
+  {
+   "scene": "S17",
+   "start": 293.347,
+   "end": 303.289,
+   "text": "To love them seriously is to recognize that distance between us, even while wishing we could close it."
+  },
+  {
+   "scene": "S18",
+   "start": 304.939,
+   "end": 315.392,
+   "text": "There is another unusually honest idea in Alfaaz: loving someone as much as you knew how to love."
+  },
+  {
+   "scene": "S18",
+   "start": 315.942,
+   "end": 321.211,
+   "text": "Most of us are never formally taught how to do that well."
+  },
+  {
+   "scene": "S19",
+   "start": 322.861,
+   "end": 325.187,
+   "text": "We learn through clumsy attempts."
+  },
+  {
+   "scene": "S19",
+   "start": 325.737,
+   "end": 328.339,
+   "text": "Some people are good with words."
+  },
+  {
+   "scene": "S19",
+   "start": 328.889,
+   "end": 339.684,
+   "text": "Others show care by arriving on time, listening closely, or remembering what someone needs on a difficult day."
+  },
+  {
+   "scene": "S20",
+   "start": 341.334,
+   "end": 347.371,
+   "text": "Erich Fromm wrote that love is an activity, not a passive affect."
+  },
+  {
+   "scene": "S20",
+   "start": 347.921,
+   "end": 354.172,
+   "text": "A powerful feeling does not automatically make us good at loving."
+  },
+  {
+   "scene": "S20",
+   "start": 354.722,
+   "end": 360.29,
+   "text": "Care has to become something another person can experience."
+  },
+  {
+   "scene": "S21",
+   "start": 361.94,
+   "end": 367.977,
+   "text": "You can think about someone every night and still misunderstand them."
+  },
+  {
+   "scene": "S21",
+   "start": 368.527,
+   "end": 372.751,
+   "text": "You can speak beautifully and still fail to listen."
+  },
+  {
+   "scene": "S21",
+   "start": 373.301,
+   "end": 378.933,
+   "text": "Sincerity matters, but what we do with that sincerity matters too."
+  },
+  {
+   "scene": "S22",
+   "start": 380.583,
+   "end": 383.015,
+   "text": "And that brings us back to the title."
+  },
+  {
+   "scene": "S22",
+   "start": 383.565,
+   "end": 390.541,
+   "text": "We use words to apologize, to thank people, and to say we miss them."
+  },
+  {
+   "scene": "S22",
+   "start": 391.091,
+   "end": 396.681,
+   "text": "Yet sometimes the feeling seems much larger than the sentence."
+  },
+  {
+   "scene": "S23",
+   "start": 398.331,
+   "end": 401.872,
+   "text": "A sentence can tell someone what you feel."
+  },
+  {
+   "scene": "S23",
+   "start": 402.422,
+   "end": 406.625,
+   "text": "It cannot guarantee that they will feel the same thing."
+  },
+  {
+   "scene": "S23",
+   "start": 407.175,
+   "end": 415.004,
+   "text": "Language can reach toward another person, but it cannot completely enter their inner life."
+  },
+  {
+   "scene": "S24",
+   "start": 416.654,
+   "end": 420.345,
+   "text": "Maybe that is why Alfaaz stays with us."
+  },
+  {
+   "scene": "S24",
+   "start": 420.895,
+   "end": 429.087,
+   "text": "We keep looking for perfect words, when love also lives in small acts of attention."
+  },
+  {
+   "scene": "S24",
+   "start": 429.637,
+   "end": 436.25,
+   "text": "And when words are not enough, the question remains: what do we choose to do?"
+  }
+ ]
+}
