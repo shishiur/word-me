@@ -2,7 +2,7 @@
   "source": "Google Scholar via SerpApi",
   "author_id": "TPRfbZ8AAAAJ",
   "status": "ok",
-  "last_updated_utc": "2026-11-15T04:25:38.417261Z",
+  "last_updated_utc": "2026-11-22T04:40:49.292495Z",
   "profile": {
     "name": "Md Shishir Bhuyian",
     "affiliations": "Student",
@@ -24,8 +24,8 @@
   },
   "metrics": {
     "works": 6,
-    "citations": 67,
-    "citations_display": "67",
+    "citations": 68,
+    "citations_display": "68",
     "h_index": 4,
     "i10_index": 3
   },
@@ -37,7 +37,7 @@
       "authors": "AR Sunny, SA Sazzad, MS Bhuyian, MN Hasan, MF Miah, ...",
       "publication": "Limnological Review 25 (2), 20, 2025",
       "year": 2025,
-      "citations": 23,
+      "citations": 24,
       "cited_by_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10196931434354707640"
     },
     {
